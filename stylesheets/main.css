@@ -313,6 +313,18 @@ nav .nav-current {
 .highlight .il { color: #009999 } /* Literal.Number.Integer.Long */
 
 
+/* stuff */
+/* ----------------------------------------------------------*/
+
+.projects img {
+    float: right;
+}
+
+.projects small {
+    font-size: 60%;
+}
+
+
 /* media queries */
 /* ----------------------------------------------------------*/
 /*
