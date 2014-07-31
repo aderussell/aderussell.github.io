@@ -27,7 +27,6 @@ a:hover { color: #000; }
   max-width: 800px;
   padding: 0 30px;
   margin: 0 auto;
-  zoom: 1;
 }
 
 
@@ -342,19 +341,19 @@ nav .nav-current {
 .wrap { padding: 0 12px; }
 
 .project img {
-    float: center;
+    float: none;
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
 
 nav ul {
-    float: center;
+    float: none;
     text-align: center;
 }
 
 nav li {
-    float: center;
+    float: none;
     display: inline-block;
 }
 

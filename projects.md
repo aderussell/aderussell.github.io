@@ -7,7 +7,7 @@ permalink: /projects/
 <div>
     <section class="project">
         <h3>ACEmobile <a href="http://acemobile.org"><small>View website</small></a></h3>
-        <img src="{{ "/images/acemobile_screenshot.jpg" | prepend: site.baseurl }}" border="1" alt="ACEmobile" width="240" height="180">
+        <img src="{{ "/images/acemobile_screenshot.jpg" | prepend: site.baseurl }}" border="1" alt="ACEmobile" width="240" height="180" alt="screenshot of ACEmobile main screen">
         <p>ACEmobile is a free, iPad based app for use by clinicians to support dementia assessment. I was the lead developer on this project within the University of Plymouth.</p>
     </section>
                     

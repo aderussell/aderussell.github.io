@@ -12,3 +12,6 @@ linkedin_username: 264236101
 # Build settings
 markdown: kramdown
 permalink: /blog/:title
+
+gems:
+- jekyll-sitemap
