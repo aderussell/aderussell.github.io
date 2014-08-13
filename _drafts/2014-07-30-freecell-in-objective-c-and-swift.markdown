@@ -3,6 +3,7 @@ layout: post
 title:  "Freecell in Objective-C & Swift"
 date:   2014-07-30
 tags: objective-c
+description: "This is a test of the description system"
 ---
 
 You'll find this post in your `_posts` directory - edit this post and re-build (or run with the `-w` switch) to see your changes!

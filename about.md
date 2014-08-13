@@ -4,8 +4,8 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+## Hi, my name is Adrian
+I'm a software engineer and recent graduate of the University of Plymouth (First Class BSc(Hons) Computer Science). I like to make cool and creative systems.
 
-You can find the source code for the Jekyll new theme at: [github.com/jglovier/jekyll-new](https://github.com/jglovier/jekyll-new)
-
-You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
+## Skill set
+I specialise in producing software for iOS and Mac OS X but also have experience in working with C and C++ and producing server side systems in C# and PHP.
