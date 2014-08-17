@@ -2,12 +2,13 @@
 layout: page
 title: Projects
 permalink: /projects/
+imagebase: /images/projects/
 ---
 
 <div>
     <section class="project">
         <h3>ACEmobile <a href="http://acemobile.org"><small>View website</small></a></h3>
-        <img src="{{ "/images/acemobile_screenshot.jpg" | prepend: site.baseurl }}" border="1" alt="ACEmobile" width="240" height="180" alt="screenshot of ACEmobile main screen">
+        <img src="{{ "acemobile_screenshot.jpg" | prepend: page.imagebase | prepend: site.baseurl }}" border="1" alt="ACEmobile" width="240" height="180" alt="screenshot of ACEmobile main screen">
         <p>ACEmobile is a free, iPad based app for use by clinicians to support dementia assessment. I was the lead developer on this project within the University of Plymouth.</p>
     </section>
                     
@@ -17,7 +18,8 @@ permalink: /projects/
     </section>
     
     <section class="project">
-        <h3>Noise <a href="#"><small>View project page</small></a></h3>
+        <h3>Noise <a href="{{ "/projects/noise/" | prepend: site.baseurl}}"><small>View project page</small></a></h3>
+        <img src="{{ "/images/projects/AppIcon512x512.png" | prepend: site.baseurl }}" border="1" alt="ACEmobile" width="240" alt="screenshot of ACEmobile main screen" style="border-radius: 22.544%;">
         <p>Noise is a simple application, available for both iOS & Mac OS X, that produces white or pink noise to allow the user to drown out background noises to improve concentration. The noise generation is provided using Core Audio and the concept is based on the noise app created by the now defunct BlackHole Media.</p>
     </section>
 
