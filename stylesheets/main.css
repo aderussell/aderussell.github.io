@@ -27,6 +27,12 @@ a:hover { color: #000; }
   margin: 0 auto;
 }
 
+/* Page Content styles */
+/* ----------------------------------------------------------*/
+
+.page-content {
+    padding: 30px 0;
+}
 
 /* Layout Styles */
 /* ----------------------------------------------------------*/
@@ -104,13 +110,39 @@ nav .nav-current {
 }
 
 
-/* Page Content styles */
-/* ----------------------------------------------------------*/
-
-.page-content {
-  padding: 30px 0;
+p.subtitle {
+    font-style: italic;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    line-height: 1;
+    font-weight: 300;
+    margin-bottom: 5px;
+}
+
+h1 {
+    font-size: 32px;
+    letter-spacing: -1.25px;
+}
+
+h2 {
+    font-size: 26px;
+    letter-spacing: -1px;
+}
+
+h3 {
+    font-size: 20px;
+    letter-spacing: -1px;
+}
+
+h3 {
+    margin-bottom: 5px !important;
+}
 
 /* Home styles */
 /* ----------------------------------------------------------*/
@@ -155,36 +187,23 @@ nav .nav-current {
 
 .post-content { margin: 0 0 30px; }
 
-.post-content > * { margin: 20px 0; }
+/*.post-content > * { margin: 20px 0; }*/
 
 
-.post-content h1,
-.post-content h2,
-.post-content h3,
-.post-content h4,
-.post-content h5,
-.post-content h6 {
-  line-height: 1;
-  font-weight: 300;
-  margin: 00px 0 20px;
-}
+/*.post-content h1,*/
+/*.post-content h2,*/
+/*.post-content h3,*/
+/*.post-content h4,*/
+/*.post-content h5,*/
+/*.post-content h6 {*/
+/*  line-height: 1;*/
+/*  font-weight: 300;*/
+/*  margin: 0 0 20px;*/
+/*}*/
 
-.post-content h2 {
-  font-size: 32px;
-  letter-spacing: -1.25px;
-}
 
-.post-content h3 {
-  font-size: 26px;
-  letter-spacing: -1px;
-}
 
-.post-content h4 {
-  font-size: 20px;
-  letter-spacing: -1px;
-}
-
-.post-content blockquote {
+blockquote {
   border-left: 4px solid #e8e8e8;
   padding-left: 20px;
   font-size: 18px;
@@ -194,11 +213,14 @@ nav .nav-current {
   margin: 30px 0;
 }
 
-.post-content ul,
-.post-content ol { padding-left: 20px; }
+ul, ol { padding-left: 20px; }
 
-.post pre,
-.post code {
+
+/* .post start here */
+/* ----------------------------------------------------------*/
+
+pre,
+code {
   border: 1px solid #f2f2f2;
   background-color: #fff;
   padding: 8px 12px;
@@ -208,31 +230,49 @@ nav .nav-current {
   overflow:scroll;
 }
 
-.post code { padding: 1px 5px; }
+code { padding: 1px 5px; }
 
-.post ul,
-.post ol { margin-left: 1.35em; }
+ul,
+ol { margin-left: 1.35em; }
 
-.post pre code {
+pre code {
   border: 0;
   padding-right: 0;
   padding-left: 0;
 }
 
 /* terminal */
-.post pre.terminal {
+pre.terminal {
   border: 1px solid #000;
   background-color: #333;
   color: #FFF;
   border-radius: 3px;
 }
 
-.post pre.terminal code { background-color: #333; }
+pre.terminal code { background-color: #333; }
 
 
 /* stuff */
 /* ----------------------------------------------------------*/
 
+.project img {
+}
+
+.project-header img {
+    float:right;
+    margin-left:20px;
+}
+
+
+.project h1 {
+    font-size: 26px;
+    margin-bottom: 10px;
+    letter-spacing: -1px;
+}
+
+img.app-icon {
+    border-radius: 22.544%;
+}
 
 .project {
     overflow:hidden;
@@ -244,6 +284,13 @@ nav .nav-current {
     font-size: 60%;
 }
 
+
+p.intro {
+    margin-bottom: 20px;
+}
+
+
+
 @media screen and (min-width: 600px) {
     
     .wrap {
@@ -253,7 +300,8 @@ nav .nav-current {
     
     .project img {
         float: right;
-        width: 240px;
+        width: 128px;
+        margin-left: 40px;
     }
     
     nav a {

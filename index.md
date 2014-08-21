@@ -2,9 +2,7 @@
 layout: page
 ---
 
-Home page
-
-
+#Recent posts
 
 <ul class="posts">
 {% for post in site.posts %}
