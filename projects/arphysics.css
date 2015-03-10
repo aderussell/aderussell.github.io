@@ -1,0 +1,8 @@
+figure, figcapture {
+	display: block;
+}
+figcapture {
+	color: #4f525a;
+	font-size: 14px;
+	margin-left: 10px;
+}

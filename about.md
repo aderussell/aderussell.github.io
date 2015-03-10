@@ -4,10 +4,49 @@ title: About
 permalink: /about/
 ---
 
-<h1>Hi, my name is Adrian</h1>
-I'm a software engineer and recent graduate of the University of Plymouth (First Class BSc(Hons) Computer Science). I like to make cool and creative systems.
+<h2>Expertise</h2>
+<ul class="tokens blue">
+    <li>Cocoa</li>
+    <li>Objective-C</li>
+    <li>C</li>
+    <li>C++</li>
+    <li>PHP</li>
+</ul>
 
-<br>
 
-<h1>Skill set</h1>
-I specialise in producing software for iOS and Mac OS X but also have experience in working with C and C++ and producing server side systems in C# and PHP.
+<h2>Experience</h2>
+<section>
+    Software Engineer - University of Plymouth (2012 - Present)
+</section>
+
+
+<!--<h2>Skills</h2>
+<ul class="tokens grey">
+<li>Cocoa</li>
+<li>Objective-C</li>
+<li>Swift</li>
+<li>PHP</li>
+<li>HTML</li>
+</ul>-->
+
+
+<h2>Education</h2>
+BSc(Hons) in Computer Science, Plymouth University, 2014.
+
+
+<!--
+<h2>Loves</h2>
+<ul>
+    <li>Lego</li>
+    <li>Dogs</li>
+    <li>Cider</li>
+    <li>Back to the Future</li>
+</ul>
+
+
+<h2>This year's goals</h2>
+<ul>
+    <li>Learn to draw</li>
+    <li>Lose weight</li>
+</ul>
+-->
