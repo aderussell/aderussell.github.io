@@ -106,7 +106,11 @@ nav .nav-current {
     color: #727272;
 }
 
-.site-footer ul { list-style: none; }
+.site-footer ul { 
+	list-style: none; 
+	padding-left: 0;
+	margin-left: 0;
+}
 
 .site-footer li,
 .site-footer p {
@@ -325,13 +329,17 @@ pre.terminal code { background-color: #333; }
 	margin: 0.2em 0;
 }
 
+.project-link {
+	padding-left: 20px;
+}
 
 img.app-icon {
     border-radius: 22.544%;
+    box-shadow: 0 0 1px 0px #444;
 }
 
 .project {
-    overflow:hidden;
+    /*overflow:hidden;*/
     margin-bottom: 40px;
 }
 

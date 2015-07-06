@@ -61,8 +61,8 @@ It is strongly discouraged to directly delete an object rather than releasing it
 
 
 ## Tutorials
-1. [Creating a simple simulation](/projects/arphysics/using-arphysics-1-simple-example)
-<!-- 2. [Creating a custom force generator](/projects/using-arphysics-1-simple-example) -->
-<!-- 3. [Creating a custom constraint](/projects/using-arphysics-1-simple-example) -->
-<!-- 4. [Creating a custom spatial indexing system](/projects/using-arphysics-1-simple-example) -->
+0. [Creating a simple simulation](/projects/arphysics/using-arphysics-1-simple-example)
+<!-- 0. [Creating a custom force generator](/projects/using-arphysics-1-simple-example) -->
+<!-- 0. [Creating a custom constraint](/projects/using-arphysics-1-simple-example) -->
+<!-- 0. [Creating a custom spatial indexing system](/projects/using-arphysics-1-simple-example) -->
 
