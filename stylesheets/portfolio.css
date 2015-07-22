@@ -1,0 +1,144 @@
+html, body {
+    overflow-x: hidden;
+    width: 100%;
+}
+
+p.intro {
+	text-align: center;
+}
+
+.project {
+	padding-top: 100px;
+	padding-bottom: 100px;
+	display: table;
+	position: relative;
+/* 	border-bottom:1px solid #d6d6d6 */
+}
+
+.project img {
+    width: 96px;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img.app-icon {
+    border-radius: 22.544%;
+    box-shadow: 0 0 1px 0px #444;
+}
+
+
+.project-title {
+	font-size: 24pt;
+	font-weight: 200;
+	text-align:left;
+}
+
+
+.acemobile-device {
+	background-image: url(/images/projects/ACEmobile-device.png);
+	background-size: 725px 525px;
+	background-repeat: no-repeat;
+    display: inline-block;
+    width: 725px;
+    height: 525px;
+    margin-top: -2px;
+    margin-bottom: -32px;
+    float: left;	
+    margin-left: 20px;
+}
+
+
+.large-6 {
+	width: 50%;
+	position: relative;
+	float: left;
+}
+
+
+.epsmon-device {
+	background-image: url(/images/projects/epsmon-iphone5s.png);
+	background-size: 400px 280px;
+	background-repeat: no-repeat;
+    display: inline-block;
+    width: 400px;
+    height: 280px;
+    float: left;
+	margin-left: 50px;
+}
+
+
+.arphysics-device {
+	background-image: url(/images/projects/physics-example@2x.png);
+	background-size: 750px 525px;
+	background-repeat: no-repeat;
+    display: inline-block;
+    width: 750px;
+    height: 525px;
+    float: left;
+    margin-top: -70px;
+}
+
+
+@media only screen and (-Webkit-min-device-pixel-ratio: 1.5),
+only screen and (-moz-min-device-pixel-ratio: 1.5),
+only screen and (-o-min-device-pixel-ratio: 3/2),
+only screen and (min-device-pixel-ratio: 1.5) {
+
+
+    .epsmon-device {
+        background-image: url(/images/projects/epsmon-iphone5s@2x.png);
+    }
+    
+    .acemobile-device {
+        background-image: url(/images/projects/ACEmobile-device@2x.png);
+    }
+    
+}
+
+
+@media screen and (max-width: 600px) {
+	
+	.epsmon-device {
+		background-image: url(/images/projects/epsmon-device-flat.png);
+		background-size: 163px 341px;
+		background-repeat: no-repeat;
+		display: block;
+		width: 163px;
+		height: 341px;
+		float: left;
+		margin-left: 20px;
+	}
+	
+	.acemobile-device {
+		display: none;
+	}
+	
+	.project {
+		padding-top: 30px;
+		padding-bottom: 30px;
+	}
+	
+	.project-title {
+		text-align: left;
+	}
+
+	
+	.small-12 {
+		width:100%;
+	}
+	
+	.small-0 {
+		width: 0%;
+	}
+	
+	.small-9 {
+		width:75%;
+	}
+	
+	.small-3 {
+		width: 25%;
+	}
+	
+}
+
