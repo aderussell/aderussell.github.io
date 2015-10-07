@@ -58,18 +58,18 @@ img.app-icon {
 
 .epsmon-device {
 	background-image: url(/images/projects/epsmon-iphone5s.png);
-	background-size: 400px 280px;
+	background-size: 500px 350px;
 	background-repeat: no-repeat;
     display: inline-block;
-    width: 400px;
-    height: 280px;
+    width: 500px;
+    height: 350px;
     float: left;
 	margin-left: 50px;
 }
 
 
 .arphysics-device {
-	background-image: url(/images/projects/physics-example@2x.png);
+	background-image: url(/images/projects/physics-example.png);
 	background-size: 750px 525px;
 	background-repeat: no-repeat;
     display: inline-block;
@@ -93,6 +93,10 @@ only screen and (min-device-pixel-ratio: 1.5) {
     .acemobile-device {
         background-image: url(/images/projects/ACEmobile-device@2x.png);
     }
+    
+    .arphysics-device {
+		background-image: url(/images/projects/physics-example@2x.png);
+	}
     
 }
 

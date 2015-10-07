@@ -63,7 +63,7 @@ img.appstore-badge {
 }
 
 .epsmon-device {
-	background-image: url(/images/projects/epsmon-iphone5s.png);
+	background-image: url(/images/projects/epsmon-iphone5s_hero.png);
 	background-size: 800px 560px;
 	background-repeat: no-repeat;
     width: 800px;
@@ -82,7 +82,7 @@ only screen and (min-device-pixel-ratio: 1.5) {
 
 
     .epsmon-device {
-        background-image: url(/images/projects/epsmon-iphone5s@2x.png);
+        background-image: url(/images/projects/epsmon-iphone5s_hero@2x.png);
     }
     
 }
