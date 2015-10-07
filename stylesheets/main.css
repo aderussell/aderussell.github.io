@@ -266,11 +266,9 @@ pre,
 code {
   border: 1px solid #f2f2f2;
   background-color: #fff;
-  padding: 8px 12px;
   border-radius: 3px;
   font-size: 12px;
   font-family: menlo, monaco, monospace;
-  overflow:scroll;
 }
 
 code { padding: 1px 5px; }
@@ -280,8 +278,7 @@ ol { margin-left: 1.35em; }
 
 pre code {
   border: 0;
-  padding-right: 0;
-  padding-left: 0;
+  padding: 8px 12px;
 }
 
 /* terminal */
