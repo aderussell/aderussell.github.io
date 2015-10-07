@@ -7,10 +7,6 @@ html, body {
 	height: 400px;
 	width: 100%;
 	background-color: #28AFE6;
-/* 
-	background-color: #62B7E0;
-	background-color: #92D9FF;
- */
 	max-width: auto;
 	overflow: hidden;
 	display:table;
@@ -18,10 +14,6 @@ html, body {
 
 
 .banner-left {
-/* 	display: table-cell; */
-/* 	text-align: center; */
-/* 	vertical-align: middle; */
-/* 	height:140px; */
 	padding-top:120px;
 }
 

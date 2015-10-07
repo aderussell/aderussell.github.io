@@ -1,6 +1,6 @@
 ---
 layout: default
-css: /stylesheets/index.css
+css: /stylesheets/index.min.css
 ---
 
 <!-- Header -->

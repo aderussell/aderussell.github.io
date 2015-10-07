@@ -3,7 +3,7 @@ layout: page
 title: Portfolio
 permalink: /portfolio/
 imagebase: /images/projects/
-css: /stylesheets/portfolio.css
+css: /stylesheets/portfolio.min.css
 ---
 
 <div>
