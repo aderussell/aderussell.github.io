@@ -20,7 +20,7 @@ One of these two circular bodies will be attached to the static circular body wi
 
 The ARPhysics library only includes the functionality to process the physics in a simulation. 
 All of the graphics, input, and timing control must be supplied additionally. 
-We will not cover this but an example is visible in the source code for the tutorial (coming soon).
+We will not cover this but an example is visible in the source code for the project [available here](https://github.com/aderussell/ARPhysics).
 
 
 
