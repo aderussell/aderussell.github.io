@@ -110,12 +110,12 @@ void addFloorToWorld(World *world)
 	// create the floor body using the floorRect as its dimenstions and giving it a mass.
 	// the mass is set to 0.0 as we will make the object static so the mass doesn't matter.
 	PolygonBody *floor = new PolygonBody(floorRect, 0.0);
-    
-    // set the floor body as static. this will stop all movement of the body. It will still be able to impact other bodies.
-    floor->setStatic();
-    
-    // add the floor to the world.
-    world->addBody(floor);
+	
+	// set the floor body as static. this will stop all movement of the body. It will still be able to impact other bodies.
+	floor->setStatic();
+	
+	// add the floor to the world.
+	world->addBody(floor);
 
 	// the world will retain a reference to the body so we can release it to avoid a memory leak.
 	floor->release();
@@ -134,12 +134,12 @@ void addStaticCircleToWorld(World *world)
 	// 2. the position of the center of the circle, as a vector
 	// 3. the mass of the body.
 	CircleBody *circle = new CircleBody(1.0, Vector2(100, 100), 0.0);
-    
-    // set the circle body as static. this will stop all movement of the body. It will still be able to impact other bodies.
-    circle->setStatic();
-    
-    // add the circle to the world.
-    world->addBody(circle);
+	
+	// set the circle body as static. this will stop all movement of the body. It will still be able to impact other bodies.
+	circle->setStatic();
+	
+	// add the circle to the world.
+	world->addBody(circle);
 
 	// the world will retain a reference to the body so we can release it to avoid a memory leak.
 	circle->release();
@@ -155,9 +155,9 @@ void addMovableCircleToWorld(World *world)
 {
 	// create the circular body
 	CircleBody *circle = new CircleBody(1.0, Vector2(200, 100), 0.0);
-    
-    // add the circle to the world.
-    world->addBody(circle);
+	
+	// add the circle to the world.
+	world->addBody(circle);
 
 	// the world will retain a reference to the body so we can release it to avoid a memory leak.
 	circle->release();
@@ -174,9 +174,9 @@ void addConstrainedCircleToWorld(World *world)
 {
 	// create the circular body
 	CircleBody *circle = new CircleBody(1.0, Vector2(200, 100), 0.0);
-    
-    // add the circle to the world.
-    world->addBody(circle);
+	
+	// add the circle to the world.
+	world->addBody(circle);
 
 	// the world will retain a reference to the body so we can release it to avoid a memory leak.
 	circle->release();
