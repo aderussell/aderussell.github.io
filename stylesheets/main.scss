@@ -124,12 +124,7 @@ p.subtitle {
     font-style: italic;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1, h2, h3, h4, h5, h6 {
     margin-bottom: 5px;
 }
 
@@ -365,24 +360,7 @@ p.intro {
 		font-size: 20px;
 	}
 
-	
-    
-    
-    .social {
-/* 
-    	position: absolute;
-    	bottom: 3rem;
-    	left: 1rem;
-    	right: 1rem;
- */
-    }
-    
-    
-    
-//     .wrap {
-//         max-width: 960px;
-//         padding: 0 30px;
-//     }
+
     
     .container {
     	margin-left: 15rem;
@@ -421,42 +399,17 @@ p.intro {
 @media screen and (max-width: 600px) {
 
 
-// .wrap { padding: 0 12px; }
+	.project img {
+		float: none;
+		display: block;
+		width: 240px;
+		margin-left: auto;
+		margin-right: auto;
+	}
 
-.project img {
-    float: none;
-    display: block;
-    width: 240px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-nav ul {
-    float: none;
-    text-align: center;
-    margin-left: 0em;
-    padding-left: 0px;
-}
-
-nav li {
-    float: none;
-    display: inline-block;
-}
-
-nav a {
-    width: auto;
-    height: 31px;
-    line-height: 34px;
-    margin-left: 0;
-    margin: 0px 10px;
-}
-
-// .site-title {
-//     text-align: center;
-//     float: none;
-//     line-height: 34px;
-//     padding-top: 10px;
-// }
+	.site-header {
+		text-align: center;
+	}
 
 }
 
