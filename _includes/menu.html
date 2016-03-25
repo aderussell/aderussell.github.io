@@ -2,7 +2,10 @@
 	<div class="site-menu-contents">
 
     <h1><a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a></h1>
+    
+    {% if site.subtitle %}
     <h2 class="site-subtitle">{{ site.subtitle }}</h2>
+    {% endif %}
 
     <nav class="site-nav">
           <ul>
