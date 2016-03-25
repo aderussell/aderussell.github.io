@@ -8,21 +8,21 @@ imagebase: /images/components/
 <div>
 
 	<section class="project">
-    	<h1>string-to-CGPathRef<a href="https://github.com/aderussell/string-to-CGPathRef" class="project-link"><small>View on github</small></a></h1>
+    	<h1><a href="https://github.com/aderussell/string-to-CGPathRef">string-to-CGPathRef</a></h1>
     	<h2 class="language">Objective-C</h2> 
     	<h2 class="platform">iOS & OS X</h2>
     	<p>A class that can produce CGPaths for single or multi-line NSAttributedStrings.</p>
     </section>
     
     <section class="project">
-    	<h1>ARListPopoverViewController<a href="https://github.com/aderussell/ARListPopoverViewController" class="project-link"><small>View on github</small></a></h1>
+    	<h1><a href="https://github.com/aderussell/ARListPopoverViewController">ARListPopoverViewController</a></h1>
     	<h2 class="language">Objective-C</h2>
     	<h2 class="platform">iPad</h2>
     	<p>A UIPopoverController that can display nested information in a UITableView manner</p>
     </section>
     
     <section class="project">
-    	<h1>ARCameraView<a href="https://github.com/aderussell/ARCameraView" class="project-link"><small>View on github</small></a></h1>
+    	<h1><a href="https://github.com/aderussell/ARCameraView">ARCameraView</a></h1>
     	<h2 class="language">Objective-C</h2>
     	<h2 class="platform">iPad</h2>
     	<p>A dropin view component for iOS that gives access to the device camera and allows photos to be captured</p>
@@ -30,7 +30,7 @@ imagebase: /images/components/
     
     
     <section class="project">
-    	<h1>ARImageViewPopoverController<a href="https://github.com/aderussell/ARImageViewPopoverController" class="project-link"><small>View on github</small></a></h1>
+    	<h1><a href="https://github.com/aderussell/ARImageViewPopoverController">ARImageViewPopoverController</a></h1>
     	<h2 class="language">Objective-C</h2>
     	<h2 class="platform">iPad</h2>
     	<p>A UIPopoverController that can be used to display a set of images.</p>

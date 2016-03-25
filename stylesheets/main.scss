@@ -41,7 +41,7 @@ h1, h2, h3, h4, h5, h6 {
 
 
 a       { color: $primary-color; text-decoration: none; }
-a:hover { color: #000; text-decoration: underline; }
+a:hover { text-decoration: underline; }
 
 
 
@@ -90,6 +90,10 @@ mrow, msub {
 .social {
 	margin-top: 1rem;
 	margin-bottom: 1rem;
+}
+
+.social a + a {
+	margin-left: 1rem;
 }
 
 
@@ -367,6 +371,10 @@ p.intro {
     }
     
     
+    
+    
+    
+    
     .site-menu-contents {
     	position: absolute;
     	bottom: 2rem;
@@ -409,6 +417,10 @@ p.intro {
 
 	.site-header {
 		text-align: center;
+	}
+
+	.page-content {
+    	padding: 2rem;
 	}
 
 }

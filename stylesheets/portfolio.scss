@@ -8,11 +8,19 @@ p.intro {
 }
 
 .project {
-	padding-top: 100px;
 	padding-bottom: 100px;
 	display: table;
-	position: relative;
+/* 	position: relative; */
 }
+
+
+/* 
+.project + .project {
+	padding-top: 60px;
+}
+ */
+
+
 
 .project img {
     width: 96px;
