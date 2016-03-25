@@ -7,7 +7,7 @@ css: /stylesheets/index.min.css
 
 
 ## Cookies
-This website does not directly use cookies for any purpose. 
+This website does not directly use cookies for any purpose except analytics. 
 However, this site is hosted on [GitHub](https://github.com) and so there is the possibility that cookies may be used by GitHub; these cookies will never be accessed by this site. 
 For full details on GitHub's use of cookies view their [privacy policy](https://help.github.com/articles/github-privacy-policy/).
 

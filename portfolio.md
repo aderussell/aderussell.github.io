@@ -8,8 +8,6 @@ css: /stylesheets/portfolio.css
 
 <div>
 
-    <p>Various projects that I have been involved with.</p>
-
 	<section class="project" id="epsmon">
 		
 		<div class="large-6 small-9">

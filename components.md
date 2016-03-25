@@ -7,8 +7,6 @@ imagebase: /images/components/
 
 <div>
 
-	<p>A list of open source components I have created that are hosted on github.</p>
-
 	<section class="project">
     	<h1>string-to-CGPathRef<a href="https://github.com/aderussell/string-to-CGPathRef" class="project-link"><small>View on github</small></a></h1>
     	<h2 class="language">Objective-C</h2> 
