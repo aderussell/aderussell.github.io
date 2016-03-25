@@ -1,3 +1,11 @@
+---
+---
+
+$primary-color: #2a7ae2;
+$menu-background: linear-gradient(180deg, #1fc8db, #2a7ae2);
+
+
+
 /* Base */
 /* ----------------------------------------------------------*/
 
@@ -6,11 +14,10 @@
 html, body { height: 100%; }
 
 body {
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: system, -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif;
   font-size: 16px;
   line-height: 1.5;
   font-weight: 300;
-/*   background-color: #fafafa; */
 }
 
 p {
@@ -23,110 +30,95 @@ math {
 }
  */
 
+
+
+h1, h2, h3, h4, h5, h6 { 
+	line-height: 1.25;
+	font-weight: 600; 
+	text-rendering: optimizeLegibility;
+}
+
+
+
+a       { color: $primary-color; text-decoration: none; }
+a:hover { color: #000; text-decoration: underline; }
+
+
+
+/* MathML */
+/* ----------------------------------------------------------*/
+
 mrow, msub {
 	margin-right: 4px;
 }
 
-h1, h2, h3, h4, h5, h6 { font-size: 100%; font-weight: 300; }
 
-a       { color: #2a7ae2; text-decoration: none; }
-a:hover { color: #000; }
 
-/* Utility */
-
-.wrap:before,
-.wrap:after { content:""; display:table; }
-.wrap:after { clear: both; }
-.wrap {
-  margin: 0 auto;
-}
 
 /* Page Content styles */
 /* ----------------------------------------------------------*/
 
 .page-content {
-    padding: 30px 0;
+    padding: 4rem;
 }
 
 /* Layout Styles */
 /* ----------------------------------------------------------*/
 
-/* Site header */
+
+
+/* Menu */
+/* ----------------------------------------------------------*/
 
 .site-header {
-  border-bottom: 1px solid #e8e8e8;
-  min-height: 56px;
-  background-color: white;
+  background-color: $primary-color;
+//   background: $menu-background;
+  color: white;
 }
 
 .site-title,
 .site-title:visited {
-  display: block;
-  color: #333;
-  font-size: 26px;
-  letter-spacing: -1px;
-  position: relative;
+	font-size: 3rem;
 }
 
-.site-title:hover {
-    color: #2a7ae2;
+
+.site-subtitle {
+	font-size: 1.5rem;
 }
+
+
+.social {
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+}
+
 
 /* Site navigation */
 
-nav a {
-    color: #727272;
-    display: block;
-    text-align: center;
+.site-nav {
+	margin-top: 1rem;
+	margin-bottom: 1rem;
 }
 
-nav a:hover {
-    color: #2a7ae2;
+.site-header a {
+    color: white;
+/*     display: block; */
+/*     text-align: center; */
 }
 
-/*.site-nav .menu-icon { display: none; }*/
+.site-header a:hover {
+    text-decoration: underline;
+}
 
 nav .nav-current {
-    border-bottom: 3px solid #2a7ae2
+	// no special style for the current page
 }
 
 
 
-/* Site footer */
 
-.site-footer {
-    background-color: white;
-    border-top: 1px solid #e8e8e8;
-    padding: 15px 0 5px;
-}
-
-.footer-copyright {
-    font-size: 75%;
-    text-align: center;
-    color: #727272;
-}
-
-.site-footer ul { 
-	list-style: none; 
-	padding-left: 0;
-	margin-left: 0;
-}
-
-.site-footer li,
-.site-footer p {
-  font-size: 15px;
-  letter-spacing: -.3px;
-  color: #828282;
-}
-
-.icon-svg {
-  display: inline-block;
-  width: 16px;
-  height: 16px;
-  position: relative;
-  top: 3px;
-}
-
+/* Stuff */
+/* ----------------------------------------------------------*/
 
 p.subtitle {
     font-style: italic;
@@ -143,17 +135,17 @@ h6 {
 
 h1 {
     font-size: 32px;
-    letter-spacing: -1.25px;
+//     letter-spacing: -1.25px;
 }
 
 h2 {
     font-size: 26px;
-    letter-spacing: -1px;
+//     letter-spacing: -1px;
 }
 
 h3 {
     font-size: 20px;
-    letter-spacing: -1px;
+//     letter-spacing: -1px;
 }
 
 h3 {
@@ -223,7 +215,7 @@ ul.tokens li {
 }
 
 ul.tokens.blue li {
-	background: #2a7ae2;
+	background: $primary-color;
 }
 
 ul.tokens.grey li {
@@ -256,7 +248,7 @@ blockquote {
   margin: 30px 0;
 }
 
-ul, ol { padding-left: 20px; }
+/* ul, ol { padding-left: 20px; } */
 
 
 /* .post start here */
@@ -265,6 +257,7 @@ ul, ol { padding-left: 20px; }
 pre,
 code {
   border: 1px solid #f2f2f2;
+  color: #bf616a;
   background-color: #fff;
   border-radius: 3px;
   font-size: 12px;
@@ -273,8 +266,11 @@ code {
 
 code { padding: 1px 5px; }
 
-ul,
-ol { margin-left: 1.35em; }
+ul, ol { list-style-type: none; }
+
+li { line-height: 1.75; }
+
+/* ol { margin-left: 1.35em; } */
 
 pre code {
   border: 0;
@@ -356,10 +352,57 @@ p.intro {
 
 @media screen and (min-width: 600px) {
     
-    .wrap {
-        max-width: 960px;
-        padding: 0 30px;
+	.site-header {
+		position: fixed;
+		top: 0;
+		left: 0;
+	  	bottom: 0;
+	  	width: 15rem;
+	}
+	
+	
+	.site-nav {
+		font-size: 20px;
+	}
+
+	
+    
+    
+    .social {
+/* 
+    	position: absolute;
+    	bottom: 3rem;
+    	left: 1rem;
+    	right: 1rem;
+ */
     }
+    
+    
+    
+//     .wrap {
+//         max-width: 960px;
+//         padding: 0 30px;
+//     }
+    
+    .container {
+    	margin-left: 15rem;
+    }
+    
+    
+    .site-menu-contents {
+    	position: absolute;
+    	bottom: 2rem;
+    	left: 1rem;
+    	right: 1rem;
+    }
+    
+    
+    .small-print {
+    	font-size: 75%;
+/*     	text-align: center; */
+/*     	color: #727272; */
+    }
+    
     
 /* 
     .project img {
@@ -369,37 +412,6 @@ p.intro {
     }
  */
     
-    nav a {
-        height: 53px;
-        line-height: 56px;
-        margin-left: 10px;
-        margin-right: 10px;
-        padding-left: 5px;
-        padding-right: 5px;
-    }
-    
-    /*
-    nav li a:first-child {
-    	margin-left: 0px;
-    }
-    
-    nav li a:last-child {
-    	margin-right: 0px;
-    }*/
-    
-    nav ul {
-        float: right;
-    }
-    
-    nav li {
-        float: left;
-        display: inline;
-    }
-    
-    .site-title {
-        float: left;
-        line-height: 56px;
-    }
 }
 
 
@@ -409,7 +421,7 @@ p.intro {
 @media screen and (max-width: 600px) {
 
 
-.wrap { padding: 0 12px; }
+// .wrap { padding: 0 12px; }
 
 .project img {
     float: none;
@@ -439,18 +451,18 @@ nav a {
     margin: 0px 10px;
 }
 
-.site-title {
-    text-align: center;
-    float: none;
-    line-height: 34px;
-    padding-top: 10px;
-}
+// .site-title {
+//     text-align: center;
+//     float: none;
+//     line-height: 34px;
+//     padding-top: 10px;
+// }
 
 }
 
 
 @media print {
-    .site-header,.site-footer{display:none;}
+    .site-header{display:none;}
     body{font-size:12px;}
     h1{font-size:16px;}
     h2{font-size:15px;}

@@ -1,17 +1,21 @@
 # Site settings
-title: adrianrussell.co.uk
-copyright: "Copyright. 2015. Adrian Russell"
+title: Adrian Russell
+copyright: "Copyright © 2016 - Adrian Russell"
 # email: your-email@domain.com
 description: "Adrian Russell is a software engineer based in Plymouth, UK. Adrian specialises in development for iOS and Mac OS X."
 baseurl: ""
 url: "http://adrianrussell.co.uk"
 twitter_username:  ade177
 github_username:   aderussell
-linkedin_username: 264236101
+linkedin_url: https://uk.linkedin.com/in/adrian-russell-4b15aa74
 
 # Build settings
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
+
+
+sass:
+    style: compressed
 
 gems:
 - jekyll-sitemap

@@ -1,28 +1,12 @@
 ---
-layout: default
-css: /stylesheets/index.min.css
+layout: generic
+<!-- css: /stylesheets/index.min.css -->
 ---
 
 <!-- Header -->
 
-<div class="header">
-	<div class="wrap">
-		<div class="large-6 small-12">
-			<div class="banner-left">
-<!-- 			<img src="/images/projects/epsmon-icon.png" alt="EpSMon app icon" class="app-icon"> -->
-				<h1 class="banner-header">EpSMon now available</h1>
-				<a href="https://itunes.apple.com/gb/app/epsmon/id988418313"><img src="{{ "/images/appstore-badge.svg" | prepend: site.baseurl }}" class="appstore-badge" alt="linkedin icon"></a>
-				<p class="epsmon-learn-more"><a class="epsmon-learn-more" href="/portfolio#epsmon">Learn more</a></p>
-			</div>
-		</div>
-		<div class="large-6 small-0">
-			<div class="epsmon-device"></div>
-		</div>
-	</div>
-</div>
-
-<div class="page-content">
-      <div class="wrap">
+<!-- <div class="page-content"> -->
+<!--       <div class="wrap"> -->
 
 
 <h1>Recent posts</h1>
@@ -38,5 +22,5 @@ css: /stylesheets/index.min.css
 </ul>
 
 
-	</div>
-</div>
+<!-- 	</div> -->
+<!-- </div> -->

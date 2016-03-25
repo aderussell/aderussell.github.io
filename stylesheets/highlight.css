@@ -2,6 +2,10 @@
 /* ----------------------------------------------------------*/
 
 .highlight  { background: #ffffff; overflow: auto; }
+
+.highlight .n { color: #000000; } /* Normal */
+.highlight .p { color: #000000; } /* Symbol */
+
 .highlight .err { color: #a61717; background-color: #e3d2d2 } /* Error */
 .highlight .k { color: #7F007F } /* Keyword */
 .highlight .o { font-weight: bold } /* Operator */

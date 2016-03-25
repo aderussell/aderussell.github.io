@@ -3,12 +3,12 @@ layout: page
 title: Portfolio
 permalink: /portfolio/
 imagebase: /images/projects/
-css: /stylesheets/portfolio.min.css
+css: /stylesheets/portfolio.css
 ---
 
 <div>
 
-    <p class="intro">Various projects that I have been involved with.</p>
+    <p>Various projects that I have been involved with.</p>
 
 	<section class="project" id="epsmon">
 		
@@ -56,6 +56,19 @@ css: /stylesheets/portfolio.min.css
         </div>
         <div class="large-6 small-0">
         	<div class="arphysics-device"></div>
+        </div>
+    </section>
+    
+    <section class="project" id="solar-system">
+    	<div class="large-6 small-12">
+			<h1 class="project-title">Solar System<a href="https://github.com/aderussell/Solar-System" class="project-link"><small>View on github</small></a></h1>
+			<h2 class="platform">Windows<small></small></h2>
+			<h2 class="client">Final year BSc. Computer Science project (University of Plymouth)</h2>
+			<h2 class="role">Role: Sole Developer</h2>
+			<p>An interactive solar system written in DirectX11.</p>
+        </div>
+        <div class="large-6 small-0">
+        	<div class="solar-system-device"></div>
         </div>
     </section>
     

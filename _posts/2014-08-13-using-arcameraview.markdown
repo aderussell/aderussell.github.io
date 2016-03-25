@@ -38,7 +38,7 @@ There are two methods to stop the camera:<br>
 `- (void)stopCamera` will stop the camera view from displaying data from the camera and will stop the camera session. <br>
 `- (void)stopCameraAndSession` will both stop the camera and destroy the camera session.
 
-#### Keeping the system responsive
+### Keeping the system responsive
 To keep the system responsive the camera should be stopped whenever the containing view controller is not directly present; this includes the view controller being modally covered, covered in a navigation controller or when the application is sent to the background
 
 _Example of code that a UIViewController containing an ARCameraView should follow:_

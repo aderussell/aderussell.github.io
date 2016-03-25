@@ -17,8 +17,8 @@ p.intro {
 .project img {
     width: 96px;
 	display: block;
-    margin-left: auto;
-    margin-right: auto;
+/*     margin-left: auto; */
+/*     margin-right: auto; */
 }
 
 img.app-icon {
@@ -78,6 +78,17 @@ img.app-icon {
     margin-top: -70px;
 }
 
+.solar-system-device {
+	background-image: url(/images/projects/solar-system.png);
+	background-size: 700px 417px;
+	background-repeat: no-repeat;
+    display: inline-block;
+    width: 700px;
+    height: 417px;
+    float: left;
+    margin-left: 40px;
+    margin-top: -40px;
+}
 
 @media only screen and (-Webkit-min-device-pixel-ratio: 1.5),
 only screen and (-moz-min-device-pixel-ratio: 1.5),
@@ -97,6 +108,9 @@ only screen and (min-device-pixel-ratio: 1.5) {
 		background-image: url(/images/projects/physics-example@2x.png);
 	}
     
+    .solar-system-device {
+		background-image: url(/images/projects/solar-system@2x.png);
+	}
 }
 
 

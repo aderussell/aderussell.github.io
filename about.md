@@ -31,22 +31,5 @@ permalink: /about/
 
 
 <h2>Education</h2>
-BSc(Hons) in Computer Science, Plymouth University, 2014.
-
-
-<!--
-<h2>Loves</h2>
-<ul>
-    <li>Lego</li>
-    <li>Dogs</li>
-    <li>Cider</li>
-    <li>Back to the Future</li>
-</ul>
-
-
-<h2>This year's goals</h2>
-<ul>
-    <li>Learn to draw</li>
-    <li>Lose weight</li>
-</ul>
--->
+BSc(Hons) First Class in Computer Science, Plymouth University, 2014.
+Final year project: [ARPhysics](/projects/arphysics/)

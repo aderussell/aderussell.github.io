@@ -6,8 +6,6 @@ permalink: /blog/
 
 <div class="home">
 
-  <h1>Posts</h1>
-
   <ul class="posts">
     {% for post in site.posts %}
       <li>
