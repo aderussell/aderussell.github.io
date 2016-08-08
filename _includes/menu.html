@@ -8,12 +8,12 @@
     {% endif %}
 
     <nav class="site-nav">
-          <ul>
+        <ul>
         {% for node in site.pages %}
             {% if node.navbar != false %}
-            {% if node.title %}
-                <li><a {% if page.url contains node.url %}class="nav-current"{% endif %} href="{{ node.url | prepend: site.baseurl }}">{{ node.title }}</a></li>
-            {% endif %}
+            	{% if node.title %}
+                	<li><a href="{{ node.url | prepend: site.baseurl }}">{{ node.title }}</a></li>
+            	{% endif %}
             {% endif %}
         {% endfor %}
         </ul>

@@ -1,7 +1,6 @@
 ---
 layout: project
 title:    ARPhysics
-#logofile: arphysics-logo.png
 permalink: /projects/arphysics/
 imagebase: /images/projects/
 navbar: false
@@ -22,7 +21,7 @@ It takes the form of a static library that can be linked in any other project. I
 
 ## The Structure of ARPhysics
 
-There are five basic objects that exist in ARPhysics.
+There are five basic objects that exist in ARPhysics:
 
 
 ### World

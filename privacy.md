@@ -1,6 +1,5 @@
 ---
-layout: generic
-css: /stylesheets/index.min.css
+layout: page
 ---
 
 # Privacy and Cookies

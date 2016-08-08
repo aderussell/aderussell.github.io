@@ -15,7 +15,7 @@ ARCameraView is a single view that can be placed into an iOS project to allow ac
 
 {::options parse_block_html="true" /}
 
-### Adding ARCameraView to a project
+## Adding ARCameraView to a project
 You can download both the necessary files and an example Xcode project that will run on both iPad and iPhone from [github][camera-project].
 
 <div class="hi">
@@ -29,7 +29,9 @@ The files that will need to add to your project are in the [ARCameraView][camera
 
 ARCameraView is a subclass of UIView and so can be added to any stroyboard, NIB, or programmatically the the exact way you can to any other UIView. 
 
-### Handling starting and stopping the camera
+
+
+## Handling starting and stopping the camera
 The camera does not automatically start when the view is loaded as that would be inefficient so it is down to you to start the camera manually.
 
 To start the camera you need to call the `- (void)startCamera` method on ARCameraView.
@@ -38,7 +40,9 @@ There are two methods to stop the camera:<br>
 `- (void)stopCamera` will stop the camera view from displaying data from the camera and will stop the camera session. <br>
 `- (void)stopCameraAndSession` will both stop the camera and destroy the camera session.
 
-### Keeping the system responsive
+
+
+## Keeping the system responsive
 To keep the system responsive the camera should be stopped whenever the containing view controller is not directly present; this includes the view controller being modally covered, covered in a navigation controller or when the application is sent to the background
 
 _Example of code that a UIViewController containing an ARCameraView should follow:_
@@ -91,19 +95,23 @@ _Example of code that a UIViewController containing an ARCameraView should follo
 
 
 
-### Getting the taken images
+## Getting the taken images
 There are two ways that a photo can be taken using ARCameraView. It can either be taken by the user when the press the capture button on the view or programmatically by calling the `- (void)captureImage` method on ARCameraView.
 
 There is a delegate method `- (void)cameraView:(ARCameraView *)cameraView hasTakenImage:(UIImage *)image` that is called when the capture button is pressed and returns the image that was taken cropped to the ration of the camera view, i.e. the image only contains what the camera view contains. This picture can also be gotten from the `imageTaken` property.
 
 There is also a `wholeImageTaken` property that returns the entire image that was taken by the camera. This is not in the proportions of the camera view but ratio of the camera itself.
 
-### Camera overlays
+
+
+## Camera overlays
 The camera view is capable of displaying an overlay over the camera image. This allows you to add useful alignment guides such as a grid.
 The overlay will take the form of a CALayer and will be resized to the frame of the camera view. This overlay will also be resized if the frame of the camera changes.
 To add an overlay to the camera assign it to the `overlay` property. To remove the overlay just set the property to `nil`.
 
-### Changing the class of the camera button
+
+
+## Changing the class of the camera button
 If you wish to use a custom button for the camera view it is possible to subclass both ARCameraButton and ARCameraView to do so.
 
 You can subclass ARCameraButton and override the `- (void)drawRect:` method to provide a custom look to the button. ARCameraButton adds one additional property over the UIButton class which is `showingCancel`; this property indicates whether or not the button should display that pressing it will capture an image from the camera or dismiss the taken image and start the camera again. Your drawing method should respect this property and clearly show what action the button will take.

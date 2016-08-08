@@ -3,34 +3,41 @@
 
 html, body {
     overflow-x: hidden;
-    width: 100%;
 }
 
-p.intro {
-	text-align: center;
-}
+// p.intro {
+// 	text-align: center;
+// }
 
 .project {
 	padding-bottom: 100px;
 	display: table;
-/* 	position: relative; */
 }
-
-
-/* 
-.project + .project {
-	padding-top: 60px;
-}
- */
-
 
 
 .project img {
     width: 96px;
 	display: block;
-/*     margin-left: auto; */
-/*     margin-right: auto; */
 }
+
+.project {
+
+	h2 {
+		margin-top: 1rem;
+	}
+	
+	p, h3 {
+		margin-top: 0.5rem;
+		margin-bottom: 0.5rem;
+	}
+}
+
+.component {
+	@extend .project;
+	padding-bottom: 2rem;
+	margin-bottom: 0rem;
+}
+
 
 img.app-icon {
     border-radius: 22.544%;
@@ -38,11 +45,11 @@ img.app-icon {
 }
 
 
-.project-title {
-	font-size: 24pt;
-	font-weight: 200;
-	text-align:left;
-}
+// .project-title {
+// 	font-size: 24pt;
+// 	font-weight: 200;
+// 	text-align:left;
+// }
 
 
 .acemobile-device {
@@ -127,16 +134,25 @@ only screen and (min-device-pixel-ratio: 1.5) {
 
 @media screen and (max-width: 600px) {
 	
-	.epsmon-device {
-		background-image: url(/images/projects/epsmon-device-flat.png);
-		background-size: 163px 341px;
-		background-repeat: no-repeat;
+	
+	.project img {
+		float: none;
 		display: block;
-		width: 163px;
-		height: 341px;
-		float: left;
-		margin-left: 20px;
+// 		width: 240px;
+		margin-left: auto;
+		margin-right: auto;
 	}
+	
+// 	.epsmon-device {
+// 		background-image: url(/images/projects/epsmon-device-flat.png);
+// 		background-size: 163px 341px;
+// 		background-repeat: no-repeat;
+// 		display: block;
+// 		width: 163px;
+// 		height: 341px;
+// 		float: left;
+// 		margin-left: 20px;
+// 	}
 	
 	.acemobile-device {
 		display: none;

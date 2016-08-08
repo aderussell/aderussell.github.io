@@ -4,12 +4,8 @@ layout: generic
 
 <article class="post-content">   
 	<header class="project-header">
-	  {% if page.logofile %}
-	  <img src="{{ page.logofile | prepend: page.imagebase | prepend : site.baseurl }}" alt="Icon" width="128" {% if page.iosapp %}class="app-icon"{% endif %}>
-		  {% endif %}
-		  <h1 class="title">{{ page.title }}</h1>
-		  <p class="subtitle">{{ page.subtitle }}</p>
-	</header>  
-      
+		<h1 class="title">{{ page.title }}</h1>
+		<p class="subtitle">{{ page.subtitle }}</p>
+	</header>
 	{{ content }}
 </article>
