@@ -5,9 +5,6 @@ html, body {
     overflow-x: hidden;
 }
 
-// p.intro {
-// 	text-align: center;
-// }
 
 .project {
 	padding-bottom: 100px;
@@ -44,12 +41,6 @@ img.app-icon {
     box-shadow: 0 0 1px 0px #444;
 }
 
-
-// .project-title {
-// 	font-size: 24pt;
-// 	font-weight: 200;
-// 	text-align:left;
-// }
 
 
 .acemobile-device {
@@ -138,21 +129,10 @@ only screen and (min-device-pixel-ratio: 1.5) {
 	.project img {
 		float: none;
 		display: block;
-// 		width: 240px;
 		margin-left: auto;
 		margin-right: auto;
 	}
 	
-// 	.epsmon-device {
-// 		background-image: url(/images/projects/epsmon-device-flat.png);
-// 		background-size: 163px 341px;
-// 		background-repeat: no-repeat;
-// 		display: block;
-// 		width: 163px;
-// 		height: 341px;
-// 		float: left;
-// 		margin-left: 20px;
-// 	}
 	
 	.acemobile-device {
 		display: none;
@@ -175,6 +155,7 @@ only screen and (min-device-pixel-ratio: 1.5) {
 	
 	.small-0 {
 		width: 0%;
+		display: none;
 	}
 	
 	.small-9 {
