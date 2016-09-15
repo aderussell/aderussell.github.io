@@ -1,0 +1,21 @@
+
+body { margin: 0px }
+
+#container {
+  height: 560px;
+  position: relative;
+  width: 560px;
+}
+
+#controls {
+  bottom: 4;
+  left: 4;
+  position: absolute;
+  width: 100%;
+}
+
+canvas {
+	height: 100%;
+  	width: 100%;
+}
+

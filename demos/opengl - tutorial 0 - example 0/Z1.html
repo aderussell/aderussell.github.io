@@ -1,0 +1,161 @@
+<html>
+<head>
+	<link rel="stylesheet" href="pa.css">
+</head>
+<body>
+
+
+	<div id="container">
+		<div id="controls">
+			<select id="mesh" onchange="redrawMesh()">
+				<option value="teapot">Teapot With Toon Shader</option>
+				<option value="earth">Moon With Normal Mapping</option>
+				<option value="legoman">Legoman with Gouraud Shader</option>
+				<option value="head">Head With Texture</option>
+			</select>
+    	</div>
+    	<canvas id="myCanvas" width="560" height="560"></canvas>
+	</div>
+
+	<!-- core -->
+	<script type="text/javascript" src="Core/vector2.js"></script>
+	<script type="text/javascript" src="Core/vector3.js"></script>
+	<script type="text/javascript" src="Core/vector4.js"></script>
+	<script type='text/javascript' src='Core/matrix.js'></script>
+	<script type='text/javascript' src='Core/geometry.js'></script>
+	<script type='text/javascript' src='Core/mesh.js'></script>
+	<script type='text/javascript' src='Core/meshloader.js'></script>
+	<script type='text/javascript' src='Core/light.js'></script>
+	<script type='text/javascript' src='Core/shader.js'></script>
+	<script type='text/javascript' src='Core/renderer.js'></script>
+	<script type='text/javascript' src='Core/texture.js'></script>
+	<!-- meshes -->
+	<script type='text/javascript' src='teapot.js'></script>
+	<!-- shaders -->
+	<script type='text/javascript' src='Shaders/Gouraud.js'></script>
+	<script type='text/javascript' src='Shaders/Toon.js'></script>
+	<script type='text/javascript' src='Shaders/Phong.js'></script>
+	<script type='text/javascript' src='Shaders/Texture.js'></script>
+	<script type='text/javascript' src='Shaders/TextureWithNormalMap.js'></script>
+	
+	<script type='text/javascript' src='demo_factory.js'></script>
+	
+	<script>
+
+
+	var c = document.getElementById("myCanvas");
+    var ctx = c.getContext("2d");
+
+	// create the rendering context.
+	// this is what will actually draw to the canvas.
+	renderingContext = new RenderingContext(c, ctx);
+ 	
+ 	
+ 	xRot = 0.00;
+	yRot = 0.00;
+	zRot = 0.00;
+	
+	
+ 	
+ 	redrawMesh();
+ 	
+ 	
+ 	setInterval(updateTumble, 0.033);
+
+function updateMesh() {
+
+	var mesh = document.getElementById("mesh").value
+	
+	var output = demoForIndex(mesh);
+	
+	originialIco = output.mesh;
+	shader = output.shader;
+}
+
+
+
+
+
+function redrawMesh() {
+	updateMesh();
+	draw();
+}
+	
+
+
+function updateTumble() {
+	
+	//xRot += 0.02;
+	yRot += 0.03;
+	//zRot += 0.02;
+	
+	
+	draw();
+}
+
+
+
+function draw() {
+
+	var scale = matrixScale(1.0, 1.0, 1.0);
+	
+	var rotation = matrixRotRollPitchYaw(xRot, yRot, zRot);
+	
+	var translation = matrixTranslation(0.0, 0.0, 0.0);
+	
+
+	var cameraPosition = new Vector3(0.0, 0.0, 5.0);
+	var cameraTarget   = new Vector3(0.0, 0.0, 0.0);
+	var cameraUp       = new Vector3(0.0, 1.0, 0.0);
+	var cameraMatrix = matrixLookAt(cameraPosition, cameraTarget, cameraUp);
+	
+	
+	
+	// create the projection matrix; this will alter a 3D vector so it's z value is normalised
+	// into the x and y values so it can be displayed on a 2D canvas (a computer screen).
+	var projection = matrixPerspective(Math.PI / 4, 1.0, 0.01, 100.0);
+	
+	// create the final matrix by multiplying the other matrices togethor in order...
+	// scale * rotation * translation * projection
+	var matrix = matrixMultiply(scale, rotation);
+	matrix = matrixMultiply(matrix, translation);
+	matrix = matrixMultiply(matrix, cameraMatrix);
+	matrix = matrixMultiply(matrix, projection);
+	
+
+
+
+	
+	// clear the color information for the previous from that was rendered
+	renderingContext.clearColorBuffer(new Color(0,0,0));
+	
+	// clear the depth buffer to remove depth information from the previous frame that was rendered
+	renderingContext.clearDepthBuffer(Number.MAX_VALUE);
+	
+	
+	
+	// set shader
+	shader.matrix = matrix;
+	renderingContext.shader = shader;
+	
+	// set vertex buffer
+	renderingContext.vertexBuffer = originialIco.vertexBuffer;
+	
+	// set index buffer
+	renderingContext.indexBuffer = originialIco.indexBuffer;
+	
+	renderingContext.setCullMode(CULL_MODE_BACK);
+	
+	// render the current buffer
+	renderingContext.draw();
+	
+	
+	
+	renderingContext.outputToDisplay();
+}
+
+
+	</script>
+
+</body>
+</html>
