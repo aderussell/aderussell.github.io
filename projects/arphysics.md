@@ -28,7 +28,7 @@ There are five basic objects that exist in ARPhysics:
 The world is the space where all the simulation of objects occurs. Bodies, constraints, and force generators are added to a world be be simulated.
 
 ### Spatial Indexing
-The spatial indexing object is the system that controls the organisation and collision detection of the bodies in the world.
+The spatial indexing object is the system that controls the organization and collision detection of the bodies in the world.
 Each World object requires a single SpatialIndexing object. This is designed so that the broadphase collision detection system can be easily changed for different types of game.
 At the current time the library includes a single brute force spatial indexing system to demonstrate how a SpatialIndexing object should work.
 
@@ -42,7 +42,7 @@ A force generator object can provide forces to a set of bodies. This can be used
 
 
 ### Constraint
-A constraint is an object that joins to bodies togethor and limits their movement. It can be used to implement ropes, springs and other such concepts.
+A constraint is an object that joins to bodies together and limits their movement. It can be used to implement ropes, springs and other such concepts.
 
 
 <!--## Memory Management

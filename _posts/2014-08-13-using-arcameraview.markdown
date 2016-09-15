@@ -27,7 +27,7 @@ The files that will need to add to your project are in the [ARCameraView][camera
  *  **UIImage+AspectResize:** This category adds a method to UIImage that allows an image to be cropped to fit into a given aspect ratio. This is used to create a image that is exactly the contents of the camera view.
 </div>
 
-ARCameraView is a subclass of UIView and so can be added to any stroyboard, NIB, or programmatically the the exact way you can to any other UIView. 
+ARCameraView is a subclass of UIView and so can be added to any storyboard, NIB, or programmatically the the exact way you can to any other UIView. 
 
 
 
@@ -88,7 +88,7 @@ _Example of code that a UIViewController containing an ARCameraView should follo
 - (void)didEnterForeground:(NSNotification *)notification
 {
     // start the camera again after the app is reopened. 
-    // This is not always needed. You shoulf check if the camera has an image first.
+    // This is not always needed. You should check if the camera has an image first.
     [self.cameraView startCamera];
 }
 {% endhighlight %}

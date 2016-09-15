@@ -26,7 +26,7 @@ css: /stylesheets/portfolio.css
     	<h2><a href="https://github.com/aderussell/ARCameraView">ARCameraView</a></h2>
     	<h3 class="language">Objective-C</h3>
     	<h3 class="platform">iPad</h3>
-    	<p>A dropin view component for iOS that gives access to the device camera and allows photos to be captured</p>
+    	<p>A drop-in view component for iOS that gives access to the device camera and allows photos to be captured</p>
     </section>
     
     
