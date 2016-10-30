@@ -18,4 +18,5 @@ sass:
     style: compressed
 
 gems:
-- jekyll-sitemap
+    - jekyll-sitemap
+    - jekyll-redirect-from
