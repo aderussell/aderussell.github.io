@@ -16,7 +16,7 @@ css: /stylesheets/portfolio.css
     	<h2><a href="https://github.com/aderussell/string-to-CGPathRef">string-to-CGPathRef</a></h2>
     	<h3 class="language">Objective-C</h3> 
     	<h3 class="platform">iOS & OS X</h3>
-    	<p>A class that can produce CGPaths for single or multi-line NSAttributedStrings.</p>
+    	<p>A set of methods to produce CGPaths from single or multi-line NSAttributedStrings. Also available as a category for UIBezierPath for easier use in iOS.</p>
     </section>
     
     <section class="component">
