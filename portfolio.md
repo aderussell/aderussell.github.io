@@ -17,7 +17,7 @@ css: /stylesheets/portfolio.css
         	<h3 class="platform">iOS</h3>
         	<h3 class="client">NeuroCore (University of Plymouth)</h3>
         	<h3 class="role">Role: Lead Engineer</h3>
-        	<p>EpSMon is an epilepsy self monitor that provides an easy to use assessment for checking a user's risk of SUDEP.</p>
+        	<p>EpSMon is an award-winning epilepsy self monitor that provides an easy to use assessment for checking a user's risk of SUDEP.</p>
         </div>
         <div class="large-6 small-0">
         	<div class="epsmon-device"></div>

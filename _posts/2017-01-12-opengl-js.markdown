@@ -1,0 +1,13 @@
+---
+layout: post
+title:  "Making stupid things in javascript: A 3D renderer"
+date:   2017-01-12
+tags: Open GL, Direct X, 3D, Graphics, Javascript
+description: "A high-level approximation to a 3D graphics library written in javascript."
+imagepath: "/images/blog/using-arcameraview/"
+---
+
+
+
+
+<iframe width="560" height="560" src="/demos/opengl - tutorial 0 - example 0/Z1.html" frameborder="0" seamless="seamless" scrolling="no"></iframe>
