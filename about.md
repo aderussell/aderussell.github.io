@@ -56,3 +56,4 @@ When I’m not programming, at work or at home, I’ll be either be creating a n
 BSc(Hons) First Class in Computer Science, Plymouth University, 2014.
 <br>
 Final year project: [ARPhysics](/projects/arphysics/)
+

@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Making stupid things in javascript: A 3D renderer"
+title:  "Making things in javascript: A 3D renderer"
 date:   2017-01-12
 tags: Open GL, Direct X, 3D, Graphics, Javascript
 description: "A high-level approximation to a 3D graphics library written in javascript."

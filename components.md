@@ -7,6 +7,7 @@ css: /stylesheets/portfolio.css
 
 #layout: redirected
 #sitemap: false
+#navbar: false
 #redirect_to:  /portfolio/
 ---
 
