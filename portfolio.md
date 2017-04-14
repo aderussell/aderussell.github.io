@@ -50,7 +50,7 @@ css: /stylesheets/portfolio.css
 {% include projects/project.html 
 	url         = "https://github.com/aderussell/Solar-System"
 	name        = "Solar System"
-	platform    = "Windows DirectX 11</small>"
+	platform    = "Windows DirectX 11"
 	client      = "Final year BSc. Computer Science project (University of Plymouth)"
 	role        = "Sole Developer"
 	description = "An interactive solar system written in DirectX11."
