@@ -8,7 +8,7 @@ description: "A quick guide to using the ARCameraView component in an iOS projec
 imagepath: "/images/blog/using-arcameraview/"
 ---
 
-{% include posts/update-notice.html date="2017-04-14" message="Changes have been made to reflect changes in ARCameraView 1.0.1." %}
+{% include posts/update-notice.html date="2017-04-14" message="Updated to reflect changes in ARCameraView 1.0.1." %}
 
 
 
