@@ -11,52 +11,57 @@ css: /stylesheets/portfolio.css
 #redirect_to:  /portfolio/
 ---
 
-<div>
 
-	<section class="component">
-    	<h2><a href="https://github.com/aderussell/string-to-CGPathRef">string-to-CGPathRef</a></h2>
-    	<h3 class="language">Objective-C</h3> 
-    	<h3 class="platform">iOS & OS X</h3>
-    	<p>A set of methods to produce CGPaths from single or multi-line NSAttributedStrings. Also available as a category for UIBezierPath for easier use in iOS.</p>
-    </section>
+{% include projects/component.html 
+	url         = "https://github.com/aderussell/string-to-CGPathRef"
+	name        = "string-to-CGPathRef"
+	language    = "Objective-C" 
+	platform    = "iOS & Mac OS"
+	description = "A set of methods to produce CGPaths from single or multi-line NSAttributedStrings. Also available as a category for UIBezierPath for easier use in iOS." 
+%}
+
+{% include projects/component.html 
+	url         = "https://github.com/aderussell/ARRatingView"
+	name        = "ARRatingView"
+	language    = "Objective-C" 
+	platform    = "iOS"
+	description = "A customisable control for iOS that allows a rating to be displayed and selected." 
+%}
+  
+  
+{% include projects/component.html 
+	url="https://github.com/aderussell/ARCameraView"
+	name="ARCameraView"
+	language="Objective-C" 
+	platform="iOS"
+	description="A drop-in view component for iOS that gives access to the device camera and allows photos to be captured." 
+%}
+
+
+{% include projects/component.html 
+	url="https://github.com/aderussell/ARListPopoverViewController"
+	name="ARListPopoverViewController"
+	language="Objective-C" 
+	platform="iOS"
+	description="A UIPopoverController that can display nested information in a UITableView manner." 
+%}
+
+
+{% include projects/component.html 
+	url         = "https://github.com/aderussell/ARImageViewPopoverController"
+	name        = "ARImageViewPopoverController"
+	language    = "Objective-C" 
+	platform    = "iPad"
+	description = "A UIPopoverController that can be used to display a set of images." 
+%}
+
+
+{% include projects/component.html 
+	url         = "https://github.com/aderussell/arson_json_parser"
+	name        = "arson_json_parser"
+	language    = "Ansi C" 
+	platform    = "Any"
+	description = "A strict json validator and parser that can conform to standards RFC4627 & RFC7158." 
+%}
+
     
-    <section class="component">
-    	<h2><a href="https://github.com/aderussell/ARRatingView">ARRatingView</a></h2>
-    	<h3 class="language">Objective-C</h3>
-    	<h3 class="platform">iOS</h3>
-    	<p>A customisable control for iOS that allows a rating to be displayed and selected.</p>
-    </section>
-    
-    
-    <section class="component">
-    	<h2><a href="https://github.com/aderussell/ARCameraView">ARCameraView</a></h2>
-    	<h3 class="language">Objective-C</h3>
-    	<h3 class="platform">iOS</h3>
-    	<p>A drop-in view component for iOS that gives access to the device camera and allows photos to be captured</p>
-    </section>
-    
-    
-    <section class="component">
-    	<h2><a href="https://github.com/aderussell/ARListPopoverViewController">ARListPopoverViewController</a></h2>
-    	<h3 class="language">Objective-C</h3>
-    	<h3 class="platform">iPad</h3>
-    	<p>A UIPopoverController that can display nested information in a UITableView manner</p>
-    </section>
-    
-    
-    <section class="component">
-    	<h2><a href="https://github.com/aderussell/ARImageViewPopoverController">ARImageViewPopoverController</a></h2>
-    	<h3 class="language">Objective-C</h3>
-    	<h3 class="platform">iPad</h3>
-    	<p>A UIPopoverController that can be used to display a set of images.</p>
-    </section>
-    
-    
-    <section class="component">
-    	<h2><a href="https://github.com/aderussell/arsn_json_parser">arson_json_parser</a></h2>
-    	<h3 class="language">Ansi C</h3>
-    	<h3 class="platform">Any</h3>
-    	<p>A strict json validator and parser that can conform to standards RFC4627 & RFC7158.</p>
-    </section>
-    
-</div>

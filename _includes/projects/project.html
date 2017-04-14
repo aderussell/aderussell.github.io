@@ -1,0 +1,15 @@
+<section class="project">
+	<div class="large-6 small-12">
+		{% if include.icon-name %}
+		<img src="{{ include.icon-name | prepend: page.imagebase | prepend: site.baseurl }}" alt="{{ include.icon-alt }}" {%if include.icon-is-app %}class="app-icon"{% endif %} />
+		{% endif %}
+		<h2 class="project-title"><a href="{{ include.url }}">{{ include.name }}</a></h2>
+		<h3 class="platform">{{ include.platform }}</h3>
+		<h3 class="client">{{ include.client }}</h3>
+		<h3 class="role">Role: {{ include.role }}</h3>
+		<p>{{ include.description }}</p>
+	</div>
+	<div class="large-6 small-0">
+		<div class="{{ include.image-class }}"></div>
+	</div>
+</section>
