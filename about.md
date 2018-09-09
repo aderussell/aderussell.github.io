@@ -8,7 +8,7 @@ permalink: /about/
 
 
 Hi, I'm Adrian.<br />
-I'm a software engineer based in the South-West of England specialising in producing interesting and innovative applications for Android, iOS, & Mac OS.<br />
+I'm a software engineer, based in the South-West of England, specialising in producing interesting and innovative applications for Android, iOS, & Mac OS.<br />
 
 
 
