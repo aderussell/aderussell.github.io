@@ -74,6 +74,8 @@ a:hover { text-decoration: underline; }
     padding: 4rem;
 }
 
+
+
 @media screen and (min-width: 600px) {
     
 	.site-header {
@@ -362,7 +364,22 @@ ul.tokens.grey li {
 	background: #555;
 }
 
-
+@media (prefers-color-scheme: dark) {
+	body {
+		background-color: #222222;
+		color: #eeeeee;
+	}
+	a {
+ 		color: #3d91ed;
+	}
+	.site-header {
+// 		background-color: #3d91ed;
+		color: #eeeeee;
+	}
+	.site-header a {
+		color: #eeeeee;
+	}
+}
 
 
 /* Experience */
