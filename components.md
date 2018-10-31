@@ -37,23 +37,14 @@ css: /stylesheets/portfolio.css
 	description="A drop-in view component for iOS that gives access to the device camera and allows photos to be captured." 
 %}
 
-
 {% include projects/component.html 
-	url="https://github.com/aderussell/ARListPopoverViewController"
-	name="ARListPopoverViewController"
+	url="https://github.com/aderussell/ARPickerInputViews"
+	name="ARPickerInputViews"
 	language="Objective-C" 
 	platform="iOS"
-	description="A UIPopoverController that can display nested information in a UITableView manner." 
+	description="A set of pickers that can easily be used as input views for a UITextField. A date picker, number picker, and string list picker are included." 
 %}
 
-
-{% include projects/component.html 
-	url         = "https://github.com/aderussell/ARImageViewPopoverController"
-	name        = "ARImageViewPopoverController"
-	language    = "Objective-C" 
-	platform    = "iPad"
-	description = "A UIPopoverController that can be used to display a set of images." 
-%}
 
 
 {% include projects/component.html 
@@ -62,6 +53,28 @@ css: /stylesheets/portfolio.css
 	language    = "Ansi C" 
 	platform    = "Any"
 	description = "A strict json validator and parser that can conform to standards RFC4627 & RFC7158." 
+%}
+
+
+
+
+## Deprecated Components
+
+{% include projects/component-deprecated.html 
+	url="https://github.com/aderussell/ARListPopoverViewController"
+	name="ARListPopoverViewController"
+	language="Objective-C" 
+	platform="iOS <= 8.0"
+	description="A UIPopoverController that can display nested information in a UITableView manner." 
+%}
+
+
+{% include projects/component-deprecated.html 
+	url         = "https://github.com/aderussell/ARImageViewPopoverController"
+	name        = "ARImageViewPopoverController"
+	language    = "Objective-C" 
+	platform    = "iPad <= 8.0"
+	description = "A UIPopoverController that can be used to display a set of images." 
 %}
 
     
