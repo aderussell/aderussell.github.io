@@ -8,6 +8,4 @@ imagepath: "/images/blog/using-arcameraview/"
 ---
 
 
-
-
-<iframe width="560" height="560" src="/demos/opengl - tutorial 0 - example 0/Z1.html" frameborder="0" seamless="seamless" scrolling="no"></iframe>
+<iframe src="/demos/opengl - tutorial 0 - example 0/Z1.html" frameborder="0" seamless="seamless" scrolling="no"></iframe>

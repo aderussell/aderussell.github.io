@@ -11,8 +11,11 @@ class RenderingContext {
 	constructor(canvas, ctx) {
 		this.canvas = canvas;
 		this.context = ctx;
-		this.width = canvas.width;
-		this.height = canvas.height;
+		this.width = canvas.clientWidth;
+		this.height = canvas.clientHeight;
+		
+		canvas.width = this.width;
+		canvas.height = this.height;
 		
 		this.cullMode = CULL_MODE_NONE;
 		
