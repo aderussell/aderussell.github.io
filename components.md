@@ -21,13 +21,20 @@ css: /stylesheets/portfolio.css
 %}
 
 {% include projects/component.html 
+	url         = "https://github.com/aderussell/ARSlideShow"
+	name        = "ARSlideShow"
+	language    = "Objective-C" 
+	platform    = "iOS"
+	description = "An animating image slide show for iOS." 
+%}
+
+{% include projects/component.html 
 	url         = "https://github.com/aderussell/ARRatingView"
 	name        = "ARRatingView"
 	language    = "Objective-C" 
 	platform    = "iOS"
 	description = "A customisable control for iOS that allows a rating to be displayed and selected." 
 %}
-  
   
 {% include projects/component.html 
 	url="https://github.com/aderussell/ARCameraView"
