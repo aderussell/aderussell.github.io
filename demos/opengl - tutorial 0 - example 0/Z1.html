@@ -69,7 +69,7 @@
  	redrawMesh();
  	
  	
- 	setInterval(updateTumble, 0.033);
+ 	window.requestAnimationFrame(draw);
  	
  	
  	c.addEventListener('mousedown', function(event) {
@@ -89,7 +89,7 @@
 			modelMatrix.multiply(rotation);
  			
  			
- 			draw();
+ 			//draw();
  			
  			//let v = mapToTrackball(event.clientX, event.clientY, c.clientWidth, c.clientHeight);
  			//console.log(v);
@@ -137,30 +137,21 @@ function mapToTrackball(pointX, pointY, windowX, windowY) {
 
 function redrawMesh() {
 	updateMesh();
-	draw();
-}
-	
-
-
-function updateTumble() {
-	
-	if (isMousePressed) {
-		return;
-	}
-	
-	var arrayLength = animators.length;
-	for (var i = 0; i < arrayLength; i++) {
-		let animator = animators[i];
-		animator.animate(0.033);
-	}
-	
-	
-	draw();
+	//draw();
 }
 
 
 
-function draw() {
+function draw(timestamp) {
+	
+	// update the animators if the mouse isn't being pressed/dragged
+	if (!isMousePressed) {
+		var arrayLength = animators.length;
+		for (var i = 0; i < arrayLength; i++) {
+			let animator = animators[i];
+			animator.animate(timestamp);
+		}
+	}
 	
 
 	var cameraPosition = new Vector3(0.0, 0.0, 5.0);
@@ -209,6 +200,8 @@ function draw() {
 	
 	
 	renderingContext.outputToDisplay();
+	
+	window.requestAnimationFrame(draw);
 }
 
 
