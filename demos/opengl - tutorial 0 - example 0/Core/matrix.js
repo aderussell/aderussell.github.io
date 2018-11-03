@@ -7,6 +7,20 @@ class Matrix44 {
 	constructor(a) {
 		this.a = a ? a : Array.apply(null, new Array(16)).map(Number.prototype.valueOf,0);
 	}
+	
+	multiply(other) {
+		let newValues = matrixMultiply(this, other);
+		for (var i = 0; i < 16; i++) {
+			this.a[i] = newValues.a[i];
+    	}
+	}
+	
+	makeIdentity() {
+		let identity = matrixIdentity();
+		for (var i = 0; i < 16; i++) {
+			this.a[i] = identity.a[i];
+    	}
+	}
 }
 
 

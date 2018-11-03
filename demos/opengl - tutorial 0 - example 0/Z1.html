@@ -29,6 +29,7 @@
 	<script type='text/javascript' src='Core/shader.js'></script>
 	<script type='text/javascript' src='Core/renderer.js'></script>
 	<script type='text/javascript' src='Core/texture.js'></script>
+	<script type='text/javascript' src='Core/animator.js'></script>
 	<!-- meshes -->
 	<script type='text/javascript' src='teapot.js'></script>
 	<!-- shaders -->
@@ -45,24 +46,70 @@
 
 	var c = document.getElementById("myCanvas");
     var ctx = c.getContext("2d");
+    
+    var isMousePressed = false
+    var lastX = 0;
+    var lastY = 0;
+    
+    var modelMatrix = matrixIdentity();
+    var rotation = matrixRotRollPitchYaw(0.0, 0.0, 0.0);
+    modelMatrix = matrixMultiply(modelMatrix, rotation);
+    
+    
+    animators = [];
+    rotateAnimator = new ModelRotateAnimator(modelMatrix);
+    animators.push(rotateAnimator);
+    
 
 	// create the rendering context.
 	// this is what will actually draw to the canvas.
 	renderingContext = new RenderingContext(c, ctx);
  	
- 	
- 	xRot = -0.5;
-	yRot = 0.00;
-	zRot = 0.00;
-	
-	
- 	
+
  	redrawMesh();
  	
  	
  	setInterval(updateTumble, 0.033);
+ 	
+ 	
+ 	c.addEventListener('mousedown', function(event) {
+ 		// DRAG DID START
+ 		isMousePressed = true;
+ 	})
+ 	
+ 	c.addEventListener('mousemove', function(event) {
+ 		// DRAG DID MOVE
+ 		if (isMousePressed) {
+ 			let offsetX = event.clientX - lastX;
+ 			let offsetY = event.clientY - lastY;
+ 			let xRot = (offsetY * -0.02)
+ 			let yRot = (offsetX * 0.02)
+ 			
+ 			var rotation = matrixRotRollPitchYaw(xRot, yRot, 0.0);
+			modelMatrix.multiply(rotation);
+ 			
+ 			
+ 			draw();
+ 			
+ 			//let v = mapToTrackball(event.clientX, event.clientY, c.clientWidth, c.clientHeight);
+ 			//console.log(v);
+ 		}
+ 		lastX = event.clientX;
+ 		lastY = event.clientY;
+ 	})
+ 	
+ 	c.addEventListener('mouseup', function(event) {
+ 		// DRAG DID END
+ 		isMousePressed = false;
+ 	})
+ 	
+ 	
 
 function updateMesh() {
+	
+	// reset the model matrix to an identity matrix
+	modelMatrix.makeIdentity();
+	
 
 	var mesh = document.getElementById("mesh").value
 	
@@ -72,6 +119,18 @@ function updateMesh() {
 	shader = output.shader;
 }
 
+
+function mapToTrackball(pointX, pointY, windowX, windowY) {
+	var vx = ((2.0 * pointX) - windowX) / windowX;
+	var vy = ((2.0 * pointY) - windowY) / windowY;
+	var vz = 0.0;
+	var v = new Vector3(vx, vy, vz);
+	var d = vectorMagnitude(v);
+	d = (d < 1.0) ? d : 1.0;
+	v.z = Math.sqrt(1.001 - (d*d));
+	v = vector3Normalise(v);
+	return v;
+}
 
 
 
@@ -85,9 +144,15 @@ function redrawMesh() {
 
 function updateTumble() {
 	
-	//xRot += 0.02;
-	yRot += 0.02;
-	//zRot += 0.02;
+	if (isMousePressed) {
+		return;
+	}
+	
+	var arrayLength = animators.length;
+	for (var i = 0; i < arrayLength; i++) {
+		let animator = animators[i];
+		animator.animate(0.033);
+	}
 	
 	
 	draw();
@@ -96,12 +161,6 @@ function updateTumble() {
 
 
 function draw() {
-
-	var scale = matrixScale(1.0, 1.0, 1.0);
-	
-	var rotation = matrixRotRollPitchYaw(xRot, yRot, zRot);
-	
-	var translation = matrixTranslation(0.0, 0.0, 0.0);
 	
 
 	var cameraPosition = new Vector3(0.0, 0.0, 5.0);
@@ -117,8 +176,7 @@ function draw() {
 	
 	// create the final matrix by multiplying the other matrices togethor in order...
 	// scale * rotation * translation * projection
-	var matrix = matrixMultiply(scale, rotation);
-	matrix = matrixMultiply(matrix, translation);
+	var matrix = modelMatrix;
 	matrix = matrixMultiply(matrix, cameraMatrix);
 	matrix = matrixMultiply(matrix, projection);
 	
@@ -131,7 +189,6 @@ function draw() {
 	
 	// clear the depth buffer to remove depth information from the previous frame that was rendered
 	renderingContext.clearDepthBuffer(Number.MAX_VALUE);
-	
 	
 	
 	// set shader
