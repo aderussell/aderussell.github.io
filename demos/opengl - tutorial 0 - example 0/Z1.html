@@ -87,12 +87,6 @@
  			
  			var rotation = matrixRotRollPitchYaw(xRot, yRot, 0.0);
 			modelMatrix.multiply(rotation);
- 			
- 			
- 			//draw();
- 			
- 			//let v = mapToTrackball(event.clientX, event.clientY, c.clientWidth, c.clientHeight);
- 			//console.log(v);
  		}
  		lastX = event.clientX;
  		lastY = event.clientY;
@@ -115,9 +109,16 @@ function updateMesh() {
 	
 	var output = demoForIndex(mesh);
 	
-	originialIco = output.mesh;
+	var originialIco = output.mesh;
 	shader = output.shader;
 	
+	// set vertex buffer
+	renderingContext.vertexBuffer = originialIco.vertexBuffer;
+	
+	// set index buffer
+	renderingContext.indexBuffer = originialIco.indexBuffer;
+	
+	// set cull mode
 	renderingContext.setCullMode(output.culling);
 }
 
@@ -188,11 +189,7 @@ function draw(timestamp) {
 	shader.matrix = matrix;
 	renderingContext.shader = shader;
 	
-	// set vertex buffer
-	renderingContext.vertexBuffer = originialIco.vertexBuffer;
 	
-	// set index buffer
-	renderingContext.indexBuffer = originialIco.indexBuffer;
 	
 	
 	// render the current buffer

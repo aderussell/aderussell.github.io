@@ -7,7 +7,7 @@ class TextureWithNormalMapShader extends Shader
 	}
 	
 
-	pixelInputInterpolate(i1, i2, i3, bar) {
+	interpolate(i1, i2, i3, bar) {
 		
 		var position = vector3BarycentricInterpolate(i1.position, i2.position, i3.position, bar);
 		var normal   = vector3BarycentricInterpolate(i1.normal,   i2.normal,   i3.normal,   bar);

@@ -24,8 +24,7 @@ function vector4BarycentricInterpolate(v1, v2, v3, bar) {
 
 
 class Shader {
-	pixelInputInterpolate(i1, i2, i3, bar) { }	// DEPRECATED!!!
-	interpolate(i1, i2, i3, bar) { return this.pixelInputInterpolate(i1, i2, i3, bar); }
+	interpolate(i1, i2, i3, bar) { }
 	vertex(input) { }
 	pixel(input) { }
 }
