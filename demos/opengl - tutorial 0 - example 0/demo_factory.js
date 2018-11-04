@@ -76,14 +76,14 @@ function makeTeapotDemo() {
 	var lightDirection = new Vector3(1.0, 1.0, 1.0);
 	var color = new Color(1, 0, 0);
 	var shader = new ToonShader(lightDirection, color);
-	return { mesh: mesh, shader: shader };
+	return { mesh: mesh, shader: shader, culling: CULL_MODE_BACK };
 }
 
 function makeHeadDemo() {
 	var mesh   = headerLoader.finalMesh();
 	var texture = new Texture(headTexImage);
 	var shader = new TextureShader(texture);
-	return { mesh: mesh, shader: shader };
+	return { mesh: mesh, shader: shader, culling: CULL_MODE_NONE };
 }
 
 function makeEarthDemo() {
@@ -91,13 +91,13 @@ function makeEarthDemo() {
 	var texture = new Texture(moonTextureImage);
 	var bumpMapTex = new Texture(moonBumpmapTextureImage);
 	var shader = new TextureWithNormalMapShader(texture, bumpMapTex);
-	return { mesh: mesh, shader: shader };
+	return { mesh: mesh, shader: shader, culling: CULL_MODE_BACK };
 }
 
 function makeLegomanDemo() {
 	var mesh   = manLoader.finalMesh();
 	var lightDirection = new Vector3(1.0, 1.0, 1.0);
-	var color = new Color(1, 1, 0);
+	var color = new Color(1, 0.89, 0.188);
 	var shader = new GouraudShader(lightDirection, color);
-	return { mesh: mesh, shader: shader };
+	return { mesh: mesh, shader: shader, culling: CULL_MODE_BACK };
 }

@@ -117,6 +117,8 @@ function updateMesh() {
 	
 	originialIco = output.mesh;
 	shader = output.shader;
+	
+	renderingContext.setCullMode(output.culling);
 }
 
 
@@ -192,7 +194,6 @@ function draw(timestamp) {
 	// set index buffer
 	renderingContext.indexBuffer = originialIco.indexBuffer;
 	
-	renderingContext.setCullMode(CULL_MODE_BACK);
 	
 	// render the current buffer
 	renderingContext.draw();

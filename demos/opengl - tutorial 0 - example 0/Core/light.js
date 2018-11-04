@@ -8,10 +8,15 @@ class Color {
 		this.r = r ? r : 0.0;
 		this.g = g ? g : 0.0;
 		this.b = b ? b : 0.0;
+		this._cssColor = null;
+		this._colorArray = null;
 	}
 	
 	cssColorRGB() {
- 		return "rgb(" + parseInt(this.r*255) + ", " + parseInt(this.g*255) + ", " + parseInt(this.b*255) + ")";
+		if (this._cssColor == null) {
+ 			this._cssColor = "rgb(" + parseInt(this.r*255) + ", " + parseInt(this.g*255) + ", " + parseInt(this.b*255) + ")";
+ 		}
+ 		return this._cssColor;
 	}
 	
 	cssColorHex() {
@@ -19,7 +24,10 @@ class Color {
 	}
 	
 	colorArray() {
-		return [ parseInt(this.r*255), parseInt(this.g*255), parseInt(this.b*255), 255 ];
+	if (this._colorArray == null) {
+		this._colorArray = [ parseInt(this.r*255), parseInt(this.g*255), parseInt(this.b*255), 255 ];
+		}
+		return this._colorArray;
 	}
 }
 

@@ -103,6 +103,10 @@ class RenderingContext {
 				continue;
 			}
 			
+			if (faceNormal.z == 0) {
+				continue;
+			}
+			
 		
 			this._renderFace(input);
 		}
@@ -164,8 +168,10 @@ class RenderingContext {
 		var P = new Vector3();
 		var xLength = Math.ceil(bboxmax.x);
 		var yLength = Math.ceil(bboxmax.y);
-		for (P.x = Math.floor(bboxmin.x); P.x <= xLength; P.x++) {
-			for (P.y = Math.floor(bboxmin.y); P.y <= yLength; P.y++) {
+		var xFloor = Math.floor(bboxmin.x);
+		var yFloor = Math.floor(bboxmin.y);
+		for (P.x = xFloor; P.x <= xLength; P.x++) {
+			for (P.y = yFloor; P.y <= yLength; P.y++) {
 			
 				var bc_screen  = barycentric(pts[0], pts[1], pts[2], P);
 				
@@ -176,9 +182,9 @@ class RenderingContext {
 				P.z += pts[1].z * bc_screen.y;
 				P.z += pts[2].z * bc_screen.z;
 			
-
-				if (this.depthBuffer[Math.floor(P.x+P.y*this.width)] > P.z) {
-					this.depthBuffer[Math.floor(P.x+P.y*this.width)] = P.z;
+				let depthBufferIndex = Math.floor(P.x+P.y*this.width);
+				if (this.depthBuffer[depthBufferIndex] > P.z) {
+					this.depthBuffer[depthBufferIndex] = P.z;
 				
 					var interpolatedPixelShaderInput = this.shader.interpolate(pixelInputs[0], pixelInputs[1], pixelInputs[2], bc_screen);
 				
