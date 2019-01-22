@@ -140,8 +140,8 @@ class RenderingContext {
 	_renderFace(pixelInputs) {
 	
 		
-		var hw = this.width  / 2.0;
-		var hh = this.height / 2.0;
+		var hw = this.width  * 0.5;
+		var hh = this.height * 0.5;
 	
 	
 		var pts = [];
@@ -183,12 +183,19 @@ class RenderingContext {
 				P.z += pts[2].z * bc_screen.z;
 			
 				let depthBufferIndex = Math.floor(P.x+P.y*this.width);
+				
+				// check if the depth of the pixel about to be drawn is nearer than the 
+				// depth of all pixels drawn before at that point, and only draw if it is
 				if (this.depthBuffer[depthBufferIndex] > P.z) {
 					this.depthBuffer[depthBufferIndex] = P.z;
 				
-					var interpolatedPixelShaderInput = this.shader.interpolate(pixelInputs[0], pixelInputs[1], pixelInputs[2], bc_screen);
+					// run the interpolation stage for the vertex shader method output
+					// to get the values to be input to the pixel shader
+					let interpolatedPixelShaderInput = this.shader.interpolate(pixelInputs[0], pixelInputs[1], pixelInputs[2], bc_screen);
 				
-					var color = this.shader.pixel(interpolatedPixelShaderInput);
+					// get the color output from the pixel shader method and set it on the 
+					// image buffer
+					let color = this.shader.pixel(interpolatedPixelShaderInput);
 					this._setPixel(P.x,this.height-P.y, color);
 				}
 			}
@@ -211,14 +218,7 @@ function barycentric(A, B, C, P) {
 	s0.y = B.x-A.x;
 	s0.z = A.x-P.x;
 
-
 	var u = vector3CrossProduct(s0, s1);
-		
-	return new Vector3(1.0-(u.x+u.y)/u.z, u.y/u.z, u.x/u.z);
+	let invZ = 1.0 / u.z;
+	return new Vector3(1.0-(u.x+u.y)*invZ, u.y*invZ, u.x*invZ);
 }
-
-
-
-
-
-

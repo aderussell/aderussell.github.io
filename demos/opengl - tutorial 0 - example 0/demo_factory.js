@@ -46,16 +46,20 @@ xhr3.send(null);
 
 
 
-const TEAPOT    = 'teapot';
-const HEAD      = 'head';
-const EARTH     = 'earth';
-const LEGOMAN   = 'legoman';
+const TEAPOT       = 'teapot';
+const TEAPOT_PHONG = 'teapot_phong';
+const HEAD         = 'head';
+const EARTH        = 'earth';
+const LEGOMAN      = 'legoman';
 
 function demoForIndex(option, renderingContext) {
 
 	switch (option) {
 		case TEAPOT:
 			return makeTeapotDemo();
+			break;
+		case TEAPOT_PHONG:
+			return makeTeapotPhongDemo();
 			break;
 		case HEAD:
 			return makeHeadDemo();
@@ -78,6 +82,15 @@ function makeTeapotDemo() {
 	var shader = new ToonShader(lightDirection, color);
 	return { mesh: mesh, shader: shader, culling: CULL_MODE_BACK };
 }
+
+function makeTeapotPhongDemo() {
+	let mesh   = makeTeapot();
+	let light = new Light(new Color(1, 1, 1), new Vector3(-1.0, -2.0, 2.0));
+	let shader = new PhongShader(light);
+	return { mesh: mesh, shader: shader, culling: CULL_MODE_BACK };
+}
+
+
 
 function makeHeadDemo() {
 	var mesh   = headerLoader.finalMesh();

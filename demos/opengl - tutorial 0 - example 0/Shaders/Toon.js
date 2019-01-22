@@ -1,25 +1,14 @@
 /***  Toon Shader  ***/
 
-// function ToonShader(matrix, lightDirection) {
-// 	this.init(matrix, lightDirection);
-// }
 class ToonShader extends Shader 
 {
 	constructor(lightDirection, color) {
 		super();
-		//this.matrix = matrix;
 		this.lightDirection = lightDirection;
 		this.color = color;
 	}
 	
-// 	vertexInput: {
-// 		position: 'position',
-// 		normal:   'normal'
-// 	},
-// 	pixelInput: {
-// 		position: 'position',
-// 		normal:   'normal'
-// 	},
+
 	interpolate(i1, i2, i3, bar) {
 		
 		var position = vector3BarycentricInterpolate(i1.position, i2.position, i3.position, bar);

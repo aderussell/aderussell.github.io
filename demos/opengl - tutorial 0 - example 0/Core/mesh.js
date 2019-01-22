@@ -1,10 +1,6 @@
 
 
 
-// function Mesh(vertices, indices, calcNormals) {
-// 	this.init(vertices, indices, calcNormals);
-// }
-
 class Mesh {
 
 	constructor(vertexBuffer, indexBuffer) {
@@ -18,59 +14,6 @@ class Mesh {
 }
 
 
-
-
-
-// function getMidpointIndex(vertices, i0, i1)
-// {
-// 	var v0 = vertices[i0];
-// 	var v1 = vertices[i1];
-// 	var midpoint =  vectorDivide( vectorAdd(v0, v1), 2.0 );
-// 
-// 
-// 	var index = vertices.indexOf(midpoint);
-// 	if (index >= 0) {
-// 		return index;
-// 	} else {
-// 		var newIndex = vertices.length;
-// 		vertices.push(midpoint);
-// 		return newIndex;
-// 	}
-// }
-// 
-// 
-// 
-// function subdivideExt(vertices, indices) {
-// 
-// 	var newIndices = [];
-// 	
-// 	// copy the vertices array
-// 	var newVertices = vertices.slice(0);
-// 	
-// 	for (var i = 0; i < indices.length - 2; i += 3)
-// 	{
-// 		var i0 = indices[i];
-// 		var i1 = indices[i + 1];
-// 		var i2 = indices[i + 2];
-// 
-// 		var m01 = getMidpointIndex(newVertices, i0, i1);
-// 		var m12 = getMidpointIndex(newVertices, i1, i2);
-// 		var m02 = getMidpointIndex(newVertices, i2, i0);
-// 
-// 		var newStuff = [
-// 				i0,  m01, m02,
-// 				i1,  m12, m01,
-// 				i2,  m02, m12,
-// 				m02, m01, m12
-// 			];
-// 
-// 		newIndices = newIndices.concat(newStuff);
-// 
-// 	}
-// 	
-// 	
-// 	return { vertices: newVertices, indices: newIndices };
-// }
 
 
 

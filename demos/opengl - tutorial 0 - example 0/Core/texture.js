@@ -23,11 +23,12 @@ class Texture {
     	
     	this.imageData = [];
     	
+    	let invC = 1.0 / 255.0;
     	for (var i = 0, len = colorBuffer.length; i < len; i+=4) {
 			var pixelDataR = colorBuffer[i + 0];
 			var pixelDataG = colorBuffer[i + 1];
 			var pixelDataB = colorBuffer[i + 2];
-			var color = new Color(pixelDataR/255.0, pixelDataG/255.0, pixelDataB/255.0);
+			var color = new Color(pixelDataR*invC, pixelDataG*invC, pixelDataB*invC);
 			this.imageData.push(color);
 		}
     	
@@ -36,20 +37,16 @@ class Texture {
 	
 	getColor(x, y) {
 	
+		//return this.bilinear(x,y);
+	
 		var x = x * this.width;
 		var y = (1.0-y) * this.height;
 	
 		x = Math.floor(x);
 		y = Math.floor(y);
-		//x1 = x+1;
-		//y1 = y+1;
 		
 		return this.imageData[x + (y*this.width)];
 	}
-	
-// 	getColor(x, y) {		
-// 		return this.bilinear(x, y);
-// 	}
 	
 	bilinear(x, y) {
 	

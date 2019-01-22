@@ -9,3 +9,73 @@ imagepath: "/images/blog/using-arcameraview/"
 
 
 <iframe src="/demos/opengl - tutorial 0 - example 0/Z1.html" frameborder="0" seamless="seamless" scrolling="no"></iframe>
+
+Above is a small, toy 3D renderer I have created which can read a mesh from an obj file, 
+produce an image containing a 3D render of that mesh and display within a canvas.
+
+I should make it clear that this was made purely for my own amusement.
+It does not use WebGL or other accelerated graphics in any way and is slow and should not 
+be used for anything other than your own amusement.
+
+
+
+# The Basic Objects
+
+## Mesh
+A mesh contains an index buffer and a vertex buffer for the object to be rendered. 
+Each vertex in the vertex buffer has a position, a normal, and a texture uv coordinate.
+
+## Color Buffer
+The color buffer is equivalent to the back buffer in openGL or Direct3D; it is where the 
+content to be displayed is drawn. It is an array sized to the pixel count for the canvas 
+which can be passed to the canvas for display. The renderer will write the output of the 
+pixel shader to this buffer which will then be passed to the canvas.
+
+
+## Depth Buffer
+The depth buffer functions in a similar manner to openGL or Direct3D. it is used to track 
+the depth of a point in a mesh face that has previously been drawn to a pixel in the color
+buffer. If the renderer finds a face which is to be drawn to a pixel that has previously
+been set it will check the depth buffer to see if the new pixel should be drawn infront or 
+behind. If it would be behind it will be ignored.
+
+
+## Shader
+
+A shader class covers an approximation of the functionality of vertex and pixel shader functions.
+It also includes an interpolation method which will perform the barycentic interpolation of the 
+vertex shader output which would be done intrinsically by the rasterisation stage in Direct3D or openGL.
+
+```
+class Shader {
+	interpolate(i1, i2, i3, bar) { }
+	vertex(input) { }
+	pixel(input) { }
+}
+```
+
+
+# Performing the Rasterisation
+The rasteriser will be given the mesh it is to render and the shader it is to use.
+
+At the start of rendering each frame the color and depth buffers are cleared and a 
+view-model-projection matrix is created and passed to the shader.
+The vertex shader function is run on all of the vertices in the mesh.
+
+The render iterates through the index buffer taking three indicies at a time and getting 
+the three vertices at those indices from the vertex buffer to form a face in the mesh.
+
+The winding order of the face is checked to see if, depending on the set cull mode, if it
+can be culled and save the time attempting to draw it.
+
+If the face is to be drawn the bounding box for the position on the face in screen space 
+is calculated. All of the pixels in that box are then iterated through. If that pixel 
+contains part of the face then the depth of that point is compared to the depth buffer to 
+make sure that no pixel to appear infront has already been drawn. The vertex shader output 
+for the face vertices are passed to the interpolation method of the shader and interpolated
+for the pixel being drawn. The interpolated values are then passed to the pixel shader 
+function and the output color is set on the color buffer.
+
+When all of the pixels for all of the faces have been drawn to the color buffer,
+the buffer is drawn to the canvas and displayed.
+

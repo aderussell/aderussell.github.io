@@ -31,7 +31,8 @@ function vector3Multiply(v1, s) {
 }
 
 function vector3Divide(v1, s) {
-	return new Vector3(v1.x / s, v1.y / s, v1.z / s);
+	let invS = 1.0 / s;
+	return new Vector3(v1.x * invS, v1.y * invS, v1.z * invS);
 }
 
 function vector3Distance(v1, v2) {
@@ -81,5 +82,6 @@ function vectorAdd(v1, v2) {
 }
 
 function vectorDivide(v1, s) {
-	return new Vector3(v1.x / s, v1.y / s, v1.z / s);
+	let invS = 1.0 / s;
+	return new Vector3(v1.x * invS, v1.y * invS, v1.z * invS);
 }

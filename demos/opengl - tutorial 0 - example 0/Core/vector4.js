@@ -30,7 +30,8 @@ function vector4Transform(v, m) {
 
 function vector4NormaliseScale(v) {
 	if (v.w == 0.0) return new Vector4(0,0,0,0);
-	return new Vector4(v.x/v.w, v.y/v.w, v.z/v.w, 1.0);
+	let invW = 1.0 / v.w;
+	return new Vector4(v.x*invW, v.y*invW, v.z*invW, 1.0);
 }
 
 

@@ -1,13 +1,9 @@
 /***  Gouraud Shader  ***/
 
-// function GouraudShader(matrix, lightDirection) {
-// 	this.init(matrix, lightDirection);
-// }
 class GouraudShader extends Shader 
 {
 	constructor(lightDirection, color) {
 		super();
-		//this.matrix = matrix;
 		this.lightDirection = lightDirection;
 		this.color = color ? color : new Color(1, 1, 1);
 	}

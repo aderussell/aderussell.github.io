@@ -2,7 +2,6 @@ class TextureShader extends Shader
 {
 	constructor(texture) {
 		super();
-		//this.matrix = matrix;
 		this.texture = texture;
 	}
 	
