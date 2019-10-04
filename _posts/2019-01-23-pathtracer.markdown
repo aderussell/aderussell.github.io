@@ -26,7 +26,7 @@ It is available to download on [github][github-project].
 ![A Cornell Box with a mirrored block and three glass spheres](/images/blog/raytracer-1/spheres-with-caustics.png)
 
 
-![Suzanne the Blender monkey in blue glass within a Cornell Box](/images/blog/raytracer-1/suz11.png)
+![Suzanne the Blender monkey in blue glass within a Cornell Box](/images/blog/raytracer-1/suzanne.png)
 
 
 

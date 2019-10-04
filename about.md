@@ -26,7 +26,11 @@ I'm a software engineer, based in the South-West of England, specialising in pro
 
 ## Experience
 <section class="experience" markdown="block">
-### Software Developer - Createanet (2016 - Present)
+### Software Engineer - JustEat (2019 - Present)
+</section>
+
+<section class="experience" markdown="block">
+### Software Developer - Createanet (2016 - 2019)
 
 * Responsible for the implementation and maintenance of numerous iOS & Android applications for clients. 
 	This involves taking an interactive prototype and list of requirements and implementing all user interfaces and functionality then testing and documenting the resultant code base.
