@@ -49,6 +49,8 @@ class ToonShader extends Shader
 		var normal = input.normal;
 		var color  = this.color;
 		
+		var light = clamp(vector3DotProduct(this.lightDirection, normal), 0.0, 1.0);
+		
 		if (light>0.85) light = 1;
 		else if (light>0.60) light = 0.80;
 		else if (light>0.45) light = 0.60;
