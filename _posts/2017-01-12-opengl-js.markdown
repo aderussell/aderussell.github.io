@@ -7,8 +7,9 @@ description: "A high-level approximation to a 3D graphics library written in jav
 imagepath: "/images/blog/using-arcameraview/"
 ---
 
-
+<div class="iframe-container">
 <iframe src="/demos/opengl - tutorial 0 - example 0/Z1.html" frameborder="0" seamless="seamless" scrolling="no"></iframe>
+</div>
 
 Above is a small, toy 3D renderer I have created which can read a mesh from an obj file, 
 produce an image containing a 3D render of that mesh and display within a canvas.

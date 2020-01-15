@@ -24,6 +24,10 @@ body {
   font-weight: 300;
 }
 
+img {
+	max-width: 100%;
+}
+
 
 h1, h2, h3, h4, h5, h6 { 
 	line-height: 1;
@@ -263,6 +267,10 @@ pre.terminal {
 pre.terminal code { background-color: #333; }
 
 figure.highlight {
+margin-block-start: 0;
+	margin-block-end: 0;
+	margin-inline-start: 0;
+	margin-inline-end: 0;
 	margin-bottom: 20px;
 }
 
