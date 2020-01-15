@@ -41,6 +41,24 @@ class RenderingContext {
 		this.indexBuffer  = [];
 		this.shader       = null;
 	}
+
+	checkDidResize() {
+		var width = this.canvas.clientWidth;
+		var height = this.canvas.clientHeight;
+		return (this.width != width || this.height != height);
+	}
+
+	didResize() {
+		var width = this.canvas.clientWidth;
+		var height = this.canvas.clientHeight;
+		this.width = width;
+		this.height = height;
+		this.canvas.width = width;
+		this.canvas.height = height;
+		var bufferSize = width * height;
+		this.depthBuffer = new Array(bufferSize);
+		this.contextData = ctx.getImageData(0, 0, width, height);
+	}
 	
 	setCullMode(cullMode) {
 		this.cullMode = cullMode;
@@ -48,10 +66,16 @@ class RenderingContext {
 	
 	
 	clearColorBuffer(clearColor) {
+		if (this.checkDidResize()) {
+			this.didResize();
+		}
+
+		var width = this.width;
+		var height = this.height;
 		// set all the color buffer to the specified color
 		this.context.fillStyle = clearColor.cssColorRGB();
-    	this.context.fillRect(0, 0, this.width, this.height);
-    	this.contextData = this.context.getImageData(0, 0, this.width, this.height);
+    	this.context.fillRect(0, 0, width, height);
+    	this.contextData = this.context.getImageData(0, 0, width, height);
     	this.colorBuffer = this.contextData.data;
 	}
 	
@@ -127,8 +151,9 @@ class RenderingContext {
 	
 	
 	_setPixel(x, y, color) {
+		var width = this.width;
 		var colorArray = color.colorArray();
-		var pixelOffset = ((y * this.width) + x) * 4;
+		var pixelOffset = ((y * width) + x) * 4;
 		this.colorBuffer[pixelOffset + 0] = colorArray[0];
 		this.colorBuffer[pixelOffset + 1] = colorArray[1];
 		this.colorBuffer[pixelOffset + 2] = colorArray[2];
@@ -139,9 +164,11 @@ class RenderingContext {
 	// @param pixelInputs - The output from each vertex of the face
 	_renderFace(pixelInputs) {
 	
+		var width = this.width;
+		var height = this.height;
 		
-		var hw = this.width  * 0.5;
-		var hh = this.height * 0.5;
+		var hw = width  * 0.5;
+		var hh = height * 0.5;
 	
 	
 		var pts = [];
@@ -154,7 +181,7 @@ class RenderingContext {
 	
 		var bboxmin = new Vector2(Number.MAX_VALUE, Number.MAX_VALUE);
 		var bboxmax = new Vector2(-Number.MAX_VALUE, -Number.MAX_VALUE);
-		var clamp   = new Vector2(this.width-1, this.height-1);
+		var clamp   = new Vector2(width-1, height-1);
 	
 		for (var i=0; i<3; i++) {
 	
@@ -182,7 +209,7 @@ class RenderingContext {
 				P.z += pts[1].z * bc_screen.y;
 				P.z += pts[2].z * bc_screen.z;
 			
-				let depthBufferIndex = Math.floor(P.x+P.y*this.width);
+				let depthBufferIndex = Math.floor(P.x+P.y*width);
 				
 				// check if the depth of the pixel about to be drawn is nearer than the 
 				// depth of all pixels drawn before at that point, and only draw if it is

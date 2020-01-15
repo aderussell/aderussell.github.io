@@ -167,7 +167,8 @@ function draw(timestamp) {
 	
 	// create the projection matrix; this will alter a 3D vector so it's z value is normalised
 	// into the x and y values so it can be displayed on a 2D canvas (a computer screen).
-	var projection = matrixPerspective(Math.PI / 4, 1.0, 0.01, 100.0);
+	var aspect = renderingContext.width / renderingContext.height; 
+	var projection = matrixPerspective(Math.PI / 4, aspect, 0.01, 100.0);
 	
 	// create the final matrix by multiplying the other matrices togethor in order...
 	// scale * rotation * translation * projection
