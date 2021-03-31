@@ -15,7 +15,7 @@ It is available to download on [github][github-project].
 
 # Features
 * Load obj meshes
-* Lambertian, phong, glass, & mirror materials
+* Lambertian, phong, glass, mirror, & PBR materials
 
 
 # Example Scenes
@@ -28,7 +28,7 @@ It is available to download on [github][github-project].
 
 ![Suzanne the Blender monkey in blue glass within a Cornell Box](/images/blog/raytracer-1/suzanne.png)
 
-
+![PBR material spheres within a Cornell Box](/images/blog/raytracer-1/balls-pbr1.png)
 
 
 # Next Steps
