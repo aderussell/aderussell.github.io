@@ -1,0 +1,403 @@
+{
+    "parks": [
+        {
+            "tag": "mk-wdw",
+            "name": "Magic Kindgom Park",
+            "rides": [
+                {
+                    "name": "Astro Orbiter",
+                    "min-height": null,
+                    "max-height": null
+                },
+                {
+                    "name": "Barnstormer",
+                    "min-height": 35,
+                    "max-height": null
+                },
+                {
+                    "name": "Big Thunder Mountain Railroad",
+                    "min-height": 40,
+                    "max-height": null
+                },
+                {
+                    "name": "Buzz Lightyear’s Space Ranger Spin",
+                    "min-height": null,
+                    "max-height": null
+                },
+                {
+                    "name": "Casey Jr. Splash ‘N’ Soak Station",
+                    "min-height": null,
+                    "max-height": null
+                },
+                {
+                    "name": "Country Bear Jamboree",
+                    "min-height": null,
+                    "max-height": null
+                },
+                {
+                    "name": "Dumbo the Flying Elephant",
+                    "min-height": null,
+                    "max-height": null
+                },
+                {
+                    "name": "Enchanted Tales with Belle",
+                    "min-height": null,
+                    "max-height": null
+                },
+                {
+                    "name": "Frontierland Shootin’ Arcade",
+                    "min-height": null,
+                    "max-height": null
+                },
+                {
+                    "name": "The Hall of Presidents",
+                    "min-height": null,
+                    "max-height": null
+                },
+                {
+                    "name": "Haunted Mansion",
+                    "min-height": null,
+                    "max-height": null
+                },
+                {
+                    "name": "It’s a small world",
+                    "min-height": null,
+                    "max-height": null
+                },
+                {
+                    "name": "Jungle Cruise",
+                    "min-height": null,
+                    "max-height": null
+                },
+                {
+                    "name": "Liberty Square Riverboat",
+                    "min-height": null,
+                    "max-height": null
+                },
+                {
+                    "name": "Mad Tea Party",
+                    "min-height": null,
+                    "max-height": null
+                },
+                {
+                    "name": "The Magic Carpets of Aladdin",
+                    "min-height": null,
+                    "max-height": null
+                },
+                {
+                    "name": "The Many Adventures of Winnie the Pooh",
+                    "min-height": null,
+                    "max-height": null
+                },
+                {
+                    "name": "Mickey’s PhilharMagic",
+                    "min-height": null,
+                    "max-height": null
+                },
+                {
+                    "name": "Monsters, Inc. Laugh Floor",
+                    "min-height": null,
+                    "max-height": null
+                },
+                {
+                    "name": "Peter Pan’s Flight",
+                    "min-height": null,
+                    "max-height": null
+                },
+                {
+                    "name": "A Pirate’s Adventure ~ Treasures of the Seven Seas",
+                    "min-height": null,
+                    "max-height": null
+                },
+                {
+                    "name": "Pirates of the Caribbean",
+                    "min-height": null,
+                    "max-height": null
+                },
+                {
+                    "name": "Prince Charming Regal Carrousel",
+                    "min-height": null,
+                    "max-height": null
+                },
+                {
+                    "name": "Seven Dwarfs Mine Train",
+                    "min-height": 38,
+                    "max-height": null
+                },
+                {
+                    "name": "Space Mountain",
+                    "min-height": 44,
+                    "max-height": null
+                },
+                {
+                    "name": "Splash Mountain",
+                    "min-height": 40,
+                    "max-height": null
+                },
+                {
+                    "name": "Swiss Family Treehouse",
+                    "min-height": null,
+                    "max-height": null
+                },
+                {
+                    "name": "Tomorrowland Speedway",
+                    "min-height": 32,
+                    "max-height": null
+                },
+                {
+                    "name": "Tomorrowland Transit Authority PeopleMover",
+                    "min-height": null,
+                    "max-height": null
+                },
+                {
+                    "name": "Tom Sawyer Island",
+                    "min-height": null,
+                    "max-height": null
+                },
+                {
+                    "name": "Under the Sea ~ Journey of the Little Mermaid",
+                    "min-height": null,
+                    "max-height": null
+                },
+                {
+                    "name": "Walt Disney’s Carousel of Progress",
+                    "min-height": null,
+                    "max-height": null
+                },
+                {
+                    "name": "Walt Disney’s Enchanted Tiki Room",
+                    "min-height": null,
+                    "max-height": null
+                },
+                {
+                    "name": "Walt Disney World Railroad",
+                    "min-height": null,
+                    "max-height": null
+                }
+            ]
+        },
+        {
+            "tag": "epcot",
+            "name": "Epcot",
+            "rides": [
+                {
+                    "name": "Advanced Training Lab",
+                    "min-height": null,
+                    "max-height": null
+                },
+                {
+                    "name": "The American Adventure",
+                    "min-height": null,
+                    "max-height": null
+                },
+                {
+                    "name": "Disney & Pixar Short Film Festival",
+                    "min-height": null,
+                    "max-height": null
+                },
+                {
+                    "name": "Frozen Ever After",
+                    "min-height": null,
+                    "max-height": null
+                },
+                {
+                    "name": "Gran Fiesta Tour Starring The Three Caballeros",
+                    "min-height": null,
+                    "max-height": null
+                },
+                {
+                    "name": "Impressions de France",
+                    "min-height": null,
+                    "max-height": null
+                },
+                {
+                    "name": "Journey Into Imagination With Figment",
+                    "min-height": null,
+                    "max-height": null
+                },
+                {
+                    "name": "Living with the Land",
+                    "min-height": null,
+                    "max-height": null
+                },
+                {
+                    "name": "Mission: SPACE",
+                    "min-height": 40,
+                    "max-height": null
+                },
+                {
+                    "name": "O Canada!",
+                    "min-height": null,
+                    "max-height": null
+                },
+                {
+                    "name": "Reflections of China",
+                    "min-height": null,
+                    "max-height": null
+                },
+                {
+                    "name": "The Seas with Nemo & Friends",
+                    "min-height": null,
+                    "max-height": null
+                },
+                {
+                    "name": "Soarin’ Around the World",
+                    "min-height": 40,
+                    "max-height": null
+                },
+                {
+                    "name": "Spaceship Earth",
+                    "min-height": null,
+                    "max-height": null
+                },
+                {
+                    "name": "Test Track",
+                    "min-height": 40,
+                    "max-height": null
+                },
+                {
+                    "name": "Turtle Talk With Crush",
+                    "min-height": null,
+                    "max-height": null
+                }
+            ]
+        },
+        {
+            "tag": "hollywood-studios",
+            "name": "Disney’s Hollywood Studios",
+            "rides": [
+                {
+                    "name": "Alien Swirling Saucers",
+                    "min-height": 32,
+                    "max-height": null
+                },
+                {
+                    "name": "Millennium Falcon: Smugglers Run",
+                    "min-height": 38,
+                    "max-height": null
+                },
+                {
+                    "name": "Muppet*Vision 3D",
+                    "min-height": null,
+                    "max-height": null
+                },
+                {
+                    "name": "Rock ‘n’ Roller Coaster Starring Aerosmith",
+                    "min-height": 48,
+                    "max-height": null
+                },
+                {
+                    "name": "Slinky Dog Dash",
+                    "min-height": 38,
+                    "max-height": null
+                },
+                {
+                    "name": "Star Tours – The Adventures Continue",
+                    "min-height": 40,
+                    "max-height": null
+                },
+                {
+                    "name": "Star Wars: Rise of the Resistance",
+                    "min-height": 40,
+                    "max-height": null
+                },
+                {
+                    "name": "Toy Story Mania!",
+                    "min-height": null,
+                    "max-height": null
+                },
+                {
+                    "name": "The Twilight Zone Tower of Terror™",
+                    "min-height": 40,
+                    "max-height": null
+                }
+            ]
+        },
+        {
+            "tag": "animal-kingdom",
+            "name": "Disney’s Animal Kingdom Park",
+            "rides": [
+                {
+                    "name": "Affection Section",
+                    "min-height": null,
+                    "max-height": null
+                },
+                {
+                    "name": "Avatar Flight of Passage",
+                    "min-height": 44,
+                    "max-height": null
+                },
+                {
+                    "name": "The Boneyard",
+                    "min-height": null,
+                    "max-height": null
+                },
+                {
+                    "name": "Conservation Station",
+                    "min-height": null,
+                    "max-height": null
+                },
+                {
+                    "name": "DINOSAUR",
+                    "min-height": 40,
+                    "max-height": null
+                },
+                {
+                    "name": "Discovery Island Trails",
+                    "min-height": null,
+                    "max-height": null
+                },
+                {
+                    "name": "Expedition Everest - Legend of the Forbidden Mountain",
+                    "min-height": 44,
+                    "max-height": null
+                },
+                {
+                    "name": "Gorilla Falls Exploration Trail",
+                    "min-height": null,
+                    "max-height": null
+                },
+                {
+                    "name": "It’s Tough to be a Bug!",
+                    "min-height": null,
+                    "max-height": null
+                },
+                {
+                    "name": "Kali River Rapids",
+                    "min-height": 38,
+                    "max-height": null
+                },
+                {
+                    "name": "Kilimanjaro Safaris",
+                    "min-height": null,
+                    "max-height": null
+                },
+                {
+                    "name": "Maharajah Jungle Trek",
+                    "min-height": null,
+                    "max-height": null
+                },
+                {
+                    "name": "Na’vi River Journey",
+                    "min-height": null,
+                    "max-height": null
+                },
+                {
+                    "name": "Tree of Life",
+                    "min-height": null,
+                    "max-height": null
+                },
+                {
+                    "name": "TriceraTop Spin",
+                    "min-height": null,
+                    "max-height": null
+                },
+                {
+                    "name": "Wildlife Express Train",
+                    "min-height": null,
+                    "max-height": null
+                }
+            ]
+        }
+    ]
+}

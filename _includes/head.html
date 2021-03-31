@@ -17,6 +17,10 @@
     <link rel="stylesheet" href="{{ "/stylesheets/main.css" | prepend: site.baseurl }}">
     <link rel="stylesheet" href="{{ "/stylesheets/highlight.css" | prepend: site.baseurl }}">
 
+    {% if page.js %}
+     <script src="{{ page.js }}"></script>
+    {% endif %}
+
 	{% if page.css %}
      <link rel="stylesheet" href="{{ page.css }}">
     {% endif %}
