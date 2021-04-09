@@ -7,15 +7,19 @@ description: "Creating a Monte-Carlo path tracer in C++"
 imagepath: "/images/blog/raytracer-1/"
 ---
 
-Recently I have been creating a path tracer.
-It is available to download on [github][github-project].
+Recently I have been creating a path tracer, available to download on [github][github-project].
 
+It initially started out by following the excellent [Ray Tracing in One Weekend](https://raytracing.github.io) series by Philip Shirley.
 
-
-
-# Features
-* Load obj meshes
-* Lambertian, phong, glass, mirror, & PBR materials
+I then extended it to support:
+* triangle primitives to allow the loading of obj meshes
+* ability to scale primitives and rotate around x-axis
+* Skyboxes
+* PBR material
+* Anisotropic Phong material
+* Beer-Lambert law support to dielectric material
+* multi-threading and SSE instructions
+* Jittering support to reduce noise.
 
 
 # Example Scenes
