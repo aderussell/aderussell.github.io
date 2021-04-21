@@ -32,30 +32,33 @@ function loadJSON(callback, enteredHeight) {
 }
 
 function createRow(table, rowData, enteredHeight) {
-	var row = table.insertRow(-1);
-	var cell1 = row.insertCell(0);
-	cell1.innerHTML = rowData.name;
-
-	var cell2 = row.insertCell(1);
-
 	var min = rowData["min-height"];
 	var max = rowData["max-height"];
+
+	var row = table.insertRow(-1);
+	var cell1 = row.insertCell(0);
+	var name = rowData.name;
+
+	var cell2 = row.insertCell(1);
+	cell2.innerHTML = "OK";
 
 	if (max != null) {
 		if (enteredHeight > max) {
 			cell2.innerHTML = "Too Tall";
-			return;
 		}
+		name += "<br />max: ";
+		name += max;
 	}
 
 	if (min != null) {
 		if (enteredHeight < min) {
 			cell2.innerHTML = "Too Short";
-			return;
 		}
+		name += "<br />min: ";
+		name += min;
 	}
-	
-	cell2.innerHTML = "OK";
+
+	cell1.innerHTML	= name;
 }
 
 function removeExistingTables() {
