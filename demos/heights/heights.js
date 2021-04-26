@@ -37,28 +37,31 @@ function createRow(table, rowData, enteredHeight) {
 
 	var row = table.insertRow(-1);
 	var cell1 = row.insertCell(0);
-	var name = rowData.name;
+	cell1.innerHTML	= rowData.name;
 
 	var cell2 = row.insertCell(1);
 	cell2.innerHTML = "OK";
+
+	var details = [];
 
 	if (max != null) {
 		if (enteredHeight > max) {
 			cell2.innerHTML = "Too Tall";
 		}
-		name += "<br />max: ";
-		name += max;
+		details.push("max: " + max);
 	}
 
 	if (min != null) {
 		if (enteredHeight < min) {
 			cell2.innerHTML = "Too Short";
+			cell2.style.backgroundColor = 'red';
 		}
-		name += "<br />min: ";
-		name += min;
+		details.push("min: " + min);
 	}
-
-	cell1.innerHTML	= name;
+	var formattedDetail = details.join(".  ");
+	if (formattedDetail) {
+		cell1.innerHTML += '<br /><small>' + formattedDetail + '</small>';
+	}
 }
 
 function removeExistingTables() {
@@ -83,6 +86,7 @@ function createTableHeader(table, park) {
 	var header = table.createTHead();
 	var row = header.insertRow(0);
 	var cell = row.insertCell(0);
+	cell.colSpan = 2;
 	cell.innerHTML = park;
 
 	var row = header.insertRow(-1);

@@ -1,9 +1,25 @@
 ---
 ---
 
+@import 'shared';
+
 table, th, td {
   border: 1px solid;
   border-collapse: collapse;
+}
+
+.height-table {
+	margin-bottom: 1.5em;
+}
+
+.height-table {
+	th, td {
+		padding: 4px 8px;
+	}
+
+	thead {
+		background-color: $primary-color;
+	}
 }
 
 html, body {

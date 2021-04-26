@@ -1,7 +1,9 @@
 ---
 ---
 
-$primary-color: #2a7ae2;
+@import 'shared';
+
+
 $menu-background: linear-gradient(180deg, #1fc8db, #2a7ae2);
 
 $metadata-color: #818181;
@@ -146,7 +148,7 @@ iframe {
 
 .site-title,
 .site-title:visited {
-	font-size: 3rem;
+	font-size: 2.8rem;
 }
 
 
