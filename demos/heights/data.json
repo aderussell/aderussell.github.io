@@ -404,85 +404,85 @@
             "name": "Universal Studios Florida",
             "rides": [
                 {
-"name": "Animal Actors on Location",
-"min-height": null,
-"max-height": null
-},
-{
-"name": "Despicable Me Minion Mayhem",
-"min-height": 40,
-"max-height": null
-},
-{
-"name": "E.T. Adventure",
-"min-height": 34,
-"max-height": null
-},
-{
-"name": "Fast & Furious - Supercharged",
-"min-height": 40,
-"max-height": null
-},
-{
-"name": "Harry Potter and the Escape from Gringotts",
-"min-height": 42,
-"max-height": null
-},
-{
-"name": "Hogwarts Express - King's Cross Station",
-"min-height": null,
-"max-height": null
-},
-{
-"name": "Hollywood Rip Ride Rockit",
-"min-height": 51,
-"max-height": null
-},
-{
-"name": "Kang & Kodos' Twirl 'n' Hurl",
-"min-height": null,
-"max-height": null
-},
-{
-"name": "MEN IN BLACK Alien Attack",
-"min-height": 42,
-"max-height": null
-},
-{
-"name": "Race Through New York Starring Jimmy Fallon",
-"min-height": 40,
-"max-height": null
-},
-{
-"name": "Revenge of the Mummy",
-"min-height": 48,
-"max-height": null
-},
-{
-"name": "Shrek 4-D",
-"min-height": null,
-"max-height": null
-},
-{
-"name": "The Simpsons Ride",
-"min-height": 40,
-"max-height": null
-},
-{
-"name": "TRANSFORMERS: The Ride-3D",
-"min-height": 40,
-"max-height": null
-},
-{
-"name": "Universal Orlando's Horror Make-Up Show",
-"min-height": null,
-"max-height": null
-},
-{
-"name": "Woody Woodpecker’s Nuthouse Coaster",
-"min-height": 36,
-"max-height": null
-}
+                    "name": "Animal Actors on Location",
+                    "min-height": null,
+                    "max-height": null
+                },
+                {
+                    "name": "Despicable Me Minion Mayhem",
+                    "min-height": 40,
+                    "max-height": null
+                },
+                {
+                    "name": "E.T. Adventure",
+                    "min-height": 34,
+                    "max-height": null
+                },
+                {
+                    "name": "Fast & Furious - Supercharged",
+                    "min-height": 40,
+                    "max-height": null
+                },
+                {
+                    "name": "Harry Potter and the Escape from Gringotts",
+                    "min-height": 42,
+                    "max-height": null
+                },
+                {
+                    "name": "Hogwarts Express - King's Cross Station",
+                    "min-height": null,
+                    "max-height": null
+                },
+                {
+                    "name": "Hollywood Rip Ride Rockit",
+                    "min-height": 51,
+                    "max-height": null
+                },
+                {
+                    "name": "Kang & Kodos' Twirl 'n' Hurl",
+                    "min-height": null,
+                    "max-height": null
+                },
+                {
+                    "name": "MEN IN BLACK Alien Attack",
+                    "min-height": 42,
+                    "max-height": null
+                },
+                {
+                    "name": "Race Through New York Starring Jimmy Fallon",
+                    "min-height": 40,
+                    "max-height": null
+                },
+                {
+                    "name": "Revenge of the Mummy",
+                    "min-height": 48,
+                    "max-height": null
+                },
+                {
+                    "name": "Shrek 4-D",
+                    "min-height": null,
+                    "max-height": null
+                },
+                {
+                    "name": "The Simpsons Ride",
+                    "min-height": 40,
+                    "max-height": null
+                },
+                {
+                    "name": "TRANSFORMERS: The Ride-3D",
+                    "min-height": 40,
+                    "max-height": null
+                },
+                {
+                    "name": "Universal Orlando's Horror Make-Up Show",
+                    "min-height": null,
+                    "max-height": null
+                },
+                {
+                    "name": "Woody Woodpecker’s Nuthouse Coaster",
+                    "min-height": 36,
+                    "max-height": null
+                }
             ]
         },
         {
@@ -491,109 +491,108 @@
             "rides": [
                 {
                     "name": "The Amazing Adventures of Spider-Man",
-"min-height": 40,
-"max-height": null
-},
-{
-"name": "Caro-Seuss-el",
-"min-height": null,
-"max-height": null
-},
-{
-"name": "Cat in the Hat",
-"min-height": 36,
-"max-height": null
-},
-{
-"name": "Doctor Doom's Fearfall",
-"min-height": 52,
-"max-height": null
-},
-{
-"name": "Dudley Do-Right's Ripsaw Falls",
-"min-height": 44,
-"max-height": null
-},
-{
-"name": "Flight of the Hippogriff",
-"min-height": 36,
-"max-height": null
-},
-{
-"name": "Hagrid's Magical Creatures Motorbike Adventure",
-"min-height": 48,
-"max-height": null
-},
-{
-"name": "Harry Potter and the Forbidden Journey",
-"min-height": 48,
-"max-height": null
-},
-{
-"name": "Hogwarts Express - Hogsmeade Station",
-"min-height": null,
-"max-height": null
-},
-{
-"name": "The High in the Sky Seuss Trolley Train Ride",
-"min-height": 36,
-"max-height": null
-},
-{
-"name": "If I Ran the Zoo",
-"min-height": null,
-"max-height": null
-},
-{
-"name": "The Incredible Hulk Coaster",
-"min-height": 54,
-"max-height": null
-},
-{
-"name": "Jurassic Park River Adventure",
-"min-height": 42,
-"max-height": null
-},
-{
-"name": "Jurassic World Velocicoaster",
-"min-height": 51,
-"max-height": null
-},
-{
-"name": "Me Ship, The Olive",
-"min-height": null,
-"max-height": null
-},
-{
-"name": "One Fish, Two Fish, Red Fish, Blue Fish",
-"min-height": null,
-"max-height": null
-},
-{
-"name": "Popeye & Bluto's Bilge-Rat Barges",
-"min-height": 42,
-"max-height": null
-},
-{
-"name": "Poseidon's Fury",
-"min-height": null,
-"max-height": null
-},
-{
-"name": "Pteranodon Flyers",
-"min-height": 36,
-"max-height": 56
-},
-{
-"name": "Skull Island: Reign of Kong",
-"min-height": 36,
-"max-height": null
-},
-{
-"name": "Storm Force Accelatron",
-"min-height": null,
-"max-height": null
-
+                    "min-height": 40,
+                    "max-height": null
+                },
+                {
+                    "name": "Caro-Seuss-el",
+                    "min-height": null,
+                    "max-height": null
+                },
+                {
+                    "name": "Cat in the Hat",
+                    "min-height": 36,
+                    "max-height": null
+                },
+                {
+                    "name": "Doctor Doom's Fearfall",
+                    "min-height": 52,
+                    "max-height": null
+                },
+                {
+                    "name": "Dudley Do-Right's Ripsaw Falls",
+                    "min-height": 44,
+                    "max-height": null
+                },
+                {
+                    "name": "Flight of the Hippogriff",
+                    "min-height": 36,
+                    "max-height": null
+                },
+                {
+                    "name": "Hagrid's Magical Creatures Motorbike Adventure",
+                    "min-height": 48,
+                    "max-height": null
+                },
+                {
+                    "name": "Harry Potter and the Forbidden Journey",
+                    "min-height": 48,
+                    "max-height": null
+                },
+                {
+                    "name": "Hogwarts Express - Hogsmeade Station",
+                    "min-height": null,
+                    "max-height": null
+                },
+                {
+                    "name": "The High in the Sky Seuss Trolley Train Ride",
+                    "min-height": 36,
+                    "max-height": null
+                },
+                {
+                    "name": "If I Ran the Zoo",
+                    "min-height": null,
+                    "max-height": null
+                },
+                {
+                    "name": "The Incredible Hulk Coaster",
+                    "min-height": 54,
+                    "max-height": null
+                },
+                {
+                    "name": "Jurassic Park River Adventure",
+                    "min-height": 42,
+                    "max-height": null
+                },
+                {
+                    "name": "Jurassic World Velocicoaster",
+                    "min-height": 51,
+                    "max-height": null
+                },
+                {
+                    "name": "Me Ship, The Olive",
+                    "min-height": null,
+                    "max-height": null
+                },
+                {
+                    "name": "One Fish, Two Fish, Red Fish, Blue Fish",
+                    "min-height": null,
+                    "max-height": null
+                },
+                {
+                    "name": "Popeye & Bluto's Bilge-Rat Barges",
+                    "min-height": 42,
+                    "max-height": null
+                },
+                {
+                    "name": "Poseidon's Fury",
+                    "min-height": null,
+                    "max-height": null
+                },
+                {
+                    "name": "Pteranodon Flyers",
+                    "min-height": 36,
+                    "max-height": 56
+                },
+                {
+                    "name": "Skull Island: Reign of Kong",
+                    "min-height": 36,
+                    "max-height": null
+                },
+                {
+                    "name": "Storm Force Accelatron",
+                    "min-height": null,
+                    "max-height": null
                 }
             ]
         },
@@ -602,85 +601,85 @@
             "name": "Volcano Bay",
             "rides": [
                 {
-"name": "Honu of Honu ika Moana",
-"min-height": 48,
-"max-height": null
-},
+                    "name": "Honu of Honu ika Moana",
+                    "min-height": 48,
+                    "max-height": null
+                },
                 {
-"name": "ika Moana of Honu ika Moana",
-"min-height": 42,
-"max-height": null
-},
+                    "name": "ika Moana of Honu ika Moana",
+                    "min-height": 42,
+                    "max-height": null
+                },
                 {
-"name": "Kala and Tai Nui Serpentine Body Slides",
-"min-height": 48,
-"max-height": null
-},
+                    "name": "Kala and Tai Nui Serpentine Body Slides",
+                    "min-height": 48,
+                    "max-height": null
+                },
                 {
-"name": "Ko’okiri Body Plunge",
-"min-height": 48,
-"max-height": null
-},
+                    "name": "Ko’okiri Body Plunge",
+                    "min-height": 48,
+                    "max-height": null
+                },
                 {
-"name": "Kopiko Wai Winding River",
-"min-height": null,
-"max-height": null
-},
+                    "name": "Kopiko Wai Winding River",
+                    "min-height": null,
+                    "max-height": null
+                },
                 {
-"name": "Krakatau Aqua Coaster",
-"min-height": 42,
-"max-height": null
-},
+                    "name": "Krakatau Aqua Coaster",
+                    "min-height": 42,
+                    "max-height": null
+                },
                 {
-"name": "Maku Puihi Round Raft Rides",
-"min-height": 42,
-"max-height": null
-},
+                    "name": "Maku Puihi Round Raft Rides",
+                    "min-height": 42,
+                    "max-height": null
+                },
                 {
-"name": "Ohyah and Ohno Drop Slides",
-"min-height": 48,
-"max-height": null
-},
+                    "name": "Ohyah and Ohno Drop Slides",
+                    "min-height": 48,
+                    "max-height": null
+                },
                 {
-"name": "Puka Uli Lagoon",
-"min-height": null,
-"max-height": null
-},
+                    "name": "Puka Uli Lagoon",
+                    "min-height": null,
+                    "max-height": null
+                },
                 {
-"name": "Punga Racers",
-"min-height": 42,
-"max-height": null
-},
+                    "name": "Punga Racers",
+                    "min-height": 42,
+                    "max-height": null
+                },
                 {
-"name": "The Reef",
-"min-height": 48,
-"max-height": null
-},
+                    "name": "The Reef",
+                    "min-height": 48,
+                    "max-height": null
+                },
                 {
-"name": "Runamukka Reef",
-"min-height": null,
-"max-height": 54
-},
+                    "name": "Runamukka Reef",
+                    "min-height": null,
+                    "max-height": 54
+                },
                 {
-"name": "Taniwha Tubes",
-"min-height": 42,
-"max-height": null
-},
+                    "name": "Taniwha Tubes",
+                    "min-height": 42,
+                    "max-height": null
+                },
                 {
-"name": "TeAwa The Fearless River",
-"min-height": 42,
-"max-height": null
-},
+                    "name": "TeAwa The Fearless River",
+                    "min-height": 42,
+                    "max-height": null
+                },
                 {
-"name": "Tot Tiki Reef",
-"min-height": null,
-"max-height": 48
-},
+                    "name": "Tot Tiki Reef",
+                    "min-height": null,
+                    "max-height": 48
+                },
                 {
-"name": "Waturi Beach",
-"min-height": null,
-"max-height": null
-}
+                    "name": "Waturi Beach",
+                    "min-height": null,
+                    "max-height": null
+                }
             ]
         }
     ]
