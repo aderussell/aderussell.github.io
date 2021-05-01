@@ -9,5 +9,5 @@ js: /demos/heights/heights.js
 
 # Theme Park Height Calculator
 
-<label for="input_height">Height:</label>
+<label for="input_height">Height <small>(inches)</small>:</label>
 <input type="text" id="input_height" name="input_height">

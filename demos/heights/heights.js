@@ -5,15 +5,16 @@ window.onload = function() {
 	    	testResults();
 		}
 	}
+	loadJSON(null);
 }
 
 function testResults() {
     var input = document.getElementById('input_height').value;
     let enteredHeight = parseInt(input, 10);
-    loadJSON(console.log, enteredHeight);
+    loadJSON(enteredHeight);
 }
 
-function loadJSON(callback, enteredHeight) {
+function loadJSON(enteredHeight) {
     let xobj = new XMLHttpRequest();
     xobj.overrideMimeType("application/json");
     xobj.open('GET', '/demos/heights/data.json', true);
@@ -25,7 +26,6 @@ function loadJSON(callback, enteredHeight) {
             let v = JSON.parse(xobj.responseText);
             removeExistingTables();
             v.parks.forEach(i => createTable(document, i, enteredHeight));
-            callback(v);
         }
     };
     xobj.send(null);
@@ -40,19 +40,21 @@ function createRow(table, rowData, enteredHeight) {
 	cell1.innerHTML	= rowData.name;
 
 	var cell2 = row.insertCell(1);
-	cell2.innerHTML = "OK";
+	if (Number.isInteger(enteredHeight)) {
+		cell2.innerHTML = "OK";
+	}
 
 	var details = [];
 
 	if (max != null) {
-		if (enteredHeight > max) {
+		if (Number.isInteger(enteredHeight) && enteredHeight > max) {
 			cell2.innerHTML = "Too Tall";
 		}
 		details.push("max: " + max);
 	}
 
 	if (min != null) {
-		if (enteredHeight < min) {
+		if (Number.isInteger(enteredHeight) && enteredHeight < min) {
 			cell2.innerHTML = "Too Short";
 			cell2.style.backgroundColor = 'red';
 		}
