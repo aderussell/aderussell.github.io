@@ -1,684 +1,1188 @@
 {
-    "parks": [
+    "parks":[
         {
-            "tag": "mk-wdw",
-            "name": "Magic Kindgom Park",
-            "rides": [
+            "tag":"mk-wdw",
+            "name":"Magic Kindgom Park",
+            "rides":[
                 {
-                    "name": "Astro Orbiter",
-                    "min-height": null,
-                    "max-height": null
+                    "name":"Astro Orbiter",
+                    "min-height":null,
+                    "max-height":null
                 },
                 {
-                    "name": "Barnstormer",
-                    "min-height": 35,
-                    "max-height": null
+                    "name":"Barnstormer",
+                    "min-height":35,
+                    "max-height":null
                 },
                 {
-                    "name": "Big Thunder Mountain Railroad",
-                    "min-height": 40,
-                    "max-height": null
+                    "name":"Big Thunder Mountain Railroad",
+                    "min-height":40,
+                    "max-height":null
                 },
                 {
-                    "name": "Buzz Lightyear’s Space Ranger Spin",
-                    "min-height": null,
-                    "max-height": null
+                    "name":"Buzz Lightyear’s Space Ranger Spin",
+                    "min-height":null,
+                    "max-height":null
                 },
                 {
-                    "name": "Casey Jr. Splash ‘N’ Soak Station",
-                    "min-height": null,
-                    "max-height": null
+                    "name":"Casey Jr. Splash ‘N’ Soak Station",
+                    "min-height":null,
+                    "max-height":null
                 },
                 {
-                    "name": "Country Bear Jamboree",
-                    "min-height": null,
-                    "max-height": null
+                    "name":"Country Bear Jamboree",
+                    "min-height":null,
+                    "max-height":null
                 },
                 {
-                    "name": "Dumbo the Flying Elephant",
-                    "min-height": null,
-                    "max-height": null
+                    "name":"Dumbo the Flying Elephant",
+                    "min-height":null,
+                    "max-height":null
                 },
                 {
-                    "name": "Enchanted Tales with Belle",
-                    "min-height": null,
-                    "max-height": null
+                    "name":"Enchanted Tales with Belle",
+                    "min-height":null,
+                    "max-height":null
                 },
                 {
-                    "name": "Frontierland Shootin’ Arcade",
-                    "min-height": null,
-                    "max-height": null
+                    "name":"Frontierland Shootin’ Arcade",
+                    "min-height":null,
+                    "max-height":null
                 },
                 {
-                    "name": "The Hall of Presidents",
-                    "min-height": null,
-                    "max-height": null
+                    "name":"The Hall of Presidents",
+                    "min-height":null,
+                    "max-height":null
                 },
                 {
-                    "name": "Haunted Mansion",
-                    "min-height": null,
-                    "max-height": null
+                    "name":"Haunted Mansion",
+                    "min-height":null,
+                    "max-height":null
                 },
                 {
-                    "name": "It’s a small world",
-                    "min-height": null,
-                    "max-height": null
+                    "name":"It’s a small world",
+                    "min-height":null,
+                    "max-height":null
                 },
                 {
-                    "name": "Jungle Cruise",
-                    "min-height": null,
-                    "max-height": null
+                    "name":"Jungle Cruise",
+                    "min-height":null,
+                    "max-height":null
                 },
                 {
-                    "name": "Liberty Square Riverboat",
-                    "min-height": null,
-                    "max-height": null
+                    "name":"Liberty Square Riverboat",
+                    "min-height":null,
+                    "max-height":null
                 },
                 {
-                    "name": "Mad Tea Party",
-                    "min-height": null,
-                    "max-height": null
+                    "name":"Mad Tea Party",
+                    "min-height":null,
+                    "max-height":null
                 },
                 {
-                    "name": "The Magic Carpets of Aladdin",
-                    "min-height": null,
-                    "max-height": null
+                    "name":"The Magic Carpets of Aladdin",
+                    "min-height":null,
+                    "max-height":null
                 },
                 {
-                    "name": "The Many Adventures of Winnie the Pooh",
-                    "min-height": null,
-                    "max-height": null
+                    "name":"The Many Adventures of Winnie the Pooh",
+                    "min-height":null,
+                    "max-height":null
                 },
                 {
-                    "name": "Mickey’s PhilharMagic",
-                    "min-height": null,
-                    "max-height": null
+                    "name":"Mickey’s PhilharMagic",
+                    "min-height":null,
+                    "max-height":null
                 },
                 {
-                    "name": "Monsters, Inc. Laugh Floor",
-                    "min-height": null,
-                    "max-height": null
+                    "name":"Monsters, Inc. Laugh Floor",
+                    "min-height":null,
+                    "max-height":null
                 },
                 {
-                    "name": "Peter Pan’s Flight",
-                    "min-height": null,
-                    "max-height": null
+                    "name":"Peter Pan’s Flight",
+                    "min-height":null,
+                    "max-height":null
                 },
                 {
-                    "name": "A Pirate’s Adventure ~ Treasures of the Seven Seas",
-                    "min-height": null,
-                    "max-height": null
+                    "name":"A Pirate’s Adventure ~ Treasures of the Seven Seas",
+                    "min-height":null,
+                    "max-height":null
                 },
                 {
-                    "name": "Pirates of the Caribbean",
-                    "min-height": null,
-                    "max-height": null
+                    "name":"Pirates of the Caribbean",
+                    "min-height":null,
+                    "max-height":null
                 },
                 {
-                    "name": "Prince Charming Regal Carrousel",
-                    "min-height": null,
-                    "max-height": null
+                    "name":"Prince Charming Regal Carrousel",
+                    "min-height":null,
+                    "max-height":null
                 },
                 {
-                    "name": "Seven Dwarfs Mine Train",
-                    "min-height": 38,
-                    "max-height": null
+                    "name":"Seven Dwarfs Mine Train",
+                    "min-height":38,
+                    "max-height":null
                 },
                 {
-                    "name": "Space Mountain",
-                    "min-height": 44,
-                    "max-height": null
+                    "name":"Space Mountain",
+                    "min-height":44,
+                    "max-height":null
                 },
                 {
-                    "name": "Splash Mountain",
-                    "min-height": 40,
-                    "max-height": null
+                    "name":"Splash Mountain",
+                    "min-height":40,
+                    "max-height":null
                 },
                 {
-                    "name": "Swiss Family Treehouse",
-                    "min-height": null,
-                    "max-height": null
+                    "name":"Swiss Family Treehouse",
+                    "min-height":null,
+                    "max-height":null
                 },
                 {
-                    "name": "Tomorrowland Speedway",
-                    "min-height": 32,
-                    "max-height": null
+                    "name":"Tomorrowland Speedway",
+                    "min-height":32,
+                    "max-height":null
                 },
                 {
-                    "name": "Tomorrowland Transit Authority PeopleMover",
-                    "min-height": null,
-                    "max-height": null
+                    "name":"Tomorrowland Transit Authority PeopleMover",
+                    "min-height":null,
+                    "max-height":null
                 },
                 {
-                    "name": "Tom Sawyer Island",
-                    "min-height": null,
-                    "max-height": null
+                    "name":"Tom Sawyer Island",
+                    "min-height":null,
+                    "max-height":null
                 },
                 {
-                    "name": "Under the Sea ~ Journey of the Little Mermaid",
-                    "min-height": null,
-                    "max-height": null
+                    "name":"Under the Sea ~ Journey of the Little Mermaid",
+                    "min-height":null,
+                    "max-height":null
                 },
                 {
-                    "name": "Walt Disney’s Carousel of Progress",
-                    "min-height": null,
-                    "max-height": null
+                    "name":"Walt Disney’s Carousel of Progress",
+                    "min-height":null,
+                    "max-height":null
                 },
                 {
-                    "name": "Walt Disney’s Enchanted Tiki Room",
-                    "min-height": null,
-                    "max-height": null
+                    "name":"Walt Disney’s Enchanted Tiki Room",
+                    "min-height":null,
+                    "max-height":null
                 },
                 {
-                    "name": "Walt Disney World Railroad",
-                    "min-height": null,
-                    "max-height": null
+                    "name":"Walt Disney World Railroad",
+                    "min-height":null,
+                    "max-height":null
                 }
             ]
         },
         {
-            "tag": "epcot",
-            "name": "Epcot",
-            "rides": [
+            "tag":"epcot",
+            "name":"Epcot",
+            "rides":[
                 {
-                    "name": "Advanced Training Lab",
-                    "min-height": null,
-                    "max-height": null
+                    "name":"Advanced Training Lab",
+                    "min-height":null,
+                    "max-height":null
                 },
                 {
-                    "name": "The American Adventure",
-                    "min-height": null,
-                    "max-height": null
+                    "name":"The American Adventure",
+                    "min-height":null,
+                    "max-height":null
                 },
                 {
-                    "name": "Disney & Pixar Short Film Festival",
-                    "min-height": null,
-                    "max-height": null
+                    "name":"Disney & Pixar Short Film Festival",
+                    "min-height":null,
+                    "max-height":null
                 },
                 {
-                    "name": "Frozen Ever After",
-                    "min-height": null,
-                    "max-height": null
+                    "name":"Frozen Ever After",
+                    "min-height":null,
+                    "max-height":null
                 },
                 {
-                    "name": "Gran Fiesta Tour Starring The Three Caballeros",
-                    "min-height": null,
-                    "max-height": null
+                    "name":"Gran Fiesta Tour Starring The Three Caballeros",
+                    "min-height":null,
+                    "max-height":null
                 },
                 {
-                    "name": "Impressions de France",
-                    "min-height": null,
-                    "max-height": null
+                    "name":"Impressions de France",
+                    "min-height":null,
+                    "max-height":null
                 },
                 {
-                    "name": "Journey Into Imagination With Figment",
-                    "min-height": null,
-                    "max-height": null
+                    "name":"Journey Into Imagination With Figment",
+                    "min-height":null,
+                    "max-height":null
                 },
                 {
-                    "name": "Living with the Land",
-                    "min-height": null,
-                    "max-height": null
+                    "name":"Living with the Land",
+                    "min-height":null,
+                    "max-height":null
                 },
                 {
-                    "name": "Mission: SPACE",
-                    "min-height": 40,
-                    "max-height": null
+                    "name":"Mission: SPACE",
+                    "min-height":40,
+                    "max-height":null
                 },
                 {
-                    "name": "O Canada!",
-                    "min-height": null,
-                    "max-height": null
+                    "name":"O Canada!",
+                    "min-height":null,
+                    "max-height":null
                 },
                 {
-                    "name": "Reflections of China",
-                    "min-height": null,
-                    "max-height": null
+                    "name":"Reflections of China",
+                    "min-height":null,
+                    "max-height":null
                 },
                 {
-                    "name": "The Seas with Nemo & Friends",
-                    "min-height": null,
-                    "max-height": null
+                    "name":"The Seas with Nemo & Friends",
+                    "min-height":null,
+                    "max-height":null
                 },
                 {
-                    "name": "Soarin’ Around the World",
-                    "min-height": 40,
-                    "max-height": null
+                    "name":"Soarin’ Around the World",
+                    "min-height":40,
+                    "max-height":null
                 },
                 {
-                    "name": "Spaceship Earth",
-                    "min-height": null,
-                    "max-height": null
+                    "name":"Spaceship Earth",
+                    "min-height":null,
+                    "max-height":null
                 },
                 {
-                    "name": "Test Track",
-                    "min-height": 40,
-                    "max-height": null
+                    "name":"Test Track",
+                    "min-height":40,
+                    "max-height":null
                 },
                 {
-                    "name": "Turtle Talk With Crush",
-                    "min-height": null,
-                    "max-height": null
+                    "name":"Turtle Talk With Crush",
+                    "min-height":null,
+                    "max-height":null
                 }
             ]
         },
         {
-            "tag": "hollywood-studios",
-            "name": "Disney’s Hollywood Studios",
-            "rides": [
+            "tag":"hollywood-studios",
+            "name":"Disney’s Hollywood Studios",
+            "rides":[
                 {
-                    "name": "Alien Swirling Saucers",
-                    "min-height": 32,
-                    "max-height": null
+                    "name":"Alien Swirling Saucers",
+                    "min-height":32,
+                    "max-height":null
                 },
                 {
-                    "name": "Millennium Falcon: Smugglers Run",
-                    "min-height": 38,
-                    "max-height": null
+                    "name":"Millennium Falcon: Smugglers Run",
+                    "min-height":38,
+                    "max-height":null
                 },
                 {
-                    "name": "Muppet*Vision 3D",
-                    "min-height": null,
-                    "max-height": null
+                    "name":"Muppet*Vision 3D",
+                    "min-height":null,
+                    "max-height":null
                 },
                 {
-                    "name": "Rock ‘n’ Roller Coaster Starring Aerosmith",
-                    "min-height": 48,
-                    "max-height": null
+                    "name":"Rock ‘n’ Roller Coaster Starring Aerosmith",
+                    "min-height":48,
+                    "max-height":null
                 },
                 {
-                    "name": "Slinky Dog Dash",
-                    "min-height": 38,
-                    "max-height": null
+                    "name":"Slinky Dog Dash",
+                    "min-height":38,
+                    "max-height":null
                 },
                 {
-                    "name": "Star Tours – The Adventures Continue",
-                    "min-height": 40,
-                    "max-height": null
+                    "name":"Star Tours – The Adventures Continue",
+                    "min-height":40,
+                    "max-height":null
                 },
                 {
-                    "name": "Star Wars: Rise of the Resistance",
-                    "min-height": 40,
-                    "max-height": null
+                    "name":"Star Wars: Rise of the Resistance",
+                    "min-height":40,
+                    "max-height":null
                 },
                 {
-                    "name": "Toy Story Mania!",
-                    "min-height": null,
-                    "max-height": null
+                    "name":"Toy Story Mania!",
+                    "min-height":null,
+                    "max-height":null
                 },
                 {
-                    "name": "The Twilight Zone Tower of Terror™",
-                    "min-height": 40,
-                    "max-height": null
+                    "name":"The Twilight Zone Tower of Terror™",
+                    "min-height":40,
+                    "max-height":null
                 }
             ]
         },
         {
-            "tag": "animal-kingdom",
-            "name": "Disney’s Animal Kingdom Park",
-            "rides": [
+            "tag":"animal-kingdom",
+            "name":"Disney’s Animal Kingdom Park",
+            "rides":[
                 {
-                    "name": "Affection Section",
-                    "min-height": null,
-                    "max-height": null
+                    "name":"Affection Section",
+                    "min-height":null,
+                    "max-height":null
                 },
                 {
-                    "name": "Avatar Flight of Passage",
-                    "min-height": 44,
-                    "max-height": null
+                    "name":"Avatar Flight of Passage",
+                    "min-height":44,
+                    "max-height":null
                 },
                 {
-                    "name": "The Boneyard",
-                    "min-height": null,
-                    "max-height": null
+                    "name":"The Boneyard",
+                    "min-height":null,
+                    "max-height":null
                 },
                 {
-                    "name": "Conservation Station",
-                    "min-height": null,
-                    "max-height": null
+                    "name":"Conservation Station",
+                    "min-height":null,
+                    "max-height":null
                 },
                 {
-                    "name": "DINOSAUR",
-                    "min-height": 40,
-                    "max-height": null
+                    "name":"DINOSAUR",
+                    "min-height":40,
+                    "max-height":null
                 },
                 {
-                    "name": "Discovery Island Trails",
-                    "min-height": null,
-                    "max-height": null
+                    "name":"Discovery Island Trails",
+                    "min-height":null,
+                    "max-height":null
                 },
                 {
-                    "name": "Expedition Everest - Legend of the Forbidden Mountain",
-                    "min-height": 44,
-                    "max-height": null
+                    "name":"Expedition Everest - Legend of the Forbidden Mountain",
+                    "min-height":44,
+                    "max-height":null
                 },
                 {
-                    "name": "Gorilla Falls Exploration Trail",
-                    "min-height": null,
-                    "max-height": null
+                    "name":"Gorilla Falls Exploration Trail",
+                    "min-height":null,
+                    "max-height":null
                 },
                 {
-                    "name": "It’s Tough to be a Bug!",
-                    "min-height": null,
-                    "max-height": null
+                    "name":"It’s Tough to be a Bug!",
+                    "min-height":null,
+                    "max-height":null
                 },
                 {
-                    "name": "Kali River Rapids",
-                    "min-height": 38,
-                    "max-height": null
+                    "name":"Kali River Rapids",
+                    "min-height":38,
+                    "max-height":null
                 },
                 {
-                    "name": "Kilimanjaro Safaris",
-                    "min-height": null,
-                    "max-height": null
+                    "name":"Kilimanjaro Safaris",
+                    "min-height":null,
+                    "max-height":null
                 },
                 {
-                    "name": "Maharajah Jungle Trek",
-                    "min-height": null,
-                    "max-height": null
+                    "name":"Maharajah Jungle Trek",
+                    "min-height":null,
+                    "max-height":null
                 },
                 {
-                    "name": "Na’vi River Journey",
-                    "min-height": null,
-                    "max-height": null
+                    "name":"Na’vi River Journey",
+                    "min-height":null,
+                    "max-height":null
                 },
                 {
-                    "name": "Tree of Life",
-                    "min-height": null,
-                    "max-height": null
+                    "name":"Tree of Life",
+                    "min-height":null,
+                    "max-height":null
                 },
                 {
-                    "name": "TriceraTop Spin",
-                    "min-height": null,
-                    "max-height": null
+                    "name":"TriceraTop Spin",
+                    "min-height":null,
+                    "max-height":null
                 },
                 {
-                    "name": "Wildlife Express Train",
-                    "min-height": null,
-                    "max-height": null
+                    "name":"Wildlife Express Train",
+                    "min-height":null,
+                    "max-height":null
                 }
             ]
         },
         {
-            "tag": "universal-florida",
-            "name": "Universal Studios Florida",
-            "rides": [
+            "tag":"universal-florida",
+            "name":"Universal Studios Florida",
+            "rides":[
                 {
-                    "name": "Animal Actors on Location",
-                    "min-height": null,
-                    "max-height": null
+                    "name":"Animal Actors on Location",
+                    "min-height":null,
+                    "max-height":null
                 },
                 {
-                    "name": "Despicable Me Minion Mayhem",
-                    "min-height": 40,
-                    "max-height": null
+                    "name":"Despicable Me Minion Mayhem",
+                    "min-height":40,
+                    "max-height":null
                 },
                 {
-                    "name": "E.T. Adventure",
-                    "min-height": 34,
-                    "max-height": null
+                    "name":"E.T. Adventure",
+                    "min-height":34,
+                    "max-height":null
                 },
                 {
-                    "name": "Fast & Furious - Supercharged",
-                    "min-height": 40,
-                    "max-height": null
+                    "name":"Fast & Furious - Supercharged",
+                    "min-height":40,
+                    "max-height":null
                 },
                 {
-                    "name": "Harry Potter and the Escape from Gringotts",
-                    "min-height": 42,
-                    "max-height": null
+                    "name":"Harry Potter and the Escape from Gringotts",
+                    "min-height":42,
+                    "max-height":null
                 },
                 {
-                    "name": "Hogwarts Express - King's Cross Station",
-                    "min-height": null,
-                    "max-height": null
+                    "name":"Hogwarts Express - King's Cross Station",
+                    "min-height":null,
+                    "max-height":null
                 },
                 {
-                    "name": "Hollywood Rip Ride Rockit",
-                    "min-height": 51,
-                    "max-height": null
+                    "name":"Hollywood Rip Ride Rockit",
+                    "min-height":51,
+                    "max-height":null
                 },
                 {
-                    "name": "Kang & Kodos' Twirl 'n' Hurl",
-                    "min-height": null,
-                    "max-height": null
+                    "name":"Kang & Kodos' Twirl 'n' Hurl",
+                    "min-height":null,
+                    "max-height":null
                 },
                 {
-                    "name": "MEN IN BLACK Alien Attack",
-                    "min-height": 42,
-                    "max-height": null
+                    "name":"MEN IN BLACK Alien Attack",
+                    "min-height":42,
+                    "max-height":null
                 },
                 {
-                    "name": "Race Through New York Starring Jimmy Fallon",
-                    "min-height": 40,
-                    "max-height": null
+                    "name":"Race Through New York Starring Jimmy Fallon",
+                    "min-height":40,
+                    "max-height":null
                 },
                 {
-                    "name": "Revenge of the Mummy",
-                    "min-height": 48,
-                    "max-height": null
+                    "name":"Revenge of the Mummy",
+                    "min-height":48,
+                    "max-height":null
                 },
                 {
-                    "name": "Shrek 4-D",
-                    "min-height": null,
-                    "max-height": null
+                    "name":"Shrek 4-D",
+                    "min-height":null,
+                    "max-height":null
                 },
                 {
-                    "name": "The Simpsons Ride",
-                    "min-height": 40,
-                    "max-height": null
+                    "name":"The Simpsons Ride",
+                    "min-height":40,
+                    "max-height":null
                 },
                 {
-                    "name": "TRANSFORMERS: The Ride-3D",
-                    "min-height": 40,
-                    "max-height": null
+                    "name":"TRANSFORMERS: The Ride-3D",
+                    "min-height":40,
+                    "max-height":null
                 },
                 {
-                    "name": "Universal Orlando's Horror Make-Up Show",
-                    "min-height": null,
-                    "max-height": null
+                    "name":"Universal Orlando's Horror Make-Up Show",
+                    "min-height":null,
+                    "max-height":null
                 },
                 {
-                    "name": "Woody Woodpecker’s Nuthouse Coaster",
-                    "min-height": 36,
-                    "max-height": null
+                    "name":"Woody Woodpecker’s Nuthouse Coaster",
+                    "min-height":36,
+                    "max-height":null
                 }
             ]
         },
         {
-            "tag": "islands-of-adventure",
-            "name": "Islands of Adventure",
-            "rides": [
+            "tag":"islands-of-adventure",
+            "name":"Islands of Adventure",
+            "rides":[
                 {
-                    "name": "The Amazing Adventures of Spider-Man",
-                    "min-height": 40,
-                    "max-height": null
+                    "name":"The Amazing Adventures of Spider-Man",
+                    "min-height":40,
+                    "max-height":null
                 },
                 {
-                    "name": "Caro-Seuss-el",
-                    "min-height": null,
-                    "max-height": null
+                    "name":"Caro-Seuss-el",
+                    "min-height":null,
+                    "max-height":null
                 },
                 {
-                    "name": "Cat in the Hat",
-                    "min-height": 36,
-                    "max-height": null
+                    "name":"Cat in the Hat",
+                    "min-height":36,
+                    "max-height":null
                 },
                 {
-                    "name": "Doctor Doom's Fearfall",
-                    "min-height": 52,
-                    "max-height": null
+                    "name":"Doctor Doom's Fearfall",
+                    "min-height":52,
+                    "max-height":null
                 },
                 {
-                    "name": "Dudley Do-Right's Ripsaw Falls",
-                    "min-height": 44,
-                    "max-height": null
+                    "name":"Dudley Do-Right's Ripsaw Falls",
+                    "min-height":44,
+                    "max-height":null
                 },
                 {
-                    "name": "Flight of the Hippogriff",
-                    "min-height": 36,
-                    "max-height": null
+                    "name":"Flight of the Hippogriff",
+                    "min-height":36,
+                    "max-height":null
                 },
                 {
-                    "name": "Hagrid's Magical Creatures Motorbike Adventure",
-                    "min-height": 48,
-                    "max-height": null
+                    "name":"Hagrid's Magical Creatures Motorbike Adventure",
+                    "min-height":48,
+                    "max-height":null
                 },
                 {
-                    "name": "Harry Potter and the Forbidden Journey",
-                    "min-height": 48,
-                    "max-height": null
+                    "name":"Harry Potter and the Forbidden Journey",
+                    "min-height":48,
+                    "max-height":null
                 },
                 {
-                    "name": "Hogwarts Express - Hogsmeade Station",
-                    "min-height": null,
-                    "max-height": null
+                    "name":"Hogwarts Express - Hogsmeade Station",
+                    "min-height":null,
+                    "max-height":null
                 },
                 {
-                    "name": "The High in the Sky Seuss Trolley Train Ride",
-                    "min-height": 36,
-                    "max-height": null
+                    "name":"The High in the Sky Seuss Trolley Train Ride",
+                    "min-height":36,
+                    "max-height":null
                 },
                 {
-                    "name": "If I Ran the Zoo",
-                    "min-height": null,
-                    "max-height": null
+                    "name":"If I Ran the Zoo",
+                    "min-height":null,
+                    "max-height":null
                 },
                 {
-                    "name": "The Incredible Hulk Coaster",
-                    "min-height": 54,
-                    "max-height": null
+                    "name":"The Incredible Hulk Coaster",
+                    "min-height":54,
+                    "max-height":null
                 },
                 {
-                    "name": "Jurassic Park River Adventure",
-                    "min-height": 42,
-                    "max-height": null
+                    "name":"Jurassic Park River Adventure",
+                    "min-height":42,
+                    "max-height":null
                 },
                 {
-                    "name": "Jurassic World Velocicoaster",
-                    "min-height": 51,
-                    "max-height": null
+                    "name":"Jurassic World Velocicoaster",
+                    "min-height":51,
+                    "max-height":null
                 },
                 {
-                    "name": "Me Ship, The Olive",
-                    "min-height": null,
-                    "max-height": null
+                    "name":"Me Ship, The Olive",
+                    "min-height":null,
+                    "max-height":null
                 },
                 {
-                    "name": "One Fish, Two Fish, Red Fish, Blue Fish",
-                    "min-height": null,
-                    "max-height": null
+                    "name":"One Fish, Two Fish, Red Fish, Blue Fish",
+                    "min-height":null,
+                    "max-height":null
                 },
                 {
-                    "name": "Popeye & Bluto's Bilge-Rat Barges",
-                    "min-height": 42,
-                    "max-height": null
+                    "name":"Popeye & Bluto's Bilge-Rat Barges",
+                    "min-height":42,
+                    "max-height":null
                 },
                 {
-                    "name": "Poseidon's Fury",
-                    "min-height": null,
-                    "max-height": null
+                    "name":"Poseidon's Fury",
+                    "min-height":null,
+                    "max-height":null
                 },
                 {
-                    "name": "Pteranodon Flyers",
-                    "min-height": 36,
-                    "max-height": 56
+                    "name":"Pteranodon Flyers",
+                    "min-height":36,
+                    "max-height":56
                 },
                 {
-                    "name": "Skull Island: Reign of Kong",
-                    "min-height": 36,
-                    "max-height": null
+                    "name":"Skull Island: Reign of Kong",
+                    "min-height":36,
+                    "max-height":null
                 },
                 {
-                    "name": "Storm Force Accelatron",
-                    "min-height": null,
-                    "max-height": null
+                    "name":"Storm Force Accelatron",
+                    "min-height":null,
+                    "max-height":null
                 }
             ]
         },
         {
-            "tag": "volcano-bay",
-            "name": "Volcano Bay",
-            "rides": [
+            "tag":"volcano-bay",
+            "name":"Volcano Bay",
+            "rides":[
                 {
-                    "name": "Honu of Honu ika Moana",
-                    "min-height": 48,
-                    "max-height": null
+                    "name":"Honu of Honu ika Moana",
+                    "min-height":48,
+                    "max-height":null
                 },
                 {
-                    "name": "ika Moana of Honu ika Moana",
-                    "min-height": 42,
-                    "max-height": null
+                    "name":"ika Moana of Honu ika Moana",
+                    "min-height":42,
+                    "max-height":null
                 },
                 {
-                    "name": "Kala and Tai Nui Serpentine Body Slides",
-                    "min-height": 48,
-                    "max-height": null
+                    "name":"Kala and Tai Nui Serpentine Body Slides",
+                    "min-height":48,
+                    "max-height":null
                 },
                 {
-                    "name": "Ko’okiri Body Plunge",
-                    "min-height": 48,
-                    "max-height": null
+                    "name":"Ko’okiri Body Plunge",
+                    "min-height":48,
+                    "max-height":null
                 },
                 {
-                    "name": "Kopiko Wai Winding River",
-                    "min-height": null,
-                    "max-height": null
+                    "name":"Kopiko Wai Winding River",
+                    "min-height":null,
+                    "max-height":null
                 },
                 {
-                    "name": "Krakatau Aqua Coaster",
-                    "min-height": 42,
-                    "max-height": null
+                    "name":"Krakatau Aqua Coaster",
+                    "min-height":42,
+                    "max-height":null
                 },
                 {
-                    "name": "Maku Puihi Round Raft Rides",
-                    "min-height": 42,
-                    "max-height": null
+                    "name":"Maku Puihi Round Raft Rides",
+                    "min-height":42,
+                    "max-height":null
                 },
                 {
-                    "name": "Ohyah and Ohno Drop Slides",
-                    "min-height": 48,
-                    "max-height": null
+                    "name":"Ohyah and Ohno Drop Slides",
+                    "min-height":48,
+                    "max-height":null
                 },
                 {
-                    "name": "Puka Uli Lagoon",
-                    "min-height": null,
-                    "max-height": null
+                    "name":"Puka Uli Lagoon",
+                    "min-height":null,
+                    "max-height":null
                 },
                 {
-                    "name": "Punga Racers",
-                    "min-height": 42,
-                    "max-height": null
+                    "name":"Punga Racers",
+                    "min-height":42,
+                    "max-height":null
                 },
                 {
-                    "name": "The Reef",
-                    "min-height": 48,
-                    "max-height": null
+                    "name":"The Reef",
+                    "min-height":48,
+                    "max-height":null
                 },
                 {
-                    "name": "Runamukka Reef",
-                    "min-height": null,
-                    "max-height": 54
+                    "name":"Runamukka Reef",
+                    "min-height":null,
+                    "max-height":54
                 },
                 {
-                    "name": "Taniwha Tubes",
-                    "min-height": 42,
-                    "max-height": null
+                    "name":"Taniwha Tubes",
+                    "min-height":42,
+                    "max-height":null
                 },
                 {
-                    "name": "TeAwa The Fearless River",
-                    "min-height": 42,
-                    "max-height": null
+                    "name":"TeAwa The Fearless River",
+                    "min-height":42,
+                    "max-height":null
                 },
                 {
-                    "name": "Tot Tiki Reef",
-                    "min-height": null,
-                    "max-height": 48
+                    "name":"Tot Tiki Reef",
+                    "min-height":null,
+                    "max-height":48
                 },
                 {
-                    "name": "Waturi Beach",
-                    "min-height": null,
-                    "max-height": null
+                    "name":"Waturi Beach",
+                    "min-height":null,
+                    "max-height":null
+                }
+            ]
+        },
+        {
+            "tag":"dl-anaheim",
+            "name":"Disneyland Park",
+            "rides":[
+                {
+                    "name":"Alice in Wonderland",
+                    "min-height":null,
+                    "max-height":null,
+                    "subarea":"Fantasyland"
+                },
+                {
+                    "name":"Astro Orbiter",
+                    "min-height":null,
+                    "max-height":null,
+                    "subarea":"Tomorrowland"
+                },
+                {
+                    "name":"Autopia",
+                    "min-height":32,
+                    "max-height":null,
+                    "subarea":"Tomorrowland"
+                },
+                {
+                    "name":"Big Thunder Mountain Railroad",
+                    "min-height":40,
+                    "max-height":null,
+                    "subarea":"Frontierland"
+                },
+                {
+                    "name":"Buzz Lightyear Astro Blasters",
+                    "min-height":null,
+                    "max-height":null,
+                    "subarea":"Tomorrowland"
+                },
+                {
+                    "name":"Casey Jr. Circus Train",
+                    "min-height":null,
+                    "max-height":null,
+                    "subarea":"Fantasyland"
+                },
+                {
+                    "name":"Chip 'n Dale's Treehouse",
+                    "min-height":null,
+                    "max-height":null,
+                    "subarea":"Mickey's Toontown"
+                },
+                {
+                    "name":"Davy Crockett Explorer Canoes",
+                    "min-height":null,
+                    "max-height":null,
+                    "subarea":"Critter Country"
+                },
+                {
+                    "name":"Disneyland Monorail",
+                    "min-height":null,
+                    "max-height":null,
+                    "subarea":"Tomorrowland"
+                },
+                {
+                    "name":"Disneyland Railroad",
+                    "min-height":null,
+                    "max-height":null,
+                    "subarea":"Main Street, U.S.A."
+                },
+                {
+                    "name":"Disneyland Railroad",
+                    "min-height":null,
+                    "max-height":null,
+                    "subarea":"New Orleans Square"
+                },
+                {
+                    "name":"Disneyland Railroad",
+                    "min-height":null,
+                    "max-height":null,
+                    "subarea":"Tomorrowland"
+                },
+                {
+                    "name":"Donald's Boat",
+                    "min-height":null,
+                    "max-height":null,
+                    "subarea":"Mickey's Toontown"
+                },
+                {
+                    "name":"Dumbo the Flying Elephant",
+                    "min-height":null,
+                    "max-height":null,
+                    "subarea":"Fantasyland"
+                },
+                {
+                    "name":"Fantasyland Theatre",
+                    "min-height":null,
+                    "max-height":null,
+                    "subarea":"Fantasyland"
+                },
+                {
+                    "name":"Finding Nemo Submarine Voyage",
+                    "min-height":null,
+                    "max-height":null,
+                    "subarea":"Tomorrowland"
+                },
+                {
+                    "name":"Frontierland Shootin' Exposition",
+                    "min-height":null,
+                    "max-height":null,
+                    "subarea":"Frontierland"
+                },
+                {
+                    "name":"Gadget's Go Coaster",
+                    "min-height":35,
+                    "max-height":null,
+                    "subarea":"Mickey's Toontown"
+                },
+                {
+                    "name":"Goofy's Playhouse",
+                    "min-height":null,
+                    "max-height":null,
+                    "subarea":"Mickey's Toontown"
+                },
+                {
+                    "name":"Great Moments with Mr. Lincoln",
+                    "min-height":null,
+                    "max-height":null,
+                    "subarea":"Main Street, U.S.A."
+                },
+                {
+                    "name":"Indiana Jones Adventure: Temple of the Forbidden Eye",
+                    "min-height":46,
+                    "max-height":null,
+                    "subarea":"Adventureland"
+                },
+                {
+                    "name":"It's a Small World",
+                    "min-height":null,
+                    "max-height":null,
+                    "subarea":"Fantasyland"
+                },
+                {
+                    "name":"Jungle Cruise",
+                    "min-height":null,
+                    "max-height":null,
+                    "subarea":"Adventureland"
+                },
+                {
+                    "name":"King Arthur Carrousel",
+                    "min-height":null,
+                    "max-height":null,
+                    "subarea":"Fantasyland"
+                },
+                {
+                    "name":"Mad Tea Party",
+                    "min-height":null,
+                    "max-height":null,
+                    "subarea":"Fantasyland"
+                },
+                {
+                    "name":"Main Street Cinema",
+                    "min-height":null,
+                    "max-height":null,
+                    "subarea":"Main Street, U.S.A."
+                },
+                {
+                    "name":"Main Street Vehicles",
+                    "min-height":null,
+                    "max-height":null,
+                    "subarea":"Main Street, U.S.A."
+                },
+                {
+                    "name":"Mark Twain Riverboat",
+                    "min-height":null,
+                    "max-height":null,
+                    "subarea":"Frontierland"
+                },
+                {
+                    "name":"Matterhorn Bobsleds",
+                    "min-height":42,
+                    "max-height":null,
+                    "subarea":"Fantasyland"
+                },
+                {
+                    "name":"Mickey's House and Meet Mickey",
+                    "min-height":null,
+                    "max-height":null,
+                    "subarea":"Mickey's Toontown"
+                },
+                {
+                    "name":"Millennium Falcon: Smuggler's Run",
+                    "min-height":38,
+                    "max-height":null,
+                    "subarea":"Star Wars Galaxy's Edge"
+                },
+                {
+                    "name":"Minnie's House",
+                    "min-height":null,
+                    "max-height":null,
+                    "subarea":"Mickey's Toontown"
+                },
+                {
+                    "name":"Mr. Toad's Wild Ride",
+                    "min-height":null,
+                    "max-height":null,
+                    "subarea":"Fantasyland"
+                },
+                {
+                    "name":"Peter Pan's Flight",
+                    "min-height":null,
+                    "max-height":null,
+                    "subarea":"Fantasyland"
+                },
+                {
+                    "name":"Pinocchio's Daring Journey",
+                    "min-height":null,
+                    "max-height":null,
+                    "subarea":"Fantasyland"
+                },
+                {
+                    "name":"Pirate's Lair on Tom Sawyer Island",
+                    "min-height":null,
+                    "max-height":null,
+                    "subarea":"Frontierland"
+                },
+                {
+                    "name":"Pirates of the Caribbean",
+                    "min-height":null,
+                    "max-height":null,
+                    "subarea":"New Orleans Square"
+                },
+                {
+                    "name":"Pixie Hollow",
+                    "min-height":null,
+                    "max-height":null,
+                    "subarea":"Fantasyland"
+                },
+                {
+                    "name":"Roger Rabbit's Car Toon Spin",
+                    "min-height":null,
+                    "max-height":null,
+                    "subarea":"Mickey's Toontown"
+                },
+                {
+                    "name":"Sailing Ship Columbia",
+                    "min-height":null,
+                    "max-height":null,
+                    "subarea":"Frontierland"
+                },
+                {
+                    "name":"Sleeping Beauty Castle Walkthrough",
+                    "min-height":null,
+                    "max-height":null,
+                    "subarea":"Fantasyland"
+                },
+                {
+                    "name":"Snow White's Enchanted Wish",
+                    "min-height":null,
+                    "max-height":null,
+                    "subarea":"Fantasyland"
+                },
+                {
+                    "name":"Space Mountain",
+                    "min-height":40,
+                    "max-height":null,
+                    "subarea":"Tomorrowland"
+                },
+                {
+                    "name":"Splash Mountain",
+                    "min-height":40,
+                    "max-height":null,
+                    "subarea":"Critter Country"
+                },
+                {
+                    "name":"Star Tours – The Adventures Continue",
+                    "min-height":null,
+                    "max-height":null,
+                    "subarea":"Tomorrowland"
+                },
+                {
+                    "name":"Star Tours — The Adventures Continue",
+                    "min-height":40,
+                    "max-height":null,
+                    "subarea":"Tomorrowland"
+                },
+                {
+                    "name":"Star Wars: Rise of the Resistance",
+                    "min-height":40,
+                    "max-height":null,
+                    "subarea":"Star Wars Galaxy's Edge"
+                },
+                {
+                    "name":"Storybook Land Canal Boats",
+                    "min-height":null,
+                    "max-height":null,
+                    "subarea":"Fantasyland"
+                },
+                {
+                    "name":"Tarzan's Treehouse",
+                    "min-height":null,
+                    "max-height":null,
+                    "subarea":"Adventureland"
+                },
+                {
+                    "name":"The Disney Gallery",
+                    "min-height":null,
+                    "max-height":null,
+                    "subarea":"Main Street, U.S.A."
+                },
+                {
+                    "name":"The Haunted Mansion",
+                    "min-height":null,
+                    "max-height":null,
+                    "subarea":"New Orleans Square"
+                },
+                {
+                    "name":"The Many Adventures of Winnie the Pooh",
+                    "min-height":null,
+                    "max-height":null,
+                    "subarea":"Critter Country"
+                },
+                {
+                    "name":"Walt Disney's Enchanted Tiki Room",
+                    "min-height":null,
+                    "max-height":null,
+                    "subarea":"Adventureland"
+                }
+            ]
+        },
+        {
+            "tag":"dca-anaheim",
+            "name":"Disneys California Adventure",
+            "rides":[
+                {
+                    "name":"Animation Academy",
+                    "min-height":null,
+                    "max-height":null,
+                    "subarea":"Hollywood Land"
+                },
+                {
+                    "name":"Disney Junior Dance Party",
+                    "min-height":null,
+                    "max-height":null,
+                    "subarea":"Hollywood Land"
+                },
+                {
+                    "name":"Games of Pixar Pier",
+                    "min-height":null,
+                    "max-height":null,
+                    "subarea":"Pixar Pier"
+                },
+                {
+                    "name":"Golden Zephyr",
+                    "min-height":null,
+                    "max-height":null,
+                    "subarea":"Paradise Gardens Park"
+                },
+                {
+                    "name":"Goofy's Sky School",
+                    "min-height":42,
+                    "max-height":null,
+                    "subarea":"Paradise Gardens Park"
+                },
+                {
+                    "name":"Grizzly River Run",
+                    "min-height":42,
+                    "max-height":null,
+                    "subarea":"Grizzly Peak"
+                },
+                {
+                    "name":"Guardians of the Galaxy – Mission: Breakout!",
+                    "min-height":40,
+                    "max-height":null,
+                    "subarea":"Avengers Campus"
+                },
+                {
+                    "name":"Incredicoaster",
+                    "min-height":48,
+                    "max-height":null,
+                    "subarea":"Pixar Pier"
+                },
+                {
+                    "name":"Inside Out Emotional Whirlwind",
+                    "min-height":null,
+                    "max-height":null,
+                    "subarea":"Pixar Pier"
+                },
+                {
+                    "name":"Jessie's Critter Carousel",
+                    "min-height":null,
+                    "max-height":null,
+                    "subarea":"Pixar Pier"
+                },
+                {
+                    "name":"Jumpin' Jellyfish",
+                    "min-height":40,
+                    "max-height":null,
+                    "subarea":"Paradise Gardens Park"
+                },
+                {
+                    "name":"Luigi's Rollickin' Roadsters",
+                    "min-height":32,
+                    "max-height":null,
+                    "subarea":"Cars Land"
+                },
+                {
+                    "name":"Mater's Junkyard Jamboree",
+                    "min-height":32,
+                    "max-height":null,
+                    "subarea":"Cars Land"
+                },
+                {
+                    "name":"Mickey's PhilharMagic",
+                    "min-height":null,
+                    "max-height":null,
+                    "subarea":"Hollywood Land"
+                },
+                {
+                    "name":"Monsters, Inc. Mike & Sulley to the Rescue!",
+                    "min-height":null,
+                    "max-height":null,
+                    "subarea":"Hollywood Land"
+                },
+                {
+                    "name":"Pixar Pal-A-Round",
+                    "min-height":null,
+                    "max-height":null,
+                    "subarea":"Pixar Pier"
+                },
+                {
+                    "name":"Radiator Springs Racers",
+                    "min-height":40,
+                    "max-height":null,
+                    "subarea":"Cars Land"
+                },
+                {
+                    "name":"Red Car Trolley",
+                    "min-height":null,
+                    "max-height":null,
+                    "subarea":"Buena Vista Street"
+                },
+                {
+                    "name":"Redwood Creek Challenge Trail",
+                    "min-height":null,
+                    "max-height":null,
+                    "subarea":"Grizzly Peak"
+                },
+                {
+                    "name":"Silly Symphony Swings",
+                    "min-height":40,
+                    "max-height":null,
+                    "subarea":"Paradise Gardens Park"
+                },
+                {
+                    "name":"Soarin' Around the World",
+                    "min-height":40,
+                    "max-height":null,
+                    "subarea":"Grizzly Peak"
+                },
+                {
+                    "name":"Sorcerer's Workshop",
+                    "min-height":null,
+                    "max-height":null,
+                    "subarea":"Hollywood Land"
+                },
+                {
+                    "name":"The Bakery Tour",
+                    "min-height":null,
+                    "max-height":null,
+                    "subarea":"Pacific Wharf"
+                },
+                {
+                    "name":"The Little Mermaid: Ariel's Undersea Adventure",
+                    "min-height":null,
+                    "max-height":null,
+                    "subarea":"Paradise Gardens Park"
+                },
+                {
+                    "name":"Toy Story Midway Mania!",
+                    "min-height":null,
+                    "max-height":null,
+                    "subarea":"Pixar Pier"
+                },
+                {
+                    "name":"Turtle Talk with Crush",
+                    "min-height":null,
+                    "max-height":null,
+                    "subarea":"Hollywood Land"
+                },
+                {
+                    "name":"Walt Disney Imagineering Blue Sky Cellar",
+                    "min-height":null,
+                    "max-height":null,
+                    "subarea":"Pacific Wharf"
+                },
+                {
+                    "name":"Web Slingers: A Spider-Man Adventure",
+                    "min-height":null,
+                    "max-height":null,
+                    "subarea":"Avengers Campus"
+                },
+                {
+                    "name":"World of Color",
+                    "min-height":null,
+                    "max-height":null,
+                    "subarea":"Paradise Gardens Park"
                 }
             ]
         }
