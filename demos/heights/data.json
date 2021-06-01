@@ -951,13 +951,7 @@
                     "subarea":"Critter Country"
                 },
                 {
-                    "name":"Star Tours – The Adventures Continue",
-                    "min-height":null,
-                    "max-height":null,
-                    "subarea":"Tomorrowland"
-                },
-                {
-                    "name":"Star Tours — The Adventures Continue",
+                    "name":"Star Tours - The Adventures Continue",
                     "min-height":40,
                     "max-height":null,
                     "subarea":"Tomorrowland"
