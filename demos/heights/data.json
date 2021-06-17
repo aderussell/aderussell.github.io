@@ -747,18 +747,6 @@
                     "subarea":"Main Street, U.S.A."
                 },
                 {
-                    "name":"Disneyland Railroad",
-                    "min-height":null,
-                    "max-height":null,
-                    "subarea":"New Orleans Square"
-                },
-                {
-                    "name":"Disneyland Railroad",
-                    "min-height":null,
-                    "max-height":null,
-                    "subarea":"Tomorrowland"
-                },
-                {
                     "name":"Donald's Boat",
                     "min-height":null,
                     "max-height":null,
@@ -1179,6 +1167,307 @@
                     "subarea":"Paradise Gardens Park"
                 }
             ]
+        },
+        {
+            "tag":"dl-paris",
+            "name":"Disneyland Park Paris",
+            "rides":[
+                {
+                    "name":"Adventure Isle",
+                    "min-height":null,
+                    "max-height":null,
+                    "subarea":"Adventureland"
+                },
+                {
+                    "name":"Aladdin's Enchanted Passage",
+                    "min-height":null,
+                    "max-height":null,
+                    "subarea":"Adventureland"
+                },
+                {
+                    "name":"Alice's Curious Labyrinth",
+                    "min-height":null,
+                    "max-height":null,
+                    "subarea":"Fantasyland"
+                },
+                {
+                    "name":"Autopia",
+                    "min-height":32,
+                    "max-height":null,
+                    "subarea":"Discoveryland"
+                },
+                {
+                    "name":"Big Thunder Mountain",
+                    "min-height":40,
+                    "max-height":null,
+                    "subarea":"Frontierland"
+                },
+                {
+                    "name":"Buzz Lightyear Laser Blast",
+                    "min-height":null,
+                    "max-height":null,
+                    "subarea":"Discoveryland"
+                },
+                {
+                    "name":"Casey Jr. Circus Train",
+                    "min-height":null,
+                    "max-height":null,
+                    "subarea":"Fantasyland"
+                },
+                {
+                    "name":"Disneyland Railroad",
+                    "min-height":null,
+                    "max-height":null,
+                    "subarea":"Main Street, U.S.A."
+                },
+                {
+                    "name":"Dumbo the Flying Elephant",
+                    "min-height":null,
+                    "max-height":null,
+                    "subarea":"Fantasyland"
+                },
+                {
+                    "name":"Indiana Jones and the Temple of Peril",
+                    "min-height":55,
+                    "max-height":null,
+                    "subarea":"Adventureland"
+                },
+                {
+                    "name":"It's a Small World",
+                    "min-height":null,
+                    "max-height":null,
+                    "subarea":"Fantasyland"
+                },
+                {
+                    "name":"Lancelot's Carousel",
+                    "min-height":null,
+                    "max-height":null,
+                    "subarea":"Fantasyland"
+                },
+                {
+                    "name":"The Mysteries of the Nautilus",
+                    "min-height":null,
+                    "max-height":null,
+                    "subarea":"Discoveryland"
+                },
+                {
+                    "name":"Mad Hatter's Tea Cups",
+                    "min-height":null,
+                    "max-height":null,
+                    "subarea":"Fantasyland"
+                },
+                {
+                    "name":"Main Street Vehicles",
+                    "min-height":null,
+                    "max-height":null,
+                    "subarea":"Main Street, U.S.A."
+                },
+                {
+                    "name":"Meet Mickey Mouse",
+                    "min-height":null,
+                    "max-height":null,
+                    "subarea":"Fantasyland"
+                },
+                {
+                    "name":"Orbitron – Machines Volantes",
+                    "min-height":null,
+                    "max-height":null,
+                    "subarea":"Discoveryland"
+                },
+                {
+                    "name":"Peter Pan's Flight",
+                    "min-height":null,
+                    "max-height":null,
+                    "subarea":"Fantasyland"
+                },
+                {
+                    "name":"Phantom Manor",
+                    "min-height":null,
+                    "max-height":null,
+                    "subarea":"Frontierland"
+                },
+                {
+                    "name":"Pinocchio's Fantastic Journey",
+                    "min-height":null,
+                    "max-height":null,
+                    "subarea":"Fantasyland"
+                },
+                {
+                    "name":"Pirate Galleon",
+                    "min-height":null,
+                    "max-height":null,
+                    "subarea":"Adventureland"
+                },
+                {
+                    "name":"Pirates Beach",
+                    "min-height":null,
+                    "max-height":null,
+                    "subarea":"Adventureland"
+                },
+                {
+                    "name":"Pirates of the Caribbean",
+                    "min-height":null,
+                    "max-height":null,
+                    "subarea":"Adventureland"
+                },
+                {
+                    "name":"Pocahantas Indian Village",
+                    "min-height":null,
+                    "max-height":null,
+                    "subarea":"Frontierland"
+                },
+                {
+                    "name":"Princess Pavilion",
+                    "min-height":null,
+                    "max-height":null,
+                    "subarea":"Fantasyland"
+                },
+                {
+                    "name":"Rustler Roundup Shootin' Gallery",
+                    "min-height":null,
+                    "max-height":null,
+                    "subarea":"Frontierland"
+                },
+                {
+                    "name":"Sleeping Beauty Castle",
+                    "min-height":null,
+                    "max-height":null,
+                    "subarea":"Fantasyland"
+                },
+                {
+                    "name":"Snow White and the Seven Dwarfs",
+                    "min-height":null,
+                    "max-height":null,
+                    "subarea":"Fantasyland"
+                },
+                {
+                    "name":"Star Tours: The Adventures Continue",
+                    "min-height":40,
+                    "max-height":null,
+                    "subarea":"Discoveryland"
+                },
+                {
+                    "name":"Star Wars Hyperspace Mountain",
+                    "min-height":48,
+                    "max-height":null,
+                    "subarea":"Discoveryland"
+                },
+                {
+                    "name":"Storybook Land Canal Boats",
+                    "min-height":null,
+                    "max-height":null,
+                    "subarea":"Fantasyland"
+                },
+                {
+                    "name":"Swiss Family Treehouse",
+                    "min-height":null,
+                    "max-height":null,
+                    "subarea":"Adventureland"
+                },
+                {
+                    "name":"The Dragon's Lair",
+                    "min-height":null,
+                    "max-height":null,
+                    "subarea":"Fantasyland"
+                },
+                {
+                    "name":"Thunder Mesa Riverboat Landing",
+                    "min-height":null,
+                    "max-height":null,
+                    "subarea":"Frontierland"
+                }
+            ]
+        },
+        {
+            "tag":"studio-park-paris",
+            "name":"Walt Disney Studios Park",
+            "rides": [
+ {
+   "name": "Animation Academy",
+   "min-height": null,
+   "max-height": null,
+   "subarea": "Toon Studio"
+ },
+ {
+   "name": "Animation Celebration",
+   "min-height": null,
+   "max-height": null,
+   "subarea": "Toon Studio"
+ },
+ {
+   "name": "Cars Race Rally",
+   "min-height": null,
+   "max-height": null,
+   "subarea": "Toon Studio"
+ },
+ {
+   "name": "Cars Road Trip",
+   "min-height": null,
+   "max-height": null,
+   "subarea": "Toon Studio"
+ },
+ {
+   "name": "Crush's Coaster",
+   "min-height": 42,
+   "max-height": null,
+   "subarea": "Toon Studio"
+ },
+ {
+   "name": "Flying Carpets Over Agrabah",
+   "min-height": null,
+   "max-height": null,
+   "subarea": "Toon Studio"
+ },
+ {
+   "name": "Mickey and the Magician",
+   "min-height": null,
+   "max-height": null,
+   "subarea": "Toon Studio"
+ },
+ {
+   "name": "Monsters, Inc. Scream Academy",
+   "min-height": null,
+   "max-height": null,
+   "subarea": "Toon Studio"
+ },
+ {
+   "name": "Ratatouille: The Adventure",
+   "min-height": null,
+   "max-height": null,
+   "subarea": "Toon Studio"
+ },
+ {
+   "name": "RC Racer",
+   "min-height": 48,
+   "max-height": null,
+   "subarea": "Toon Studio"
+ },
+ {
+   "name": "Slinky Dog Zigzag Spin",
+   "min-height": null,
+   "max-height": null,
+   "subarea": "Toon Studio"
+ },
+ {
+   "name": "Stitch Live!",
+   "min-height": null,
+   "max-height": null,
+   "subarea": "Production Courtyard"
+ },
+ {
+   "name": "The Twilight Zone Tower of Terror",
+   "min-height": 40,
+   "max-height": null,
+   "subarea": "Production Courtyard"
+ },
+ {
+   "name": "Toy Soldiers Parachute Drop",
+   "min-height": 32,
+   "max-height": null,
+   "subarea": "Toon Studio"
+ }
+]
+
         }
     ]
 }
