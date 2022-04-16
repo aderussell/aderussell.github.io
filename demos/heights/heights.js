@@ -1,20 +1,44 @@
 
 window.onload = function() {
+	document.getElementById('resort_filter').onchange = function(event) {
+		loadJSON();
+	}
 	document.getElementById('input_height').onkeydown = function(event) {
 		if (event.keyCode == 13) {
-	    	testResults();
+	    	loadJSON();
 		}
 	}
-	loadJSON(null);
+	loadJSON();
 }
 
-function testResults() {
-    var input = document.getElementById('input_height').value;
+function enteredHeight() {
+	var input = document.getElementById('input_height').value;
     let enteredHeight = parseInt(input, 10);
-    loadJSON(enteredHeight);
+    return enteredHeight;
 }
 
-function loadJSON(enteredHeight) {
+function filteredResort() {
+	var input = document.getElementById('resort_filter').value;
+    return input;
+}
+
+function populateFilter(parks) {
+	//let parks = ["WDW", "Universal Orlando Resort", "Disneyland Anaheim", "Disneyland Paris"];
+	const filterPicker = document.getElementById('resort_filter');
+	filterPicker.add(new Option("All", null));
+	parks.forEach((park, index) => {
+		let option = new Option(park.name, park.tag);
+		filterPicker.add(option);
+	});
+}
+
+var cachedJson = null;
+
+function loadJSON() {
+	if (cachedJson != null) {
+		updateContent(cachedJson);
+		return;
+	}
     let xobj = new XMLHttpRequest();
     xobj.overrideMimeType("application/json");
     xobj.open('GET', '/demos/heights/data.json', true);
@@ -24,11 +48,23 @@ function loadJSON(enteredHeight) {
             // Required use of an anonymous callback 
             // as .open() will NOT return a value but simply returns undefined in asynchronous mode
             let v = JSON.parse(xobj.responseText);
-            removeExistingTables();
-            v.parks.forEach(i => createTable(document, i, enteredHeight));
+            populateFilter(v.resorts);
+            cachedJson = v;
+            updateContent(v);
         }
     };
     xobj.send(null);
+}
+
+function updateContent(v) {
+	removeExistingTables();
+	let height = enteredHeight();
+	let filter = filteredResort();
+	if (filter != "null") {
+		v.parks.filter(park => park.resort == filter).forEach(i => createTable(document, i, height));
+	} else {
+		v.parks.forEach(i => createTable(document, i, height));
+	}
 }
 
 function createRow(table, rowData, enteredHeight) {

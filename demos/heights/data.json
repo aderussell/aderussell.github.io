@@ -1,7 +1,26 @@
 {
+    "resorts": [
+        {
+            "tag":"wdw",
+            "name":"Walt Disney World"
+        },
+        {
+            "tag":"uor",
+            "name":"Universal Orlando Resort"
+        },
+        {
+            "tag":"anaheim",
+            "name":"Disneyland Anaheim"
+        },
+        {
+            "tag":"paris",
+            "name":"Disneyland Paris"
+        }
+    ],
     "parks":[
         {
             "tag":"mk-wdw",
+            "resort":"wdw",
             "name":"Magic Kindgom Park",
             "rides":[
                 {
@@ -178,6 +197,7 @@
         },
         {
             "tag":"epcot",
+            "resort":"wdw",
             "name":"Epcot",
             "rides":[
                 {
@@ -264,6 +284,7 @@
         },
         {
             "tag":"hollywood-studios",
+            "resort":"wdw",
             "name":"Disney’s Hollywood Studios",
             "rides":[
                 {
@@ -320,6 +341,7 @@
         },
         {
             "tag":"animal-kingdom",
+            "resort":"wdw",
             "name":"Disney’s Animal Kingdom Park",
             "rides":[
                 {
@@ -406,6 +428,7 @@
         },
         {
             "tag":"universal-florida",
+            "resort":"uor",
             "name":"Universal Studios Florida",
             "rides":[
                 {
@@ -492,6 +515,7 @@
         },
         {
             "tag":"islands-of-adventure",
+            "resort":"uor",
             "name":"Islands of Adventure",
             "rides":[
                 {
@@ -603,6 +627,7 @@
         },
         {
             "tag":"volcano-bay",
+            "resort":"uor",
             "name":"Volcano Bay",
             "rides":[
                 {
@@ -689,6 +714,7 @@
         },
         {
             "tag":"dl-anaheim",
+            "resort":"anaheim",
             "name":"Disneyland Park",
             "rides":[
                 {
@@ -995,6 +1021,7 @@
         },
         {
             "tag":"dca-anaheim",
+            "resort":"anaheim",
             "name":"Disneys California Adventure",
             "rides":[
                 {
@@ -1175,6 +1202,7 @@
         },
         {
             "tag":"dl-paris",
+            "resort":"paris",
             "name":"Disneyland Park Paris",
             "rides":[
                 {
@@ -1385,6 +1413,7 @@
         },
         {
             "tag":"studio-park-paris",
+            "resort":"paris",
             "name":"Walt Disney Studios Park",
             "rides": [
  {
