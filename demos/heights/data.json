@@ -174,6 +174,11 @@
                     "max-height":null
                 },
                 {
+                    "name":"Tron Lightcycle Power Run",
+                    "min-height":48,
+                    "max-height":null
+                },
+                {
                     "name":"Under the Sea ~ Journey of the Little Mermaid",
                     "min-height":null,
                     "max-height":null
@@ -226,6 +231,11 @@
                     "max-height":null
                 },
                 {
+                    "name":"Guardians of the Galaxy: Cosmic Rewind",
+                    "min-height":42,
+                    "max-height":null
+                },
+                {
                     "name":"Impressions de France",
                     "min-height":null,
                     "max-height":null
@@ -247,6 +257,11 @@
                 },
                 {
                     "name":"O Canada!",
+                    "min-height":null,
+                    "max-height":null
+                },
+                {
+                    "name":"Remy's Ratatouille Adventure",
                     "min-height":null,
                     "max-height":null
                 },
@@ -484,11 +499,6 @@
                 {
                     "name":"Revenge of the Mummy",
                     "min-height":48,
-                    "max-height":null
-                },
-                {
-                    "name":"Shrek 4-D",
-                    "min-height":null,
                     "max-height":null
                 },
                 {
