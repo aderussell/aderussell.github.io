@@ -26,7 +26,8 @@ I'm a software engineer, based in the South-West of England, specialising in pro
 
 ## Experience
 <section class="experience" markdown="block">
-### iOS Engineer - JustEat (2019 - Present)
+### Senior iOS Engineer - JustEat (2022 - Present)
+### iOS Engineer - JustEat (2019 - 2022)
 
 * Ensure and maintain a high level of accessibility in our iOS consumer applications. This initially involved a large audit to discover all issues when using our applications with Voice Over and Voice Control, planning how best to fix those issues, and then coordinate the implementation of those fixes. It now continues by working with developers to  ensure high standards in new features and performing regular auditing to avoid regressions.
 * Maintain and extend the controls and visual theming module used within all our consumer applications. Implemented a system to publish our theming showcase app for members of the design team to review and use as reference.
