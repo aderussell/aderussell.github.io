@@ -14,4 +14,4 @@ js: /demos/heights/heights.js
 
 <label for="input_height">Height <small>(inches)</small>:</label>
 <input type="text" id="input_height" name="input_height">
-<button onclick="testResults()">Go</button>
+<button onclick="loadJSON()">Go</button>

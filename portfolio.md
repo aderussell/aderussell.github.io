@@ -11,7 +11,7 @@ css: /stylesheets/portfolio.css
 	icon-name   = "epsmon-icon.png"
 	icon-alt    = "EpSMon app icon"
 	icon-is-app = true
-	url         = "https://epsmon.com"
+	url         = "https://sudep.org/epilepsy-self-monitor"
 	name        = "EpSMon"
 	platform    = "iOS"
 	client      = "NeuroCore (University of Plymouth)"
@@ -25,7 +25,7 @@ css: /stylesheets/portfolio.css
 	icon-name   = "acemobile-icon.png"
 	icon-alt    = "ACEmobile app icon"
 	icon-is-app = true
-	url         = "http://acemobile.org"
+	url         = "https://acemobile.frontierftd.org/aboutace.html"
 	name        = "ACEmobile"
 	platform    = "iPad"
 	client      = "NeuroCore (University of Plymouth)"

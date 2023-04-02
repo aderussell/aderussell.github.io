@@ -308,6 +308,16 @@
                     "max-height":null
                 },
                 {
+                    "name":"Indiana Jones Epic Stunt Spectacular!",
+                    "min-height":null,
+                    "max-height":null
+                },
+                {
+                    "name":"Fantasmic!",
+                    "min-height":null,
+                    "max-height":null
+                },
+                {
                     "name":"Mickey & Minnie's Runaway Railway",
                     "min-height":null,
                     "max-height":null
@@ -452,6 +462,11 @@
                     "max-height":null
                 },
                 {
+                    "name":"The Bourne Stuntacular",
+                    "min-height":null,
+                    "max-height":null
+                },
+                {
                     "name":"Despicable Me Minion Mayhem",
                     "min-height":40,
                     "max-height":null
@@ -519,6 +534,11 @@
                 {
                     "name":"Woody Woodpecker’s Nuthouse Coaster",
                     "min-height":36,
+                    "max-height":null
+                },
+                {
+                    "name":"Villain-Con Minion Blast",
+                    "min-height":null,
                     "max-height":null
                 }
             ]
@@ -1437,6 +1457,12 @@
    "min-height": null,
    "max-height": null,
    "subarea": "Toon Studio"
+ },
+  {
+   "name": "Avengers Assemble: Flight Force",
+   "min-height": 48,
+   "max-height": null,
+   "subarea": "Avengers Campus"
  },
  {
    "name": "Cars Race Rally",
