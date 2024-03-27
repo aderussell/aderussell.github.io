@@ -433,62 +433,87 @@
                 {
                     "name":"Alien Swirling Saucers",
                     "min-height":32,
-                    "max-height":null
+                    "max-height":null,
+                    "land":"Toy Story Land",
+                    "type":"ride"
                 },
                 {
                     "name":"Indiana Jones Epic Stunt Spectacular!",
                     "min-height":null,
-                    "max-height":null
+                    "max-height":null,
+                    "land":"Echo Lake",
+                    "type":"show"
                 },
                 {
                     "name":"Fantasmic!",
                     "min-height":null,
-                    "max-height":null
+                    "max-height":null,
+                    "land":"Sunset Boulevard",
+                    "type":"show"
+                },
                 },
                 {
                     "name":"Mickey & Minnie's Runaway Railway",
                     "min-height":null,
-                    "max-height":null
+                    "max-height":null,
+                    "land":"Hollywood Boulevard",
+                    "type":"ride"
                 },
                 {
                     "name":"Millennium Falcon: Smugglers Run",
                     "min-height":38,
-                    "max-height":null
+                    "max-height":null,
+                    "land":"Star Wars: Galaxy's Edge",
+                    "type":"ride"
                 },
                 {
                     "name":"Muppet*Vision 3D",
                     "min-height":null,
-                    "max-height":null
+                    "max-height":null,
+                    "land":"Grand Avenue",
+                    "type":"show"
                 },
                 {
                     "name":"Rock ‘n’ Roller Coaster Starring Aerosmith",
                     "min-height":48,
-                    "max-height":null
+                    "max-height":null,
+                    "land":"Sunset Boulevard",
+                    "type":"rollercoaster"
                 },
                 {
                     "name":"Slinky Dog Dash",
                     "min-height":38,
-                    "max-height":null
+                    "max-height":null,
+                    "land":"Toy Story Land",
+                    "type":"rollercoaster"
                 },
                 {
                     "name":"Star Tours – The Adventures Continue",
                     "min-height":40,
-                    "max-height":null
+                    "max-height":null,
+                    "land":"Echo Lake",
+                    "type":"ride"
                 },
                 {
                     "name":"Star Wars: Rise of the Resistance",
                     "min-height":40,
-                    "max-height":null
+                    "max-height":null,
+                    "land":"Star Wars: Galaxy's Edge",
+                    "type":"ride"
                 },
                 {
                     "name":"Toy Story Mania!",
                     "min-height":null,
-                    "max-height":null
+                    "max-height":null,
+                    "land":"Toy Story Land",
+                    "type":"ride"
                 },
                 {
                     "name":"The Twilight Zone Tower of Terror™",
                     "min-height":40,
-                    "max-height":null
+                    "max-height":null,
+                    "land":"Sunset Boulevard",
+                    "type":"rollercoaster"
                 }
             ]
         },
