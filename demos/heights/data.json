@@ -17,6 +17,21 @@
             "name":"Disneyland Paris"
         }
     ],
+    "types": [
+        {
+            "tag":"rollercoaster",
+            "type":"ride"
+        },
+        {
+            "tag":"logflume",
+            "type":"ride"
+        },
+        {
+            "tag":"teacups",
+            "type":"ride"
+        }
+        
+    ],
     "parks":[
         {
             "tag":"mk-wdw",
@@ -26,177 +41,247 @@
                 {
                     "name":"Astro Orbiter",
                     "min-height":null,
-                    "max-height":null
+                    "max-height":null,
+                    "land":"Tomorrowland",
+                    "type":"ride"
                 },
                 {
                     "name":"Barnstormer",
                     "min-height":35,
-                    "max-height":null
+                    "max-height":null,
+                    "land":"Fantasyland (Storybook Circus)",
+                    "type":"rollercoaster"
                 },
                 {
                     "name":"Big Thunder Mountain Railroad",
                     "min-height":40,
-                    "max-height":null
+                    "max-height":null,
+                    "land":"Frontierland",
+                    "type":"rollercoaster"
                 },
                 {
                     "name":"Buzz Lightyear’s Space Ranger Spin",
                     "min-height":null,
-                    "max-height":null
+                    "max-height":null,
+                    "land":"Tomorrowland",
+                    "type":"ride"
                 },
                 {
                     "name":"Casey Jr. Splash ‘N’ Soak Station",
                     "min-height":null,
-                    "max-height":null
+                    "max-height":null,
+                    "land":"Fantasyland (Storybook Circus)",
+                    "type":"splash-pad"
                 },
                 {
                     "name":"Country Bear Jamboree",
                     "min-height":null,
-                    "max-height":null
+                    "max-height":null,
+                    "land":"Frontierland",
+                    "type":"show"
                 },
                 {
                     "name":"Dumbo the Flying Elephant",
                     "min-height":null,
-                    "max-height":null
+                    "max-height":null,
+                    "land":"Fantasyland (Storybook Circus)",
+                    "type":"splash-pad"
                 },
                 {
                     "name":"Enchanted Tales with Belle",
                     "min-height":null,
-                    "max-height":null
+                    "max-height":null,
+                    "land":"Fantasyland",
+                    "type":"meet-n-greet"
                 },
                 {
                     "name":"Frontierland Shootin’ Arcade",
                     "min-height":null,
-                    "max-height":null
+                    "max-height":null,
+                    "land":"Frontierland",
+                    "type":"arcade"
                 },
                 {
                     "name":"The Hall of Presidents",
                     "min-height":null,
-                    "max-height":null
+                    "max-height":null,
+                    "land":"Liberty Square",
+                    "type":"show"
                 },
                 {
                     "name":"Haunted Mansion",
                     "min-height":null,
-                    "max-height":null
+                    "max-height":null,
+                    "land":"Liberty Square",
+                    "type":"ride"
                 },
                 {
                     "name":"It’s a small world",
                     "min-height":null,
-                    "max-height":null
+                    "max-height":null,
+                    "land":"Fantasyland",
+                    "type":"ride"
                 },
                 {
                     "name":"Jungle Cruise",
                     "min-height":null,
-                    "max-height":null
+                    "max-height":null,
+                    "land":"Adventureland",
+                    "type":"ride"
                 },
                 {
                     "name":"Liberty Square Riverboat",
                     "min-height":null,
-                    "max-height":null
+                    "max-height":null,
+                    "land":"Liberty Square",
+                    "type":"ride"
                 },
                 {
                     "name":"Mad Tea Party",
                     "min-height":null,
-                    "max-height":null
+                    "max-height":null,
+                    "land":"Fantasyland",
+                    "type":"teacups"
                 },
                 {
                     "name":"The Magic Carpets of Aladdin",
                     "min-height":null,
-                    "max-height":null
+                    "max-height":null,
+                    "land":"Adventureland",
+                    "type":"ride"
                 },
                 {
                     "name":"The Many Adventures of Winnie the Pooh",
                     "min-height":null,
-                    "max-height":null
+                    "max-height":null,
+                    "land":"Fantasyland",
+                    "type":"ride"
                 },
                 {
                     "name":"Mickey’s PhilharMagic",
                     "min-height":null,
-                    "max-height":null
+                    "max-height":null,
+                    "land":"Fantasyland",
+                    "type":"show"
                 },
                 {
                     "name":"Monsters, Inc. Laugh Floor",
                     "min-height":null,
-                    "max-height":null
+                    "max-height":null,
+                    "land":"Tomorrowland",
+                    "type":"show"
                 },
                 {
                     "name":"Peter Pan’s Flight",
                     "min-height":null,
-                    "max-height":null
+                    "max-height":null,
+                    "land":"Fantasyland",
+                    "type":"ride"
                 },
                 {
                     "name":"A Pirate’s Adventure ~ Treasures of the Seven Seas",
                     "min-height":null,
-                    "max-height":null
+                    "max-height":null,
+                    "land":"Adventureland",
+                    "type":"quest"
                 },
                 {
                     "name":"Pirates of the Caribbean",
                     "min-height":null,
-                    "max-height":null
+                    "max-height":null,
+                    "land":"Adventureland",
+                    "type":"ride"
                 },
                 {
                     "name":"Prince Charming Regal Carrousel",
                     "min-height":null,
-                    "max-height":null
+                    "max-height":null,
+                    "land":"Fantasyland",
+                    "type":"ride"
                 },
                 {
                     "name":"Seven Dwarfs Mine Train",
                     "min-height":38,
-                    "max-height":null
+                    "max-height":null,
+                    "land":"Fantasyland",
+                    "type":"rollercoaster"
                 },
                 {
                     "name":"Space Mountain",
                     "min-height":44,
-                    "max-height":null
+                    "max-height":null,
+                    "land":"Tomorrowland",
+                    "type":"rollercoaster"
                 },
                 {
-                    "name":"Splash Mountain",
+                    "name":"Tiana's Bayou Adventure",
                     "min-height":40,
-                    "max-height":null
+                    "max-height":null,
+                    "land":"Frontierland",
+                    "type":"logflume"
                 },
                 {
                     "name":"Swiss Family Treehouse",
                     "min-height":null,
-                    "max-height":null
+                    "max-height":null,
+                    "land":"Adventureland",
+                    "type":"walkthrough"
                 },
                 {
                     "name":"Tomorrowland Speedway",
                     "min-height":32,
-                    "max-height":null
+                    "max-height":null,
+                    "land":"Tomorrowland",
+                    "type":"ride"
                 },
                 {
                     "name":"Tomorrowland Transit Authority PeopleMover",
                     "min-height":null,
-                    "max-height":null
+                    "max-height":null,
+                    "land":"Tomorrowland",
+                    "type":"ride"
                 },
                 {
                     "name":"Tom Sawyer Island",
                     "min-height":null,
-                    "max-height":null
+                    "max-height":null,
+                    "land":"Frontierland",
+                    "type":"walkthrough"
                 },
                 {
                     "name":"Tron Lightcycle Power Run",
                     "min-height":48,
-                    "max-height":null
+                    "max-height":null,
+                    "land":"Tomorrowland",
+                    "type":"rollercoaster"
                 },
                 {
                     "name":"Under the Sea ~ Journey of the Little Mermaid",
                     "min-height":null,
-                    "max-height":null
+                    "max-height":null,
+                    "land":"Fantasyland",
+                    "type":"ride"
                 },
                 {
                     "name":"Walt Disney’s Carousel of Progress",
                     "min-height":null,
-                    "max-height":null
+                    "max-height":null,
+                    "land":"Tomorrowland",
+                    "type":"show"
                 },
                 {
                     "name":"Walt Disney’s Enchanted Tiki Room",
                     "min-height":null,
-                    "max-height":null
+                    "max-height":null,
+                    "land":"Adventureland",
+                    "type":"show"
                 },
                 {
                     "name":"Walt Disney World Railroad",
                     "min-height":null,
-                    "max-height":null
+                    "max-height":null,
+                    "land":"Main Street USA",
+                    "type":"ride"
                 }
             ]
         },
@@ -208,92 +293,135 @@
                 {
                     "name":"Advanced Training Lab",
                     "min-height":null,
-                    "max-height":null
+                    "max-height":null,
+                    "land":"World Discovery",
+                    "type":"play-area"
                 },
                 {
                     "name":"The American Adventure",
                     "min-height":null,
-                    "max-height":null
+                    "max-height":null,
+                    "land":"World Showcase (USA)",
+                    "type":"show"
                 },
                 {
                     "name":"Disney & Pixar Short Film Festival",
                     "min-height":null,
-                    "max-height":null
+                    "max-height":null,
+                    "land":"World Celebration",
+                    "type":"show"
                 },
                 {
                     "name":"Frozen Ever After",
                     "min-height":null,
-                    "max-height":null
+                    "max-height":null,
+                    "land":"World Showcase (Norway)",
+                    "type":"ride"
                 },
                 {
                     "name":"Gran Fiesta Tour Starring The Three Caballeros",
                     "min-height":null,
-                    "max-height":null
+                    "max-height":null,
+                    "land":"World Showcase (Mexico)",
+                    "type":"ride"
                 },
                 {
                     "name":"Guardians of the Galaxy: Cosmic Rewind",
                     "min-height":42,
-                    "max-height":null
+                    "max-height":null,
+                    "land":"World Discovery",
+                    "type":"rollercoaster"
                 },
                 {
                     "name":"Impressions de France",
                     "min-height":null,
-                    "max-height":null
+                    "max-height":null,
+                    "land":"World Showcase (France)",
+                    "type":"show"
                 },
                 {
                     "name":"Journey Into Imagination With Figment",
                     "min-height":null,
-                    "max-height":null
+                    "max-height":null,
+                    "land":"World Celebration",
+                    "type":"ride"
+                },
+                {
+                    "name":"Journey of Water, Inspired by Moana",
+                    "min-height":null,
+                    "max-height":null,
+                    "land":"World Nature",
+                    "type":"walkthrough"
                 },
                 {
                     "name":"Living with the Land",
                     "min-height":null,
-                    "max-height":null
+                    "max-height":null,
+                    "land":"World Nature",
+                    "type":"ride"
                 },
                 {
                     "name":"Mission: SPACE",
                     "min-height":40,
-                    "max-height":null
+                    "max-height":null,
+                    "land":"World Discovery",
+                    "type":"ride"
                 },
                 {
                     "name":"O Canada!",
                     "min-height":null,
-                    "max-height":null
+                    "max-height":null,
+                    "land":"World Showcase (Canada)",
+                    "type":"show"
                 },
                 {
                     "name":"Remy's Ratatouille Adventure",
                     "min-height":null,
-                    "max-height":null
+                    "max-height":null,
+                    "land":"World Showcase (France)",
+                    "type":"ride"
                 },
                 {
                     "name":"Reflections of China",
                     "min-height":null,
-                    "max-height":null
+                    "max-height":null,
+                    "land":"World Showcase (China)",
+                    "type":"show"
                 },
                 {
                     "name":"The Seas with Nemo & Friends",
                     "min-height":null,
-                    "max-height":null
+                    "max-height":null,
+                    "land":"World Nature",
+                    "type":"ride"
                 },
                 {
                     "name":"Soarin’ Around the World",
                     "min-height":40,
-                    "max-height":null
+                    "max-height":null,
+                    "land":"World Nature",
+                    "type":"ride"
                 },
                 {
                     "name":"Spaceship Earth",
                     "min-height":null,
-                    "max-height":null
+                    "max-height":null,
+                    "land":"World Celebration",
+                    "type":"ride"
                 },
                 {
                     "name":"Test Track",
                     "min-height":40,
-                    "max-height":null
+                    "max-height":null,
+                    "land":"World Discovery",
+                    "type":"ride"
                 },
                 {
                     "name":"Turtle Talk With Crush",
                     "min-height":null,
-                    "max-height":null
+                    "max-height":null,
+                    "land":"World Nature",
+                    "type":"show"
                 }
             ]
         },
@@ -1446,97 +1574,97 @@
             "resort":"paris",
             "name":"Walt Disney Studios Park",
             "rides": [
- {
-   "name": "Animation Academy",
-   "min-height": null,
-   "max-height": null,
-   "subarea": "Toon Studio"
- },
- {
-   "name": "Animation Celebration",
-   "min-height": null,
-   "max-height": null,
-   "subarea": "Toon Studio"
- },
-  {
-   "name": "Avengers Assemble: Flight Force",
-   "min-height": 48,
-   "max-height": null,
-   "subarea": "Avengers Campus"
- },
- {
-   "name": "Cars Race Rally",
-   "min-height": null,
-   "max-height": null,
-   "subarea": "Toon Studio"
- },
- {
-   "name": "Cars Road Trip",
-   "min-height": null,
-   "max-height": null,
-   "subarea": "Toon Studio"
- },
- {
-   "name": "Crush's Coaster",
-   "min-height": 42,
-   "max-height": null,
-   "subarea": "Toon Studio"
- },
- {
-   "name": "Flying Carpets Over Agrabah",
-   "min-height": null,
-   "max-height": null,
-   "subarea": "Toon Studio"
- },
- {
-   "name": "Mickey and the Magician",
-   "min-height": null,
-   "max-height": null,
-   "subarea": "Toon Studio"
- },
- {
-   "name": "Monsters, Inc. Scream Academy",
-   "min-height": null,
-   "max-height": null,
-   "subarea": "Toon Studio"
- },
- {
-   "name": "Ratatouille: The Adventure",
-   "min-height": null,
-   "max-height": null,
-   "subarea": "Toon Studio"
- },
- {
-   "name": "RC Racer",
-   "min-height": 48,
-   "max-height": null,
-   "subarea": "Toon Studio"
- },
- {
-   "name": "Slinky Dog Zigzag Spin",
-   "min-height": null,
-   "max-height": null,
-   "subarea": "Toon Studio"
- },
- {
-   "name": "Stitch Live!",
-   "min-height": null,
-   "max-height": null,
-   "subarea": "Production Courtyard"
- },
- {
-   "name": "The Twilight Zone Tower of Terror",
-   "min-height": 40,
-   "max-height": null,
-   "subarea": "Production Courtyard"
- },
- {
-   "name": "Toy Soldiers Parachute Drop",
-   "min-height": 32,
-   "max-height": null,
-   "subarea": "Toon Studio"
- }
-]
+                 {
+                   "name": "Animation Academy",
+                   "min-height": null,
+                   "max-height": null,
+                   "subarea": "Toon Studio"
+                 },
+                 {
+                   "name": "Animation Celebration",
+                   "min-height": null,
+                   "max-height": null,
+                   "subarea": "Toon Studio"
+                 },
+                  {
+                   "name": "Avengers Assemble: Flight Force",
+                   "min-height": 48,
+                   "max-height": null,
+                   "subarea": "Avengers Campus"
+                 },
+                 {
+                   "name": "Cars Race Rally",
+                   "min-height": null,
+                   "max-height": null,
+                   "subarea": "Toon Studio"
+                 },
+                 {
+                   "name": "Cars Road Trip",
+                   "min-height": null,
+                   "max-height": null,
+                   "subarea": "Toon Studio"
+                 },
+                 {
+                   "name": "Crush's Coaster",
+                   "min-height": 42,
+                   "max-height": null,
+                   "subarea": "Toon Studio"
+                 },
+                 {
+                   "name": "Flying Carpets Over Agrabah",
+                   "min-height": null,
+                   "max-height": null,
+                   "subarea": "Toon Studio"
+                 },
+                 {
+                   "name": "Mickey and the Magician",
+                   "min-height": null,
+                   "max-height": null,
+                   "subarea": "Toon Studio"
+                 },
+                 {
+                   "name": "Monsters, Inc. Scream Academy",
+                   "min-height": null,
+                   "max-height": null,
+                   "subarea": "Toon Studio"
+                 },
+                 {
+                   "name": "Ratatouille: The Adventure",
+                   "min-height": null,
+                   "max-height": null,
+                   "subarea": "Toon Studio"
+                 },
+                 {
+                   "name": "RC Racer",
+                   "min-height": 48,
+                   "max-height": null,
+                   "subarea": "Toon Studio"
+                 },
+                 {
+                   "name": "Slinky Dog Zigzag Spin",
+                   "min-height": null,
+                   "max-height": null,
+                   "subarea": "Toon Studio"
+                 },
+                 {
+                   "name": "Stitch Live!",
+                   "min-height": null,
+                   "max-height": null,
+                   "subarea": "Production Courtyard"
+                 },
+                 {
+                   "name": "The Twilight Zone Tower of Terror",
+                   "min-height": 40,
+                   "max-height": null,
+                   "subarea": "Production Courtyard"
+                 },
+                 {
+                   "name": "Toy Soldiers Parachute Drop",
+                   "min-height": 32,
+                   "max-height": null,
+                   "subarea": "Toon Studio"
+                 }
+            ]
 
         }
     ]
