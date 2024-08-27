@@ -56,6 +56,14 @@ p {
 a       { color: $primary-color; text-decoration: none; }
 a:hover { text-decoration: underline; }
 
+table, th, td {
+    border: 1px solid;
+}
+
+table {
+    border-collapse: collapse;
+}
+
 
 .site-header {
 
@@ -244,6 +252,9 @@ nav li { line-height: 1.75; }
   color: $metadata-color;
 }
 
+.post-content {
+	max-width: 800px;
+}
 
 
 blockquote.notice {
