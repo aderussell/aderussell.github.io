@@ -24,10 +24,39 @@ I'm a software engineer, based in the South-West of England, specialising in pro
 {: expertise}
 
 
+## Talks
+### iOSDevUK 2024 - Sep. 2024
+Sequencing Success: Exploring Swift Sequences in Depth.
+
+### SwiftCraft 2024 - May. 2024
+Sequencing Success: Exploring Swift Sequences in Depth. 
+[Recording](https://www.youtube.com/watch?v=NgkUiAi7FhU)
+
 ## Experience
+
 <section class="experience" markdown="block">
-### Senior iOS Engineer - JustEat (2022 - Present)
-### iOS Engineer - JustEat (2019 - 2022)
+### Associate-Principle Engineer - Dyson (2024 - Present)    
+* Rebuilt android 3D library for use within Dyson apps, including improving test coverage and documentation.
+* Rebuilding iOS 3D library.
+* Guided strategic direction for using dynamic, interactive 3D representations of products within app.
+* Produced applications to demonstrate feasibility of concepts for 3D and related topics within apps.
+* Presented 3D concepts and work to CEO and senior leadership team.
+* Created shaders in glsl and metal to simulate hair, liquids and fluffy materials (and various post processing techniques) to gauge feasibility for use within production apps. Mentored and paired with peer developers to convey techniques.
+* Act as line-manager for engineers, performing all standard tasks such as managing leave, helping to craft goals and providing guidance.
+</section>
+
+<section class="experience" markdown="block">
+### iOS Accessibility SME  - Apple (2022 - 2024)    
+* Responsible for the auditing of internal & business critical third-party applications to ensure compliance with Apple’s accessibility standards.
+* Triaged issues and recommended fixes and strategies to correct and mitigate accessibility issues within codebases.
+* Performed code audits to help in finding difficult accessibility based issues and give advice on code structure to help avoid regressions.
+* Produced numerous proof-of-concept applications to both demonstrate best practises to maintain platform accessibility and also to demonstrate framework issues.
+* Filed tickets (radars) detailing framework issues in need of correction.
+* Produced a number of internal tools, both for the automation of auditing tasks and to assist in the validation of applications being audited. 
+</section>
+
+<section class="experience" markdown="block">
+### (Senior) iOS Engineer - JustEat (2019 - 2022)
 
 * Ensure and maintain a high level of accessibility in our iOS consumer applications. This initially involved a large audit to discover all issues when using our applications with Voice Over and Voice Control, planning how best to fix those issues, and then coordinate the implementation of those fixes. It now continues by working with developers to  ensure high standards in new features and performing regular auditing to avoid regressions.
 * Maintain and extend the controls and visual theming module used within all our consumer applications. Implemented a system to publish our theming showcase app for members of the design team to review and use as reference.

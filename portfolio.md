@@ -6,6 +6,28 @@ imagebase: /images/projects/
 css: /stylesheets/portfolio.css
 ---
 
+{% include projects/project.html 
+    icon-name   = "tintoy-icon.png"
+    icon-alt    = "Tin Toy app icon"
+    icon-is-app = true
+    url         = ""
+    name        = "Tin Toy"
+    platform    = "macOS"
+    client      = "(Coming soon)"
+    role        = "Sole Developer"
+    description = "A macOS equivalent of shadertoy.com which allows producing shaders using Apple Metal."
+    image-class = "tintoy-device"
+%}
+
+{% include projects/project.html 
+    url         = ""
+    name        = "Untitled Contrast app"
+    platform    = "macOS"
+    client      = "(Coming soon)"
+    role        = "Sole Developer"
+    description = "An app that allows for testing color contras, allowing for easy comparison for multiple appearances."
+    image-class = "contrast-device"
+%}
 
 {% include projects/project.html 
 	icon-name   = "epsmon-icon.png"

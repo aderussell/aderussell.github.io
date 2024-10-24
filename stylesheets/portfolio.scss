@@ -87,6 +87,28 @@ img.app-icon {
     margin-top: -70px;
 }
 
+.tintoy-device {
+    background-image: url(/images/projects/tin-toy-example.png);
+    background-size: 750px 525px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 750px;
+    height: 525px;
+    float: left;
+    margin-top: -70px;
+}
+
+.contrast-device {
+    background-image: url(/images/projects/contrast-app.png);
+    background-size: 750px 525px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 750px;
+    height: 525px;
+    float: left;
+    margin-top: -70px;
+}
+
 .solar-system-device {
 	background-image: url(/images/projects/solar-system.png);
 	background-size: 700px 417px;
@@ -116,6 +138,14 @@ only screen and (min-device-pixel-ratio: 1.5) {
     .arphysics-device {
 		background-image: url(/images/projects/physics-example@2x.png);
 	}
+ 
+    .tintoy-device {
+        background-image: url(/images/projects/tin-toy-example@2x.png);
+    }
+    
+    .contrast-device {
+        background-image: url(/images/projects/contrast-app@2x.png);
+    }
     
     .solar-system-device {
 		background-image: url(/images/projects/solar-system@2x.png);
