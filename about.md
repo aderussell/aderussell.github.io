@@ -14,12 +14,14 @@ I'm a software engineer, based in the South-West of England, specialising in pro
 
 ## Expertise
 {:expertise: .tokens .blue}
+* SwiftUI
 * Cocoa (Touch)
 * Objective-C
 * Swift
 * C
 * C++
 * Java
+* Kotlin
 * PHP
 {: expertise}
 
