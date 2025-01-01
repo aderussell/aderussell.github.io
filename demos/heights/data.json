@@ -74,7 +74,7 @@
                     "type":"splash-pad"
                 },
                 {
-                    "name":"Country Bear Jamboree",
+                    "name":"Country Bear Musical Jamboree",
                     "min-height":null,
                     "max-height":null,
                     "land":"Frontierland",
@@ -684,7 +684,7 @@
                     "max-height":null
                 },
                 {
-                    "name":"Woody Woodpecker’s Nuthouse Coaster",
+                    "name":"Trollercoaster",
                     "min-height":36,
                     "max-height":null
                 },
@@ -1066,6 +1066,13 @@
                     "min-height":null,
                     "max-height":null,
                     "subarea":"Mickey's Toontown"
+                },
+                {
+                    "name":"Mickey & Minnie's Runaway Railway",
+                    "min-height":null,
+                    "max-height":null,
+                    "land":"Mickey's Toontown",
+                    "type":"ride"
                 },
                 {
                     "name":"Millennium Falcon: Smuggler's Run",
