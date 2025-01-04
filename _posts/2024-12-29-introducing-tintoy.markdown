@@ -4,7 +4,7 @@ title:  "Introducing Tin Toy"
 date:   2024-12-29
 tags: metal, shaders, graphics
 description: "Easily create Apple Metal shaders"
-imagepath: "/images/blog/tintoy/"
+imagebase: "/images/blog/tintoy/"
 ---
 
 ## Intro
@@ -94,8 +94,11 @@ When launched, the default output render is the main fragment but it is possible
 I have converted a few interesting shaders written for shadertoy.com to metal so that they will run within Tin Toy. The attributions of the original creators is included in the tops of the files and I would like to thank them for creating and sharing such interesting work on shadertoy.com; they all given me much inspiration and have taught me a lot.
 
 
-[rain](/demos/tintoy/rain.metal)
-[warp](/demos/tintoy/warp-vortex.metal)
-[zebra-valley](/demos/tintoy/zebra-valley-2b.metal)
+<ul class="shader-block">
+
+{% include posts/shader-block.html name='rain' link='/demos/tintoy/rain.metal' image='rain.png' %}
+{% include posts/shader-block.html name='warp' link='/demos/tintoy/warp-vortex.metal' image='warp.png' %}
+{% include posts/shader-block.html name='zebra-valley' link='/demos/tintoy/zebra-valley-2b.metal' image='zebra.png' %}
 
 
+</ul>

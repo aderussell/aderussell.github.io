@@ -361,6 +361,26 @@ figure.demo {
 	margin-right: 0px;
 }
 
+.shader-block {
+	 display: inline-block;
+	 padding-inline-start: 0em;
+	 gap: 20pt;
+}
+
+.shader-link-item {
+     display: inline-block;
+     list-style: none;
+}
+
+
+.shader-link-item img {
+	width: 100pt;
+	display: block;
+}
+
+.shader-link-item + .shader-link-item {
+   margin-left: 20px;
+}
 
 /* MathML */
 /* ----------------------------------------------------------*/
