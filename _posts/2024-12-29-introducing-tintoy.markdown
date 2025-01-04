@@ -96,9 +96,10 @@ I have converted a few interesting shaders written for shadertoy.com to metal so
 
 <ul class="shader-block">
 
-{% include posts/shader-block.html name='rain' link='/demos/tintoy/rain.metal' image='rain.png' %}
-{% include posts/shader-block.html name='warp' link='/demos/tintoy/warp-vortex.metal' image='warp.png' %}
-{% include posts/shader-block.html name='zebra-valley' link='/demos/tintoy/zebra-valley-2b.metal' image='zebra.png' %}
+{% include posts/shader-block.html name='Rain' link='/demos/tintoy/rain.metal' image='rain.png' %}
+{% include posts/shader-block.html name='Plasma ball' link='/demos/tintoy/PlasmaBall.metal' image='plasma.png' %}
+{% include posts/shader-block.html name='Warp' link='/demos/tintoy/warp-vortex.metal' image='warp.png' %}
+{% include posts/shader-block.html name='Zebra-valley' link='/demos/tintoy/zebra-valley-2b.metal' image='zebra.png' %}
 
 
 </ul>
