@@ -9,7 +9,7 @@ css: /stylesheets/portfolio.css
 {% include projects/project.html 
     icon-name   = "tintoy-icon.png"
     icon-alt    = "Tin Toy app icon"
-    url         = ""
+    url         = "https://tintoy.app"
     name        = "Tin Toy"
     platform    = "macOS"
     client      = "(Coming soon)"
