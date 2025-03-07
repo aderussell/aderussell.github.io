@@ -20,6 +20,9 @@
     <link rel="stylesheet" href="{{ "/stylesheets/tintoy.css" | prepend: site.baseurl }}">
     <link rel="stylesheet" href="{{ "/stylesheets/highlight.css" | prepend: site.baseurl }}">
 
+    <meta name="theme-color" content="#222222" media="(prefers-color-scheme: dark)">
+    <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
+
     {% if page.js %}
      <script src="{{ page.js }}"></script>
     {% endif %}
@@ -37,7 +40,10 @@
     <div class="tintoy-site-nav">
       <ul>
         <li><a href="/tin-toy/" class="title-nav">
-          <img src="/images/tintoy/tin-toy-icon.png" height="24" />
+          <picture>
+            <source srcset="/images/tintoy/tin-toy-icon-light.png" media="(prefers-color-scheme: light)"/>
+            <img src="/images/tintoy/tin-toy-icon.png" height="24" />
+        </picture>
           <!-- <span class="title">Tin Toy</span> -->
         </a></li>
         <li><a href="/tin-toy/support" class="other-nav">Tutorial</a></li>

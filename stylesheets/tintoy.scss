@@ -85,6 +85,7 @@ table {
     padding-left: 16pt;
     padding-top: 8pt;
     padding-bottom: 8pt;
+    color: black;
 }
 
 
@@ -103,6 +104,7 @@ footer {
 
 .tintoy-site-nav {
     box-shadow: 0 0 0 1px #2e2e2e;
+    padding: 0em 2em;
     
     img {
         vertical-align: middle;
@@ -134,7 +136,6 @@ footer {
                 vertical-align: middle;
           	    text-align: center;
           	    text-decoration: none;
-          	    color: white;
           	    font-weight: 500;
 
             }
@@ -436,7 +437,8 @@ figure.demo {
 }
 
 .shader-block {
-	 display: inline-block;
+	 display: flex;
+	 flex-wrap: wrap;
 	 padding-inline-start: 0em;
 	 gap: 20pt;
 }
@@ -451,10 +453,6 @@ figure.demo {
 .shader-link-item img {
 	width: 100pt;
 	display: block;
-}
-
-.shader-link-item + .shader-link-item {
-   margin-left: 20px;
 }
 
 /* MathML */
@@ -535,6 +533,12 @@ ul.tokens.grey li {
 	.site-header a {
 		color: #eeeeee;
 	}
+
+
+	.other-nav {
+        color: white;
+	}
+
 }
 
 
