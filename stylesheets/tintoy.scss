@@ -89,6 +89,18 @@ table {
 }
 
 
+.gif_outer {
+    position: relative;
+}
+
+.static {
+  position: absolute;
+}
+
+.static:hover {
+  opacity: 0;
+}
+
 footer {
 	margin: auto;
 	padding-top: 16pt;
@@ -100,6 +112,10 @@ footer {
 
 .heading-section {
 	text-align: center;
+
+	h2 {
+	    margin-bottom: 2.5rem;
+	}
 }
 
 .tintoy-site-nav {
@@ -539,6 +555,12 @@ ul.tokens.grey li {
         color: white;
 	}
 
+}
+
+
+.video-preview {
+  display: block;
+  width: 100pt;
 }
 
 
